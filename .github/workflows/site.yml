@@ -1,0 +1,132 @@
+name: Siteyi güncelle
+
+on:
+  # Yayına açılana kadar yalnız elle çalışır. Açılış günü şu iki tetik geri eklenecek:
+  #   schedule: - cron: "17 */3 * * *"   (üç saatte bir, UTC)
+  #   push: branches: [main]
+  workflow_dispatch:          # Actions sekmesinden elle çalıştırma
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site-guncelle
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      fetch_errors: ${{ steps.check.outputs.errors }}
+      plan_status: ${{ steps.plan.outputs.status }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Testleri çalıştır
+        run: python -m unittest discover -s tests
+
+      - name: Yeni içerikleri çek
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          NEW_SECRETS_FILE: ${{ runner.temp }}/new_secrets.env
+          FETCH_REPORT: ${{ runner.temp }}/fetch_report.json
+        run: python scripts/feeds.py
+
+      - name: GitHub depo bilgilerini tazele
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/repo_meta.py || echo "Depo bilgileri tazelenemedi; önceki bilgiler kullanılacak."
+
+      - name: Yenilenen erişim anahtarlarını kaydet
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+          NEW_SECRETS_FILE: ${{ runner.temp }}/new_secrets.env
+        run: |
+          if [ -s "$NEW_SECRETS_FILE" ]; then
+            if [ -z "$GH_TOKEN" ]; then
+              echo "::error::SECRETS_PAT tanımlı değil; yenilenen anahtarlar kaydedilemedi."
+            else
+              while IFS='=' read -r name value; do
+                echo "::add-mask::$value"
+                printf '%s' "$value" | gh secret set "$name" --repo "$GITHUB_REPOSITORY"
+              done < "$NEW_SECRETS_FILE"
+            fi
+          fi
+          rm -f "$NEW_SECRETS_FILE"
+
+      - name: Değişen içeriği depoya kaydet
+        run: |
+          git config user.name "site-guncelleyici"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Yeni içerik yok."
+          else
+            git commit -m "İçerikler güncellendi"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Siteyi üret
+        run: python scripts/build.py
+
+      - name: Hataları not et
+        id: check
+        env:
+          FETCH_REPORT: ${{ runner.temp }}/fetch_report.json
+        run: |
+          python - <<'PY'
+          import json, os
+          r = json.load(open(os.environ["FETCH_REPORT"]))
+          errs = "; ".join(f"{k}: {v}" for k, v in r.get("errors", {}).items())
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"errors={errs}\n")
+          PY
+
+      - name: Video ve rehber planını kontrol et
+        id: plan
+        run: |
+          set +e
+          python scripts/plan_check.py
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Geciken rehber varsa uyar
+        if: needs.build.outputs.plan_status != '0'
+        run: |
+          echo "::error::Yayın tarihi gelen bir videonun rehberi yayında değil. Ayrıntı: çalışmanın özetindeki 'Video ve rehber planı' tablosu."
+          exit 1
+
+      - name: İçerik çekme hatası varsa uyar
+        if: always() && needs.build.outputs.fetch_errors != ''
+        env:
+          ERRS: ${{ needs.build.outputs.fetch_errors }}
+        run: |
+          echo "::error::Site yayında, son başarılı içerikler gösteriliyor. Ancak şu platformlar güncellenemedi: $ERRS"
+          exit 1

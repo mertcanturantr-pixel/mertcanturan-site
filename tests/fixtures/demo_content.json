@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-11-16T09:00:00+00:00",
+  "platforms": {
+    "youtube": {
+      "status": "ok",
+      "items": [
+        {
+          "platform": "youtube",
+          "id": "demo0",
+          "kind": "video",
+          "title": "Bir hafta boyunca bütün kararlarımı yapay zekâya verdim",
+          "url": "https://www.youtube.com/",
+          "published": "2026-11-16T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "youtube-demo0.jpg"
+        },
+        {
+          "platform": "youtube",
+          "id": "demo1",
+          "kind": "video",
+          "title": "Dört yapay zekâya aynı sözleşmeyi okuttum",
+          "url": "https://www.youtube.com/",
+          "published": "2026-11-02T09:00:00+00:00",
+          "ad": false,
+          "guides": [
+            "yapay-zeka-cevabini-kontrol-etmek"
+          ],
+          "thumb": "youtube-demo1.jpg"
+        },
+        {
+          "platform": "youtube",
+          "id": "demo2",
+          "kind": "video",
+          "title": "ChatGPT'ye yazdıkların nereye gidiyor?",
+          "url": "https://www.youtube.com/",
+          "published": "2026-10-19T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "youtube-demo2.jpg"
+        },
+        {
+          "platform": "youtube",
+          "id": "demo3",
+          "kind": "video",
+          "title": "Yapay zekâyla bir günde uygulama yaptım",
+          "url": "https://www.youtube.com/",
+          "published": "2026-10-05T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "youtube-demo3.jpg"
+        }
+      ]
+    },
+    "instagram": {
+      "status": "ok",
+      "items": [
+        {
+          "platform": "instagram",
+          "id": "demo0",
+          "kind": "reel",
+          "title": "Yapay zekâ kaynak uydurursa nasıl anlarsın?",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-16T09:00:00+00:00",
+          "ad": false,
+          "guides": [
+            "yapay-zeka-cevabini-kontrol-etmek"
+          ],
+          "thumb": "instagram-demo0.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo1",
+          "kind": "reel",
+          "title": "Bu ayarı kapatmadan ChatGPT'ye müşteri bilgisi yazma",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-14T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "instagram-demo1.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo2",
+          "kind": "reel",
+          "title": "1 dolarlık araba: bir sohbet robotunun hatası",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-12T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "instagram-demo2.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo3",
+          "kind": "reel",
+          "title": "Aynı soruyu dört araca sordum",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-10T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "instagram-demo3.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo4",
+          "kind": "reel",
+          "title": "Yapay zekâ sözleşmemdeki hatayı buldu mu?",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-08T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "instagram-demo4.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo5",
+          "kind": "reel",
+          "title": "Ücretsiz sürüm mü, ücretli sürüm mü?",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-06T09:00:00+00:00",
+          "ad": true,
+          "guides": [],
+          "thumb": "instagram-demo5.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo6",
+          "kind": "reel",
+          "title": "Bir müşterinin sorusunu yapay zekâya sordum",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-04T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "instagram-demo6.jpg"
+        },
+        {
+          "platform": "instagram",
+          "id": "demo7",
+          "kind": "reel",
+          "title": "Yapay zekâ ile CV hazırlarken dikkat",
+          "url": "https://www.instagram.com/",
+          "published": "2026-11-02T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "instagram-demo7.jpg"
+        }
+      ]
+    },
+    "tiktok": {
+      "status": "ok",
+      "items": [
+        {
+          "platform": "tiktok",
+          "id": "demo0",
+          "kind": "video",
+          "title": "Yapay zekâ kaynak uydurursa nasıl anlarsın?",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-16T09:00:00+00:00",
+          "ad": false,
+          "guides": [
+            "yapay-zeka-cevabini-kontrol-etmek"
+          ],
+          "thumb": "tiktok-demo0.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo1",
+          "kind": "video",
+          "title": "Bu ayarı kapatmadan ChatGPT'ye müşteri bilgisi yazma",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-14T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "tiktok-demo1.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo2",
+          "kind": "video",
+          "title": "1 dolarlık araba: bir sohbet robotunun hatası",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-12T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "tiktok-demo2.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo3",
+          "kind": "video",
+          "title": "Aynı soruyu dört araca sordum",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-10T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "tiktok-demo3.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo4",
+          "kind": "video",
+          "title": "Yapay zekâ sözleşmemdeki hatayı buldu mu?",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-08T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "tiktok-demo4.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo5",
+          "kind": "video",
+          "title": "Ücretsiz sürüm mü, ücretli sürüm mü?",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-06T09:00:00+00:00",
+          "ad": true,
+          "guides": [],
+          "thumb": "tiktok-demo5.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo6",
+          "kind": "video",
+          "title": "Bir müşterinin sorusunu yapay zekâya sordum",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-04T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "tiktok-demo6.jpg"
+        },
+        {
+          "platform": "tiktok",
+          "id": "demo7",
+          "kind": "video",
+          "title": "Yapay zekâ ile CV hazırlarken dikkat",
+          "url": "https://www.tiktok.com/",
+          "published": "2026-11-02T09:00:00+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "tiktok-demo7.jpg"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "_not": "Mesleğine göre yapay zekâ aracı verisi. Her işin 'rehber' alanı rehber:adres#bolum biçimindeki hedeftir; tests/test_site.py hepsinin var olduğunu kontrol eder. Rakamla verim vaadi yazılmaz.",
+  "meslekler": [
+    {
+      "slug": "avukat",
+      "ad": "Avukat",
+      "baslik": "Avukatlar için yapay zekâ",
+      "ozet": "Dilekçe ve sözleşme taslağında, uzun dosya okumada ve müvekkil yazışmasında zaman kazanmak; mesleki sırrı ve uydurma içtihat riskini yönetmek.",
+      "veri": "sir",
+      "kirmizi": [
+        "Anonimleştirilmemiş müvekkil bilgisi (ad, dosya numarası, kimlik, sağlık bilgisi) kişisel hesaptaki bir sohbet aracına girilmez; bu hem sır saklama yükümlülüğünü hem KVKK'yı ilgilendirir.",
+        "Yapay zekânın verdiği karar künyesi ve kanun maddesi, aslı açılmadan dilekçeye yazılmaz.",
+        "Mesleki sorumluluk yapay zekâya devredilemez; son metni sen imzalıyorsun."
+      ],
+      "isler": [
+        {"id": "dilekce", "ad": "Dilekçe ve yazı taslağı", "nasil": "Olayı isimleri ve kişiyi tanıtacak ayrıntıları çıkararak anlat, iskeleti yapay zekâ kursun; hukuki dayanağı sen yaz ve kontrol et.", "arac": "Herhangi bir sohbet aracı (kurumsal plan tercih edilir)", "komut": "Müvekkil adını ve dosya numarasını çıkardığım aşağıdaki olay için bir [DİLEKÇE TÜRÜ] taslağı yaz. Sunulacağı yer: [MAHKEME YA DA KURUM]. Bölümler: açıklamalar, hukuki nedenler (boş bırak, ben dolduracağım), deliller, sonuç ve istem. Olayda olmayan bilgi ekleme; eksik gördüğün bilgiyi en sonda soru olarak yaz. Olay: [OLAY]", "rehber": "avukatlar-icin-yapay-zeka#ise-yarar"},
+        {"id": "sozlesme", "ad": "Sözleşme incelemesi", "nasil": "Sözleşmeyi taraf adlarını çıkararak ver; riskli maddeleri ve eksikleri listelet, değerlendirmeyi sen yap.", "arac": "Uzun belgeyi iyi okuyan bir araç (Claude, ChatGPT, Gemini)", "komut": "Ekteki sözleşme Türk hukukuna tabi. [TARAF] açısından riskli maddeleri, belirsiz ifadeleri ve eksik hükümleri madde numarasıyla listele; her bulguda ilgili cümleyi aynen alıntıla. Hukuki sonuç yazma, kanun maddesi uydurma; sadece işaretle.", "rehber": "yapay-zeka-sozlesme-kontrol#kontrol-sablonu"},
+        {"id": "dosya", "ad": "Uzun dosya ve bilirkişi raporu okumak", "nasil": "İsimleri karartılmış kopyayla çalış; belgeyi bölüm bölüm özetlet, her tespite sayfa numarası iste ve sonucu etkileyecek yerleri asıldan kontrol et.", "arac": "Kurumsal hesapta Gemini Notebook (eski adıyla NotebookLM) ya da proje özelliği olan bir araç; gizli dosyada yerel model", "komut": "Bu rapordaki tespitleri ve sonuçları sayfa numarasıyla listele. Raporda olmayan hiçbir şey ekleme; çelişen yerleri ayrıca göster.", "rehber": "uzun-pdf-okumak#komutlar"},
+        {"id": "ictihat", "ad": "İçtihat ve mevzuat araştırması", "nasil": "Yapay zekâyı arama terimi bulmak için kullan; kararı resmî karar arama sisteminde bul ve tam metnini oku.", "arac": "Herhangi bir sohbet aracı + Yargıtay ve Anayasa Mahkemesi karar arama", "komut": "[KONU] hakkında içtihat arayacağım. Yargıtay karar arama ve Anayasa Mahkemesi kararlar bilgi bankasında kullanabileceğim arama terimlerini, eş anlamlı ifadeleri ve ilgili olabilecek kanun maddelerini listele. Karar künyesi, esas ya da karar numarası yazma; emin olmadığın yeri belirt.", "rehber": "avukatlar-icin-yapay-zeka#dogrulama"},
+        {"id": "muvekkil", "ad": "Müvekkile sade açıklama", "nasil": "Süreci ve riski müvekkilin anlayacağı dille yazdır; söz ve tahmin içermesin.", "arac": "Herhangi bir sohbet aracı", "komut": "Bir müvekkile şu sürecin nasıl ilerleyeceğini, teknik terimleri açıklayarak, 150 kelimeyi geçmeden anlatan genel bir mesaj yaz: [SÜREÇ]. Müvekkilin adını ve dosyaya özel bilgiyi ben ekleyeceğim. Sonuç ve süre vaadi verme.", "rehber": "avukatlar-icin-yapay-zeka#ise-yarar"},
+        {"id": "buro", "ad": "Büro için yapay zekâ kuralları", "nasil": "Kimin hangi aracı hangi bilgiyle kullanacağını tek sayfada yaz.", "arac": "Bir belge ve kısa bir ekip toplantısı", "komut": "Avukatlık bürosu için bir sayfalık yapay zekâ kullanım kuralı taslağı yaz: izinli araçlar, asla girilmeyecek bilgiler, doğrulama, sorumluluk.", "rehber": "avukatlar-icin-yapay-zeka#politika"}
+      ]
+    },
+    {
+      "slug": "mali-musavir",
+      "ad": "Mali müşavir / muhasebeci",
+      "baslik": "Mali müşavir ve muhasebeciler için yapay zekâ",
+      "ozet": "Mükellef yazışması, mevzuat değişikliğinin ilk okuması ve Excel işlerinde hız; mükellef verisini ve vergi oranlarını yapay zekâya bırakmamak.",
+      "veri": "sir",
+      "kirmizi": [
+        "Mükellef adı, vergi numarası ve gerçek tutarlar kişisel hesaptaki bir sohbet aracına girilmez.",
+        "Vergi oranı, istisna ve süre yapay zekâdan alınmaz; Gelir İdaresi ve Resmî Gazete'den doğrulanır.",
+        "Hesaplar sohbet içinde kafadan yaptırılmaz; kodla ya da formülle yapılır."
+      ],
+      "isler": [
+        {"id": "mukellef", "ad": "Mükellefe sade açıklama", "nasil": "Bildiğin kuralı yaz, yapay zekâ sade bir mesaja çevirsin.", "arac": "Herhangi bir sohbet aracı", "komut": "Bir mükellefime şu konuyu sade dille anlatan 120 kelimelik bir mesaj yaz: [KONU]. Sadece şu bilgileri kullan: [KURAL VE TARİHLER]. Oran ya da madde ekleme.", "rehber": "muhasebeciler-icin-yapay-zeka#mukellef"},
+        {"id": "mevzuat", "ad": "Yeni tebliğin ilk okuması", "nasil": "Mevzuat metnini kendin ver; kimleri etkilediğini ve yürürlük tarihini fıkrasıyla çıkart.", "arac": "Uzun metni iyi okuyan bir araç", "komut": "Aşağıdaki metinde kimlerin etkilendiğini, eski ve yeni kuralı, yürürlük tarihini ilgili madde ve fıkrayla yaz. Metinde olmayan bir şey ekleme; metinden çıkmayan yeri belirt. Metin: [TEBLİĞ METNİ]", "rehber": "muhasebeciler-icin-yapay-zeka#mevzuat"},
+        {"id": "excel", "ad": "Excel formülü ve mutabakat", "nasil": "Sütun yapısını anlat, formülü yazdır, birkaç satırda kendin dene.", "arac": "Herhangi bir sohbet aracı ya da Excel'deki Copilot", "komut": "A sütununda [A SÜTUNUNDAKİ BİLGİ], B sütununda [B SÜTUNUNDAKİ BİLGİ] var. İki listeyi karşılaştırıp farklı kayıtları bulan formülü Türkçe Excel için yaz: işlev adları Türkçe, ayırıcı noktalı virgül olsun. Formülün her parçasını açıkla.", "rehber": "muhasebeciler-icin-yapay-zeka#excel"},
+        {"id": "hesap", "ad": "KDV ve yüzde hesabı", "nasil": "Kodla hesaplat; verileri önce tablo olarak göstermesini iste.", "arac": "Kod çalıştırabilen bir araç", "komut": "Bu hesabı kafadan yapma, kod çalıştırarak yap. Önce verileri tablo olarak göster, sonra sonucu Türk biçiminde yaz: [VERİLER VE HESAP]", "rehber": "yapay-zekaya-hesap-yaptirmak#kdv"},
+        {"id": "gizli", "ad": "Gizli dosyayla çalışmak", "nasil": "Mükellef verisini dışarı göndermeden analiz etmek için kurumsal plan ya da bilgisayarında çalışan yerel model.", "arac": "Kurumsal plan ya da LM Studio / Ollama", "komut": "Ekteki tabloda isim ve numaraları 'Mükellef A' gibi etiketlerle değiştirdim. Aylara göre toplamları ve olağan dışı hareketleri çıkar.", "rehber": "yerel-model#gizli-belge"}
+      ]
+    },
+    {
+      "slug": "ogretmen",
+      "ad": "Öğretmen",
+      "baslik": "Öğretmenler için yapay zekâ",
+      "ozet": "Ders planı, farklı seviyelere uyarlanmış materyal, ölçme soruları ve veli mesajlarında hız; öğrenci verisini korumak ve ödevde yapay zekâyı doğru yönetmek.",
+      "veri": "kisisel",
+      "kirmizi": [
+        "Öğrenci adı, notu, sağlık ve aile bilgisi yapay zekâ aracına girilmez.",
+        "Yapay zekâ tespit araçlarının sonucu tek başına kopya kanıtı sayılmaz.",
+        "Üretilen soru ve materyal, yayımlamadan önce bilgi hatası için kontrol edilir."
+      ],
+      "isler": [
+        {"id": "plan", "ad": "Ders planı", "nasil": "Müfredattaki kazanım metnini, süreyi ve sınıf düzeyini ver; etkinlik önerilerini sen seç.", "arac": "Herhangi bir sohbet aracı", "komut": "[SINIF] [DERS] dersi için aşağıdaki kazanıma yönelik [DAKİKA] dakikalık bir ders planı yaz: giriş, etkinlik, kapanış ve kısa ölçme. Plan yalnızca bu kazanıma dayansın. Kazanım: [KAZANIM METNİ]", "rehber": "ogretmenler-icin-yapay-zeka#ders-plani"},
+        {"id": "farklilastirma", "ad": "Farklı seviyeye uyarlama", "nasil": "Aynı metni üç farklı okuma seviyesine uyarlat.", "arac": "Herhangi bir sohbet aracı", "komut": "Aşağıdaki metni aynı içerikle üç seviyede yeniden yaz: zorlanan öğrenci, sınıf seviyesi, ileri öğrenci. Bilgi ekleme. Metin: [METİN]", "rehber": "ogretmenler-icin-yapay-zeka#farklilastirma"},
+        {"id": "olcme", "ad": "Ölçme soruları", "nasil": "Soruları ürettir, cevap anahtarını ve çeldiricileri kendin kontrol et.", "arac": "Herhangi bir sohbet aracı", "komut": "[SINIF] düzeyinde [KONU] için [SAYI] çoktan seçmeli soru yaz. Çeldiriciler öğrencilerin bu konudaki yaygın yanlış anlamalarına dayansın. Her sorunun doğru cevabını ve çeldiricilerin neden yanlış olduğunu açıkla.", "rehber": "ogretmenler-icin-yapay-zeka#olcme"},
+        {"id": "veli", "ad": "Veli mesajı", "nasil": "Hassas konularda tonu ayarlat; öğrencinin adını yazmadan taslak çıkar.", "arac": "Herhangi bir sohbet aracı", "komut": "Bir veliye, öğrencinin [DURUM] hakkında yapıcı ve saygılı, 100 kelimelik bir mesaj taslağı yaz. Suçlayıcı ifade kullanma.", "rehber": "ogretmenler-icin-yapay-zeka#veli"},
+        {"id": "odev", "ad": "Ödevde yapay zekâ şüphesi", "nasil": "Tespit aracına değil, öğrenciyle konuşmaya ve süreç kanıtına dayan.", "arac": "Konuşma ve taslak geçmişi", "komut": "[ÖDEV KONUSU] konulu ödevini öğrencinin kendi sözleriyle anlatmasını sağlayacak, suçlamayan beş soru öner.", "rehber": "odev-yapay-zeka-tespiti#ogretmen"}
+      ]
+    },
+    {
+      "slug": "ogrenci",
+      "ad": "Öğrenci",
+      "baslik": "Öğrenciler için yapay zekâ",
+      "ozet": "Yapay zekâyı ödevi yazan değil, konuyu anlatan ve seni sınayan bir öğretmen gibi kullanmak; tezde ve sunumda kurallara uymak.",
+      "veri": "genel",
+      "kirmizi": [
+        "Okulunun ve dersin yapay zekâ kuralını önce öğren; kural yoksa öğretmenine sor.",
+        "Yapay zekânın gösterdiği kaynağı okumadan kaynakçana ekleme.",
+        "Teslim ettiğin metni anlatabilecek durumda ol."
+      ],
+      "isler": [
+        {"id": "anlat", "ad": "Konuyu anlamak", "nasil": "Cevabı değil, adım adım anlatımı ve ipucunu iste.", "arac": "Herhangi bir sohbet aracı", "komut": "Bu soruyu benim yerime çözme. Önce hangi konuyu bilmem gerektiğini anlat, sonra bir ipucu ver ve benim denememi bekle: [SORU]", "rehber": "ogrenciler-icin#anlattir"},
+        {"id": "sina", "ad": "Sınava çalışmak", "nasil": "Notlarından soru sordur, cevaplarına geri bildirim al.", "arac": "Herhangi bir sohbet aracı ya da Gemini Notebook (eski adıyla NotebookLM)", "komut": "Ders notlarımdan bana birer birer 10 soru sor. Her cevabımdan sonra neyi doğru, neyi eksik bildiğimi söyle.", "rehber": "ogrenciler-icin#sina"},
+        {"id": "tez", "ad": "Tez ve makale", "nasil": "Kurallara bak, kullanımını kaydet, kaynakları kendin oku.", "arac": "Enstitünün izin verdiği araçlar", "komut": "Tezimde yapay zekâyı şu işler için kullandım: [NE İÇİN]. Kullandığım araçlar ve tarihler: [ARAÇLAR VE TARİHLER]. Enstitüye sunacağım kısa bir beyan metni taslağı yaz; benim yazmadığım bir kullanımı ekleme.", "rehber": "tezde-yapay-zeka-kullanimi#beyan"},
+        {"id": "sunum", "ad": "Sunum hazırlamak", "nasil": "Önce tek cümlelik ana mesaj, sonra akış, en son slayt.", "arac": "Herhangi bir sohbet aracı + Canva ya da PowerPoint", "komut": "Notlarımdan bu sunumun ana mesajı olabilecek üç cümle öner ve hangisinin en güçlü olduğunu gerekçesiyle söyle: [NOTLAR]", "rehber": "sunum-hazirlamak#mesaj"},
+        {"id": "staj", "ad": "Staj ve iş başvurusu", "nasil": "Deneyimini sen yaz, ilana göre düzenlet; yapmadığın hiçbir şeyi ekletme.", "arac": "Herhangi bir sohbet aracı", "komut": "Aşağıdaki staj ilanına göre ders projelerimi ve kulüp çalışmalarımı ön yazıya bağla. Benim yazmadığım bir deneyim ekleme. İlan: [İLAN METNİ] Deneyimlerim: [DENEYİMLERİM]", "rehber": "on-yazi-yapay-zeka#staj"}
+      ]
+    },
+    {
+      "slug": "emlak",
+      "ad": "Emlak danışmanı",
+      "baslik": "Emlak danışmanları için yapay zekâ",
+      "ozet": "İlan metni, sanal döşeme ve müşteri yazışmalarında hız; yanıltıcı ilan ve müşteri verisi riskini yönetmek.",
+      "veri": "kisisel",
+      "kirmizi": [
+        "İlan metnindeki her bilgi tapu, iskân ve kendi ölçümünle aynı olmalı; yapay zekânın eklediği özellik silinir.",
+        "Sanal döşenmiş görsel açıkça etiketlenir, gerçek fotoğrafı da ilanda olur.",
+        "Müşteri kimlik ve tapu belgeleri sohbet aracına yüklenmez."
+      ],
+      "isler": [
+        {"id": "ilan", "ad": "İlan metni", "nasil": "Bilgileri sen ver; yapay zekâ düzenlesin, abartı ve vaat eklemesin.", "arac": "Herhangi bir sohbet aracı", "komut": "Şu bilgilerle bir satılık konut ilanı yaz; bilgilerde olmayan özellik, manzara ya da yatırım vaadi ekleme: [BİLGİLER]", "rehber": "emlakcilar-icin-yapay-zeka#ilan"},
+        {"id": "doseme", "ad": "Sanal döşeme", "nasil": "Yalnızca mobilya ekle, odayı değiştirme, etiketle.", "arac": "Gemini ya da ChatGPT görsel düzenleme", "komut": "Bu boş odaya [ÜSLUP] mobilya ekle. Duvar, zemin, pencere ve oda boyutunu değiştirme.", "rehber": "emlakcilar-icin-yapay-zeka#sanal-doseme"},
+        {"id": "yazisma", "ad": "Müşteri ve mal sahibi yazışmaları", "nasil": "İsimsiz taslak yazdır, söz ve tarih eklemesin.", "arac": "Herhangi bir sohbet aracı", "komut": "Mal sahibine bu haftaki gösterimlerin kısa ve profesyonel bir özetini yaz: [GÖSTERİM NOTLARI]. Tahmin ve söz verme.", "rehber": "emlakcilar-icin-yapay-zeka#yazisma"},
+        {"id": "bolge", "ad": "Bölge özeti", "nasil": "Semtin genel özelliklerini özetlet; fiyat, imar ve deprem bilgisini resmî kaynaktan al.", "arac": "Derin araştırma özelliği olan bir araç", "komut": "[SEMT] için ulaşım, okul, sağlık ve sosyal olanakları kaynaklı özetle. Fiyat, imar ve deprem riski bilgisi verme.", "rehber": "emlakcilar-icin-yapay-zeka#bolge"},
+        {"id": "yorum", "ad": "Google yorumlarına cevap", "nasil": "Müşteri bilgisi vermeden, kısa ve sakin cevap.", "arac": "Herhangi bir sohbet aracı", "komut": "Şu olumsuz yoruma, savunmaya geçmeden ve müşteri bilgisi vermeden dört cümlelik bir cevap yaz: [YORUM]", "rehber": "google-yorumlarina-cevap#olumsuz"}
+      ]
+    },
+    {
+      "slug": "e-ticaret",
+      "ad": "E-ticaret satıcısı",
+      "baslik": "E-ticaret satıcıları için yapay zekâ",
+      "ozet": "Ürün açıklaması, ürün görseli ve müşteri sorularında hız; yorum, indirim ve görsel kurallarına uymak.",
+      "veri": "kisisel",
+      "kirmizi": [
+        "Yapay zekânın eklediği ölçü, malzeme ya da özellik ürün sayfasına girmez.",
+        "Ürün görseli ürünün gerçek hâlini gösterir; sahte ya da satın alınmış yorum kullanılmaz.",
+        "Müşteri adı, adresi ve telefonu sohbet aracına yapıştırılmaz."
+      ],
+      "isler": [
+        {"id": "aciklama", "ad": "Ürün açıklaması", "nasil": "Ürün bilgilerini ver, açıklama ve maddeleri yazdır.", "arac": "Herhangi bir sohbet aracı", "komut": "Bu ürün için kısa tanıtım ve beş özellik maddesi yaz; sadece verdiğim bilgileri kullan, 'en iyi' gibi iddialar ekleme: [ÜRÜN BİLGİLERİ]", "rehber": "e-ticaret-saticilari-icin-yapay-zeka#aciklama"},
+        {"id": "toplu", "ad": "Çok ürün için toplu açıklama", "nasil": "Bilgileri tabloda topla, her satır için aynı şablonu uygulat, rastgele örnekleri kontrol et.", "arac": "Kod çalıştırabilen bir araç", "komut": "Ekteki tablonun her satırı için aynı biçimde ürün açıklaması üret ve yeni bir sütuna yaz. Tabloda olmayan bilgi ekleme.", "rehber": "e-ticaret-saticilari-icin-yapay-zeka#toplu"},
+        {"id": "gorsel", "ad": "Ürün görseli", "nasil": "Arka plan ve ışık düzelt; ürünün kendisini değiştirme.", "arac": "Gemini, ChatGPT ya da Canva", "komut": "Ekteki fotoğrafta ürünün rengini, biçimini, yazısını ve oranlarını değiştirme. Yalnızca arka planı beyaz yap ve yumuşak bir gölge ekle.", "rehber": "e-ticaret-saticilari-icin-yapay-zeka#gorsel"},
+        {"id": "musteri", "ad": "Müşteri soruları ve iade", "nasil": "Mağaza politikanla hazır cevap seti kur; iade ve şikâyette karar senin.", "arac": "Herhangi bir sohbet aracı", "komut": "Mağaza politikalarıma göre kargo, hasarlı ürün, beden değişimi ve iade için kısa hazır cevaplar yaz: [POLİTİKALAR]", "rehber": "e-ticaret-saticilari-icin-yapay-zeka#musteri"},
+        {"id": "reklam", "ad": "Reklam ve kampanya metni", "nasil": "Farklı açılardan varyasyon üret, küçük bütçeyle dene, ölç.", "arac": "Herhangi bir sohbet aracı", "komut": "[ÜRÜN] için beş farklı açıdan kısa reklam metni yaz: çözdüğü sorun, kullanınca ne değişir, müşterinin çekincesi, bir soru, kampanya. Kampanya bilgisi: [KAMPANYA YA DA YOK]. Kanıtlayamayacağım iddia, 'en iyi' ya da 'garantili' gibi ifadeler kullanma.", "rehber": "yapay-zekayla-pazarlama#reklam"}
+      ]
+    },
+    {
+      "slug": "esnaf",
+      "ad": "Esnaf (kafe, kuaför, dükkân)",
+      "baslik": "Esnaf ve küçük işletmeler için yapay zekâ",
+      "ozet": "WhatsApp hazır cevapları, Google yorumları, menü ve ilan metinleri, haftalık sosyal medya planı; müşteri bilgisini korumak.",
+      "veri": "kisisel",
+      "kirmizi": [
+        "Fiyat, saat ve kampanya bilgisini sen yaz; yapay zekâ uydurabilir.",
+        "Bireysel müşteriye onayı olmadan kampanya mesajı gönderilmez; WhatsApp mesajı da buna dahil.",
+        "Yorum satın almak ve yapay zekâyla sahte yorum yazdırmak yasak."
+      ],
+      "isler": [
+        {"id": "whatsapp", "ad": "WhatsApp hazır cevapları", "nasil": "İşletmeni bir kez anlat, on beş hazır cevap yazdır, WhatsApp Business'a ekle.", "arac": "Herhangi bir sohbet aracı + WhatsApp Business", "komut": "İşletmemin bilgilerine göre WhatsApp için 15 kısa hazır cevap yaz; her birine /saat, /fiyat gibi bir kısayol adı ver: [BİLGİLER]", "rehber": "whatsapp-business-yapay-zeka#hazir-yanitlar"},
+        {"id": "yorum", "ad": "Google yorumlarına cevap", "nasil": "Yoruma özel, kısa ve sakin cevap; kişisel bilgi yok.", "arac": "Herhangi bir sohbet aracı", "komut": "Şu yoruma yorumda geçen somut bir şeye değinerek kısa bir cevap yaz; müşterinin bilgisini yazma: [YORUM]", "rehber": "google-yorumlarina-cevap#olumsuz"},
+        {"id": "menu", "ad": "Menü, ilan ve ürün açıklaması", "nasil": "Gerçek içerik ve fiyatla açıklama yazdır.", "arac": "Herhangi bir sohbet aracı", "komut": "Menümdeki şu ürünler için iştah açıcı ama abartısız, iki cümlelik açıklamalar yaz: [ÜRÜNLER VE İÇERİKLERİ]", "rehber": "kucuk-isletme-yapay-zeka#aciklama"},
+        {"id": "sosyal", "ad": "Haftalık sosyal medya planı", "nasil": "Haftalık plan ve gönderi metinleri; fotoğrafı sen çek.", "arac": "Herhangi bir sohbet aracı + Canva", "komut": "İşletmem: [İŞLETME]. Bu hafta için Instagram'da üç gönderilik bir plan yap: gün, fotoğraf fikri, iki cümlelik metin ve tek bir çağrı. Fiyat ve kampanya uydurma.", "rehber": "kucuk-isletme-yapay-zeka#sosyal-medya"},
+        {"id": "afis", "ad": "Afiş ve kampanya görseli", "nasil": "Canva'da taslak oluştur, kendi renklerine çevir, yazıyı kontrol et.", "arac": "Canva", "komut": "[İŞLETME] için A4 kampanya afişi hazırla. Ana mesaj: '[MESAJ]'. Tarih ve fiyat: [BİLGİ]. Sade olsun.", "rehber": "canva-yapay-zeka#metinden"}
+      ]
+    },
+    {
+      "slug": "ofis",
+      "ad": "Ofis çalışanı",
+      "baslik": "Ofis çalışanları için yapay zekâ",
+      "ozet": "E-posta, toplantı notu, rapor, sunum ve Excel işlerinde zaman kazanmak; şirket verisini kişisel hesaba taşımamak.",
+      "veri": "kisisel",
+      "kirmizi": [
+        "Şirketin kuralını öğren; şirket belgesi kişisel yapay zekâ hesabına yüklenmez.",
+        "Toplantı kaydı için katılımcıların izni alınır.",
+        "Dışarı giden her metni göndermeden önce kendin kontrol edersin."
+      ],
+      "isler": [
+        {"id": "eposta", "ad": "Uzun e-posta yazışması", "nasil": "Müşteri ve çalışan bilgisini çıkar ya da şirketin aracını kullan; özetten senden ne beklendiğini gör, cevabı kendin kontrol et.", "arac": "Şirketin izin verdiği bir sohbet aracı", "komut": "Aşağıdaki e-posta yazışmasını özetle: konu, kim ne istiyor, verilen kararlar, açık kalan sorular ve benden beklenen bir şey var mı (benim rolüm: [ROLÜN]). Yazışmada olmayan bir şey ekleme. Yazışma: [YAZIŞMA]", "rehber": "yapay-zeka-gunluk-isler#eposta-ozet"},
+        {"id": "toplanti", "ad": "Toplantı özeti", "nasil": "İzin al, dökümden karar ve görev listesi çıkar, kontrol et.", "arac": "Şirketin onayladığı not alıcı (Teams Copilot, Zoom AI Companion, Meet'te Gemini)", "komut": "Bu toplantı dökümünden kararları, görevleri (kim, ne, ne zaman) ve açık soruları çıkar; belirtilmeyeni 'belirtilmedi' diye yaz.", "rehber": "toplanti-ozeti#sablon"},
+        {"id": "excel", "ad": "Excel formülü ve tablo", "nasil": "Tablonun yapısını anlat, formülü yazdır ve birkaç satırda dene.", "arac": "Herhangi bir sohbet aracı ya da Excel'deki Copilot", "komut": "A sütununda tarih, B'de şube, C'de tutar var. Her şubenin aylık toplamını veren formülü Türkçe Excel için yaz: işlev adları Türkçe, ayırıcı noktalı virgül olsun. Formülü parça parça açıkla.", "rehber": "excel-yapay-zeka#formul"},
+        {"id": "sunum", "ad": "Sunum", "nasil": "Ana mesaj ve akışı kur, slaytları en son yap, prova et.", "arac": "Herhangi bir sohbet aracı + PowerPoint ya da Canva", "komut": "Sen bu sunumun izleyicisisin: [İZLEYİCİ]. Hangi slaytta koparsın ve bana sorabileceğin en zor beş soru ne?", "rehber": "sunum-hazirlamak#prova"},
+        {"id": "belge", "ad": "Uzun belge özetlemek", "nasil": "Sayfa numaralı özet iste, karar vereceğin yerleri asıldan kontrol et.", "arac": "Şirketin izin verdiği Gemini Notebook (eski adıyla NotebookLM) ya da proje özelliği olan bir araç", "komut": "Bu belgeden, [ROLÜN] olarak işimi etkileyen beş noktayı sayfa numarasıyla çıkar ve açık bırakılmış soruları listele. Belgede olmayan bir şey ekleme.", "rehber": "uzun-pdf-okumak#komutlar"},
+        {"id": "kural", "ad": "İş yerinde güvenli kullanım", "nasil": "Yöneticine kuralı sor ya da öneri götür.", "arac": "Kısa bir e-posta", "komut": "Yöneticime, [İŞ] için yapay zekâ kullanmayı öneren ve veri güvenliği için önerimi içeren kısa bir e-posta yaz.", "rehber": "isyerinde-yapay-zeka-kullanmak#teklif"}
+      ]
+    },
+    {
+      "slug": "yazilimci",
+      "ad": "Yazılımcı",
+      "baslik": "Yazılımcılar için yapay zekâ",
+      "ozet": "Hata ayıklama, test, kod okuma ve tekrarlayan işlerde kodlama araçları; inceleme, gizli anahtar ve şirket kodu kuralları.",
+      "veri": "sir",
+      "kirmizi": [
+        "Aracın değişikliği incelenmeden birleştirilmez; testler gerçekten çalıştırılır.",
+        "API anahtarı, şifre ve müşteri verisi sohbete ya da depoya girmez.",
+        "Şirket kodu yalnızca şirketin izin verdiği araç ve planla kullanılır."
+      ],
+      "isler": [
+        {"id": "hata", "ad": "Hata ayıklama", "nasil": "Sorunu, beklentiyi ve kabul ölçütünü yaz; önce kök nedeni açıklat.", "arac": "Claude Code, Codex, Copilot ya da Cursor", "komut": "Sorun: [NE OLUYOR]. Beklenen: [NE OLMALI]. Önce kök nedeni açıkla, sonra en küçük değişikliği yap; testleri geçirmek için doğrulamaları kaldırma.", "rehber": "kodlama-araclari#gorev"},
+        {"id": "inceleme", "ad": "Kod incelemesi", "nasil": "Aracın değişikliğini bir ekip arkadaşının kodu gibi oku.", "arac": "İnceleme listesi + CI", "komut": "Bu farkı güvenlik, hata yakalama, yetkilendirme ve görev dışı değişiklik açısından incele; her bulguya satır numarası ver.", "rehber": "kodlama-araclari#inceleme"},
+        {"id": "otomasyon", "ad": "Tekrarlayan iş akışı", "nasil": "Kuralları belli işi n8n ya da Make ile akışa çevir; son adım insanda kalsın.", "arac": "n8n, Make ya da Zapier", "komut": "Formdan gelen mesajı sınıflandırıp taslak cevap üreten bir akışın adımlarını ve hata durumlarını listele.", "rehber": "otomasyon#ilk-akis"},
+        {"id": "yerel", "ad": "Gizli kodla yerel model", "nasil": "Dışarı göndermemen gereken kod için bilgisayarında çalışan model.", "arac": "Ollama ya da LM Studio", "komut": "ollama run [MODEL ADI]", "rehber": "yerel-model#ollama"},
+        {"id": "ajan", "ad": "Ajanlara iş vermek", "nasil": "Geri alınabilir işleri ver, gönderme ve silmede onayı kendinde tut.", "arac": "ChatGPT Work ya da benzer ajanlar", "komut": "Görev: [GÖREV]. Amaç: [AMAÇ]. Sınırlar: hiçbir şey satın alma, gönderme, silme, kabul etme; bunlara geldiğinde dur ve bana sor. Bir sitede giriş ya da kişisel bilgi istenirse dur. Çıktı: her bilginin kaynağıyla kısa bir özet.", "rehber": "yapay-zeka-ajanlari#gorev"}
+      ]
+    },
+    {
+      "slug": "icerik-pazarlama",
+      "ad": "İçerik üreticisi / pazarlamacı",
+      "baslik": "İçerik üreticileri ve pazarlamacılar için yapay zekâ",
+      "ozet": "Müşteri tanımı, içerik planı, reklam metni, görsel ve video; reklam etiketi, yapay zekâ etiketi ve telif kuralları.",
+      "veri": "genel",
+      "kirmizi": [
+        "Gerçek sanılabilecek yapay zekâ içeriği platformun etiket ayarıyla işaretlenir.",
+        "Menfaat karşılığı paylaşımda 'Reklam' ya da 'Tanıtım' ibaresi kullanılır.",
+        "Gerçek kişilerin yüzü ve sesi izinsiz kullanılmaz."
+      ],
+      "isler": [
+        {"id": "musteri", "ad": "Müşteri tanımı", "nasil": "Gerçek müşterilerinden yola çıkan iki müşteri tipi.", "arac": "Herhangi bir sohbet aracı", "komut": "Son müşterilerim hakkındaki gözlemlerimle iki müşteri tipi tanımla: ne istiyor, neden çekiniyor, hangi kelimelerle arıyor. Uydurma istatistik ekleme: [GÖZLEMLER]", "rehber": "yapay-zekayla-pazarlama#musteri"},
+        {"id": "plan", "ad": "Aylık içerik planı", "nasil": "Karışımı belirle, planı üret, ay sonunda ölç.", "arac": "Herhangi bir sohbet aracı", "komut": "Şu iki müşteri tipi için haftada [SAYI] paylaşımlık bir aylık plan yap; her paylaşım için konu, görsel fikri, iki cümle ve tek çağrı: [MÜŞTERİ TİPLERİ]", "rehber": "yapay-zekayla-pazarlama#plan"},
+        {"id": "gorsel", "ad": "Görsel üretmek", "nasil": "Beş parçalı komut, tek tek düzeltme, yazıyı kontrol.", "arac": "ChatGPT, Gemini ya da Canva", "komut": "Konu: [KONU]. Ortam: [ORTAM]. Üslup: [ÜSLUP]. Kompozisyon: [KOMPOZİSYON]. Format: [FORMAT]. Olmasın: [İSTEMEDİKLERİN]", "rehber": "gorsel-uretmek#komut"},
+        {"id": "video", "ad": "Kısa video", "nasil": "Tek sahne, tek hareket; kurguyu sen yap.", "arac": "Gemini'de Veo (ücretli Google AI planlarında) ya da Google Flow", "komut": "Sahne: [SAHNE]. Kamera: [HAREKET]. Ses: [SES]. Süre ve format: [SÜRE VE FORMAT]. Olmasın: yazı, logo, tanınmış kişi.", "rehber": "video-uretmek#komut"},
+        {"id": "etiket", "ad": "Etiket ve reklam kuralları", "nasil": "Hangi içerikte etiket gerektiğini karar tablosundan kontrol et.", "arac": "Platformların etiket ayarları", "komut": "Bu içerikte gerçek sanılabilecek bir yapay zekâ öğesi var mı ve hangi platform etiketini açmalıyım? İçerik: [AÇIKLAMA]", "rehber": "yapay-zeka-icerik-etiketi#karar"}
+      ]
+    },
+    {
+      "slug": "is-arayan",
+      "ad": "İş arayan",
+      "baslik": "İş arayanlar için yapay zekâ",
+      "ozet": "CV'yi ilana göre uyarlamak, ön yazı ve mülakat provası; abartmadan, kişisel veriyi koruyarak.",
+      "veri": "kisisel",
+      "kirmizi": [
+        "Yapmadığın bir işi ya da sahip olmadığın bir beceriyi CV'ye yazdırma.",
+        "CV'yi yüklemeden önce kimlik numarası, adres ve telefonunu çıkar.",
+        "Yapay zekânın klişe cümlelerini kendi cümlelerinle değiştir."
+      ],
+      "isler": [
+        {"id": "cv", "ad": "CV'yi ilana göre uyarlamak", "nasil": "Ham malzemeni yaz, ilanla eşleştir, eksikleri gör.", "arac": "Herhangi bir sohbet aracı", "komut": "Aşağıdaki ilanın aradığı beş beceriyi çıkar ve her birine deneyimlerimden uyan örneği eşleştir; uyan örnek yoksa 'eksik' yaz. Deneyim ekleme. İlan: [İLAN METNİ] Deneyimlerim: [DENEYİMLERİM]", "rehber": "cv-ve-mulakat#uyarla"},
+        {"id": "onyazi", "ad": "Ön yazı", "nasil": "Şirketi beş dakika araştır, şirkete özel ilk cümleyle başla.", "arac": "Herhangi bir sohbet aracı", "komut": "[ŞİRKET] için üç paragraflık, 250 kelimeyi geçmeyen bir ön yazı yaz; ilk cümle şu bilgiyle başlasın: [ŞİRKETLE İLGİLİ SOMUT BİLGİ]", "rehber": "on-yazi-yapay-zeka#sablon"},
+        {"id": "mulakat", "ad": "Mülakat provası", "nasil": "Yapay zekâ işe alım uzmanı olsun, her cevabına geri bildirim versin.", "arac": "Sesli sohbet özelliği olan bir araç", "komut": "Sen [POZİSYON] için mülakat yapan işe alım uzmanısın. Bana birer birer soru sor ve her cevabımdan sonra kısa geri bildirim ver.", "rehber": "cv-ve-mulakat#prova"},
+        {"id": "haklar", "ad": "İşe alımda yapay zekâ ve hakların", "nasil": "KVKK, yalnızca otomatik analizle aleyhine çıkan sonuca itiraz hakkı tanıyor; önce şirkete yazılı başvurursun.", "arac": "Herhangi bir sohbet aracı; cevabı kanun metninden kontrol et", "komut": "Bir iş başvurum yalnızca otomatik bir sistemle reddedildiyse KVKK'ya göre hangi haklarım var ve şirkete nasıl başvururum? Dayandığın kanun maddesini yaz; ben Mevzuat Bilgi Sistemi'nden kontrol edeceğim.", "rehber": "yapay-zeka-ve-is#is-arama"}
+      ]
+    },
+    {
+      "slug": "yonetici",
+      "ad": "Yönetici / işletme sahibi",
+      "baslik": "Yöneticiler ve işletme sahipleri için yapay zekâ",
+      "ozet": "Ekibin yapay zekâ kullanımını kurala bağlamak, araç seçmek, müşteri robotu ve otomasyon kararlarını riskleriyle birlikte vermek.",
+      "veri": "sir",
+      "kirmizi": [
+        "Kurumsal plan sağlamadan 'kişisel hesap kullanma' kuralı işlemez.",
+        "Müşteriyle konuşan robotun verdiği söz şirketin sözü sayılabilir.",
+        "Aracı satın almadan önce kendi işinde, kendi örneklerinle dene."
+      ],
+      "isler": [
+        {"id": "politika", "ad": "Şirket yapay zekâ politikası", "nasil": "Önce çalışanlara kısa anket, sonra iki sayfalık politika.", "arac": "Taslak + ekip toplantısı", "komut": "Çalışanlarımızın yapay zekâ kullanımını öğrenmek için üç soruluk, anonim bir anket yaz.", "rehber": "sirket-yapay-zeka-politikasi#taslak"},
+        {"id": "secim", "ad": "Araç seçimi ve test", "nasil": "Aynı işi iki araçta, aynı ölçütlerle dene.", "arac": "30 dakikalık test planı", "komut": "Ekibimizin [İŞ] işi için iki yapay zekâ aracını karşılaştıracak bir test planı yaz: görevler, ölçütler, puan kartı.", "rehber": "test-yontemi#kendi-testin"},
+        {"id": "robot", "ad": "Müşteri sohbet robotu", "nasil": "Kapsamı dar tut, insana aktarma koy, kötü niyetli sorularla test et.", "arac": "Kontrol listesi", "komut": "Müşteri robotumuzu yayından önce test etmek için on kötü niyetli soru yaz: indirim isteme, talimatı yok saydırma, uydurma politika.", "rehber": "sohbet-robotu-kurmadan-once#test"},
+        {"id": "otomasyon", "ad": "Tekrarlayan işleri otomatikleştirmek", "nasil": "Sık, kuralları belli ve hatası küçük işten başla.", "arac": "n8n, Make, Zapier ya da Power Automate", "komut": "Ekibimizin tekrar eden işlerini otomasyona uygunluk açısından değerlendir. Her iş için şu dört soruya evet ya da hayır de: Haftada birkaç kez tekrarlıyor mu? Adımları her seferinde aynı mı? Girdisi belli bir yerden mi geliyor? Hata olursa sonucu küçük ve düzeltilebilir mi? İşler: [İŞLER]", "rehber": "otomasyon#uygun-is"},
+        {"id": "is", "ad": "İşler ve ekip üzerindeki etki", "nasil": "Meslek değil görev düzeyinde bak.", "arac": "Görev analizi", "komut": "[POZİSYON] pozisyonundaki görevleri listele ve her biri için yapay zekânın yardım edebileceği, insanda kalması gereken kısmı ayır.", "rehber": "yapay-zeka-ve-is#analiz"}
+      ]
+    }
+  ],
+  "deneyim": {
+    "hic": {
+      "ad": "Hiç ya da çok az kullandım",
+      "adimlar": [
+        {"metin": "Bir araç seç; hangisinin sana uyduğunu 30 dakikalık denemeyle gör.", "rehber": "hangi-yapay-zeka#deneme"},
+        {"metin": "Kullanmaya başlamadan önce eğitim ayarını kapat.", "rehber": "yapay-zekaya-ne-yazilmaz#ayarlar"},
+        {"metin": "Seçtiğin ilk işi aşağıdaki komutla dene; cevaptaki bilgiyi nereden kontrol edeceğini öğren.", "rehber": "yapay-zeka-cevabini-kontrol-etmek#nereden"}
+      ]
+    },
+    "ara": {
+      "ad": "Ara sıra kullanıyorum",
+      "adimlar": [
+        {"metin": "Kendini bir kez tanıtan kalıcı talimatı kur; her sohbette yeniden anlatma.", "rehber": "kalici-talimat#sablon"},
+        {"metin": "İşe yarayan komutlarını tek yerde topla; şablonları doldurup kopyala.", "rehber": "yapay-zekaya-iyi-komut-yazmak#sablon"},
+        {"metin": "Aynı işi iki araçta dene, hangisi senin işinde daha iyi gör.", "rehber": "test-yontemi#kendi-testin"}
+      ]
+    },
+    "her": {
+      "ad": "Her gün kullanıyorum",
+      "adimlar": [
+        {"metin": "Tekrarlayan bir işi otomasyon akışına çevir; son adımı insanda bırak.", "rehber": "otomasyon#uygun-is"},
+        {"metin": "Uzun belgeler ve sürekli çalıştığın konular için kaynaklı not defteri kur.", "rehber": "notebooklm#kullanimlar"},
+        {"metin": "Ajanlara hangi işi bırakıp hangisini bırakmayacağını netleştir.", "rehber": "yapay-zeka-ajanlari#uygun"}
+      ]
+    }
+  },
+  "veri": {
+    "genel": {"ad": "Çoğunlukla kamuya açık ya da kişisel olmayan bilgiler", "metin": "Kamuya açık bilgiyle çalışsan da kişisel bilgi yazmamayı alışkanlık hâline getir; hangi bilgilerin hiç yazılmadığına bir kez bak.", "rehber": "yapay-zekaya-ne-yazilmaz#yazma"},
+    "kisisel": {"ad": "Müşteri, öğrenci ya da çalışan bilgisi", "metin": "İsim, telefon, adres ve kimlik bilgisini çıkararak çalış; 'Müşteri A' gibi etiketler kullan. Bu bilgiler KVKK kapsamında kişisel veri.", "rehber": "yapay-zekaya-ne-yazilmaz#is-yerinde"},
+    "sir": {"ad": "Mesleki sır ya da şirket sırrı", "metin": "Bu bilgiler kişisel hesaptaki bir sohbet aracına girmez. Önce bilgiyi çıkararak çalışmayı dene; gerekiyorsa verilerin eğitimde kullanılmadığı ve sözleşmeyle korunduğu kurumsal bir plan ya da bilgisayarında çalışan yerel bir model kullan. Kurumsal planda da mesleki kuralların geçerli; kişisel veri yurt dışında işleniyorsa KVKK'nın yurt dışına aktarım kuralları da devreye girer.", "rehber": "yerel-model#gizli-belge"}
+  },
+  "butce": {
+    "ucretsiz": {"ad": "Ücretsiz", "metin": "Ücretsiz sürümlerle başla; sınıra takılmamak için konu değişince yeni sohbet aç ve uzun belgeleri bölerek ver.", "rehber": "ucretsiz-yapay-zeka#sinir-idaresi"},
+    "abonelik": {"ad": "Kendi aboneliğimi alabilirim", "metin": "Abonelik almadan önce iki aracı ücretsiz sürümde aynı işte dene; güncel Türkiye fiyatlarına ve nasıl iptal edildiğine bak.", "rehber": "yapay-zeka-aboneligi-turkiye#iptal"},
+    "sirket": {"ad": "Şirketim ödüyor", "metin": "Şirket verisiyle çalışacaksan kurumsal planı ve şirketin yapay zekâ kuralını öğren; kural yoksa önerini yaz.", "rehber": "sirket-yapay-zeka-politikasi#kurumsal"}
+  }
+}

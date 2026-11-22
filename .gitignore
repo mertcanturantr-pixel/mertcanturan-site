@@ -1,0 +1,5 @@
+dist/
+data/.last_run.json
+__pycache__/
+*.pyc
+.tiktok_tokens

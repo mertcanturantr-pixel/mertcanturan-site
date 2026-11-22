@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Mertcan Turan">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta name="theme-color" content="#16224F">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="{{root}}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{root}}apple-touch-icon.png">
+{{head_extra}}
+<link rel="preload" href="{{root}}fonts/brico.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{root}}site.css">
+<script>document.documentElement.className="js"</script>
+</head>
+<body>
+<a class="skip" href="#ust">İçeriğe geç</a>
+{{banner}}<header class="top">
+  <div class="wrap">
+    <a class="mark" href="{{home}}#ust" aria-label="Mertcan Turan, ana sayfa">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="1" width="28" height="28" rx="8" fill="#16224F"/><path d="M8.5 15.5l4.2 4.2L21.5 10" fill="none" stroke="#FFE04A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Mertcan Turan
+    </a>
+    <nav class="menu" aria-label="Ana menü">
+{{nav_feed}}      <a href="{{guides_href}}"{{guides_current}}>Rehberler</a>
+      <a href="{{home}}#hakkimda">Hakkımda</a>
+      <a href="{{home}}#is-birligi">İş birliği</a>
+    </nav>
+{{follow}}
+  </div>
+</header>
+
+<main id="ust" tabindex="-1">
+{{main}}
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© {{year}} Mertcan Turan</span>
+    <span>{{social}}<a href="mailto:{{email}}">{{email}}</a> &nbsp;|&nbsp; <a href="{{home}}#gizlilik">Gizlilik</a></span>
+  </div>
+</footer>
+<script>
+{{nav_js}}
+</script>
+{{scripts}}
+</body>
+</html>
