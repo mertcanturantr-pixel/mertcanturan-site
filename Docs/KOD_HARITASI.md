@@ -14,7 +14,7 @@ Son güncelleme: 2026-11-22 (depo: github.com/mertcanturantr-pixel/mertcanturan-
 | `fonts/` | Kendi sunduğumuz woff2 yazı tipleri; `fonts/src/` OG görseli için TTF |
 | `tests/` | `test_site.py` ve `fixtures/` (örnek rehberler, demo video verisi) |
 | `.github/workflows/site.yml` | 3 saatte bir ve her push'ta: test, veri çek, derle, plan kontrolü, Pages'e yayın |
-| `compliance/REVIEW.md` | Hukuk ve KVKK denetim kaydı |
+| `compliance/REVIEW.md` | Hukuk ve KVKK denetim kaydı (depoda yok; yerel kopyada, .gitignore) |
 
 ## 2. Betikler
 
