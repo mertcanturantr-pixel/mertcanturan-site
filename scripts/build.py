@@ -274,6 +274,35 @@ def render_guide_index(guides: list[dict], links: Links, email: str, filter_min:
 </div>'''
 
 
+SHORT_RE = re.compile(r"^[a-z0-9-]{2,24}$")
+SHORT_RESERVED = {"rehber", "fonts", "og", "media", G.MONEY_PATH.strip("/"), M.JOB_PATH.strip("/")}
+
+
+def write_short_links(out_dir: Path, cfg: dict, published: set[str], has_job: bool) -> dict[str, str]:
+    """data/kisa.json: videoda söylenen kısa adresler (mertcanturan.com/ayar). Hedef yayında değilse rehber listesine gider."""
+    f = C.DATA_DIR / "kisa.json"
+    if not f.exists():
+        return {}
+    base, made = cfg["site_url"].rstrip("/"), {}
+    for short, target in json.loads(f.read_text(encoding="utf-8")).get("links", {}).items():
+        if not SHORT_RE.match(short) or short in SHORT_RESERVED:
+            raise ValueError(f"kisa.json: '{short}' kısa adres olarak kullanılamaz.")
+        if not re.match(r"^[a-z0-9/-]+/$", target):
+            raise ValueError(f"kisa.json: '{short}' hedefi site içi bir sayfa olmalı (ör. rehber/adres/).")
+        m = re.match(r"^rehber/([a-z0-9-]+)/$", target)
+        if (m and m.group(1) not in published) or (target == M.JOB_PATH and not has_job):
+            target = "rehber/"
+        url = f"{base}/{target}"
+        (out_dir / short).mkdir(parents=True, exist_ok=True)
+        (out_dir / short / "index.html").write_text(
+            f'<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"><title>Yönlendiriliyor</title>'
+            f'<meta name="robots" content="noindex"><link rel="canonical" href="{e(url)}">'
+            f'<meta http-equiv="refresh" content="0; url={e(url)}"></head>'
+            f'<body><p><a href="{e(url)}">Sayfaya git</a></p></body></html>\n', encoding="utf-8")
+        made[short] = target
+    return made
+
+
 START_GUIDES = ["hangi-yapay-zeka", "yapay-zekaya-iyi-komut-yazmak", "yapay-zeka-cevabini-kontrol-etmek",
                 "yapay-zekaya-ne-yazilmaz", "yapay-zeka-gizlilik-ayarlari"]
 
@@ -900,6 +929,7 @@ def build(preview: bool = False, demo: bool = False, out_dir: Path = DIST) -> Pa
             on_guides=True, og_image="meslek", head_extra=M.json_ld(cfg, M.available(job_data, guides))), encoding="utf-8")
 
     # simge, 404 ve yapay zekâ aramaları için özet
+    write_short_links(out_dir, cfg, {g["slug"] for g in guides if not g.get("draft")}, has_job)
     (out_dir / "favicon.svg").write_text(FAVICON, encoding="utf-8")
     G.apple_touch_icon(out_dir / "apple-touch-icon.png")
     L404 = Links(0, False)

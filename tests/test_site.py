@@ -387,6 +387,17 @@ class TopicTests(unittest.TestCase):
             G.validate(meta, "a.md", C.load_config(), date(2026, 11, 25))
 
 
+class ShortLinkTests(unittest.TestCase):
+    def test_short_links_point_to_published_or_fall_back(self):
+        with tempfile.TemporaryDirectory() as d:
+            made = build.write_short_links(Path(d), C.load_config(), {"cv-ve-mulakat"}, True)
+            self.assertEqual(made["cv"], "rehber/cv-ve-mulakat/")
+            self.assertEqual(made["ayar"], "rehber/")  # rehber yayında değil: listeye gider
+            html = (Path(d) / "cv" / "index.html").read_text(encoding="utf-8")
+            self.assertIn("https://mertcanturan.com/rehber/cv-ve-mulakat/", html)
+            self.assertIn("noindex", html)
+
+
 class PlanTests(unittest.TestCase):
     def test_every_video_has_an_existing_guide(self):
         code, rows = plan_check.check(today=date(2026, 11, 25))

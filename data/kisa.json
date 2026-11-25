@@ -1,0 +1,15 @@
+{
+  "note": "Videoda söylenen kısa adresler: mertcanturan.com/<kisa> ilgili sayfaya yönlendirir. Hedef rehber yayında değilse kısa adres rehber listesine gider.",
+  "links": {
+    "ayar": "rehber/yapay-zekaya-ne-yazilmaz/",
+    "parola": "rehber/sahte-ses-ve-video/",
+    "hesap": "rehber/yapay-zekaya-hesap-yaptirmak/",
+    "meslek": "meslegine-gore-yapay-zeka/",
+    "hafiza": "rehber/yapay-zeka-gizlilik-ayarlari/",
+    "cv": "rehber/cv-ve-mulakat/",
+    "foto": "rehber/gemini-fotograf-duzenleme/",
+    "toplanti": "rehber/toplanti-ozeti/",
+    "arama": "rehber/google-yapay-zeka-modu/",
+    "plan": "rehber/ucretsiz-yapay-zeka/"
+  }
+}

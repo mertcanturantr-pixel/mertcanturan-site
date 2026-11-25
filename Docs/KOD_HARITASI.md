@@ -57,6 +57,7 @@ Son güncelleme: 2026-11-25 (depo: github.com/mertcanturantr-pixel/mertcanturan-
 | Arama başlığı ve açıklaması | Rehber üst bilgisinde `seo_title` (≤65) ve `description` (≤160); `build.py` → `guide_title_tag()` |
 | Video açıklamasından bölüme bağlantı | Başlığa kalıcı adres: `## Başlık {#adres}` (`attr_list`); `guides.py` → `render_body()`, `_heading()` |
 | Rehber sonu (abone ol, ilgili rehberler, imza) | `build.py` → `render_guide_page()`; ilgili rehber sırası önce birbirine bağlantı verenler |
+| Videoda söylenen kısa adres (mertcanturan.com/ayar) | `data/kisa.json`; `build.py` → `write_short_links()` |
 | Meslek aracı (meslek, iş, komut, kural) | `data/meslekler.json`; görünüm `scripts/meslek.py` → `render()`, `JS`; stil `site.css` sonu ("mesleğine göre"); test `JobToolTests` |
 | Rehber listesi başındaki "buradan başla" kutusu | `build.py` → `START_GUIDES`, `render_guide_index()` |
 | Yapay zekâ aramaları için tam metin | `guides.py` → `llms_full()` → `/llms-full.txt` (yalnız yayındaki rehberler) |
