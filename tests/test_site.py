@@ -382,7 +382,7 @@ class PlanTests(unittest.TestCase):
         self.assertEqual(len(rows), 57)
 
     def test_late_guide_is_reported(self):
-        code, rows = plan_check.check(today=date(2026, 11, 26))
+        code, rows = plan_check.check(today=date(2026, 12, 9))
         self.assertEqual(code, 1)
         late = {r["code"] for r in rows if r["state"] == "GECİKTİ"}
         self.assertIn("U1", late)  # taslak hâlâ yayında değil
