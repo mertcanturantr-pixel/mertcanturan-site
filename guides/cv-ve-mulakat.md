@@ -6,6 +6,7 @@ description: Yapay zekâyla CV'ni ilana göre uyarlamak, deneyimini sayılarla y
 summary: CV'ni yapay zekâyla ilana göre uyarlamak, deneyimini somut yazmak ve mülakat provası yapmak; işe alımcının yapay zekâ kokan CV'yi nasıl fark ettiği ve kişisel verini korumak.
 keywords: yapay zeka ile cv hazırlama, chatgpt ile cv yazma, yapay zeka cv hazirlama, ats uyumlu cv nasıl hazırlanır, chatgpt mülakat provası, mülakat soruları ve cevapları, ilana göre cv uyarlama, yapay zeka cv fark edilir mi, cv'de kişisel bilgi
 type: sablon
+topic: is
 audience: İş arayanlar
 stage: hazir
 published: 2026-11-16

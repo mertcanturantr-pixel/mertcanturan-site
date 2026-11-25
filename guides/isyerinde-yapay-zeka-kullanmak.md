@@ -6,6 +6,7 @@ description: İş yerinde ChatGPT kullanmak yasak mı? İşverenin talimat hakk�
 summary: İş yerinde yapay zekâ kullanmak: işveren yasaklayabilir mi, şirket verisini kişisel hesaba yüklemenin riski, gizlilik yükümlülüğü, yöneticine sorman gereken sorular ve güvenli kullanım.
 keywords: iş yerinde chatgpt kullanmak yasak mı, işveren yapay zekayı yasaklayabilir mi, şirket verisini chatgpt'ye yüklemek, çalışan gizlilik yükümlülüğü, sadakat borcu tbk 396, kurumsal chatgpt hesabı, iş yerinde yapay zeka kvkk, işveren bilgisayarı izleyebilir mi
 type: kontrol-listesi
+topic: is
 audience: Çalışanlar
 stage: hazir
 published: 2026-11-16

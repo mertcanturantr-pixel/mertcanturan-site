@@ -5,6 +5,7 @@ seo_title: Yapay zekâ hataları: 6 gerçek olay, Bard'dan Replit'e
 description: Yapay zekâ hatalarının 6 gerçek örneği: Bard, 1 dolarlık Tahoe, Air Canada, Deloitte, Zillow ve Replit. Ne oldu, nerede yanlış gidildi, sen nasıl önlersin?
 summary: Bard'ın tek cümlesi, bir dolarlık araba, Air Canada'nın kaybettiği dava, Replit'in sildiği veri tabanı: altı gerçek olay ve her birinden senin alacağın önlem.
 type: dosya
+topic: guvenlik
 audience: Herkes, İş yerleri, Küçük işletmeler
 keywords: yapay zeka hataları örnekleri, yapay zeka halüsinasyon örneği, chatgpt yanlış bilgi, bard james webb hatası, air canada chatbot davası, deloitte yapay zeka raporu, replit veri tabanı silindi, sohbet robotu hatası, prompt injection örneği
 stage: hazir

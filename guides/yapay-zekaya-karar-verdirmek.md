@@ -6,6 +6,7 @@ description: Yapay zekâ sana hak verme eğiliminde. Hangi kararı ona bırakabi
 summary: Yapay zekâ sana hak verme eğiliminde. Hangi kararı ona bırakabileceğini, hangisinde yalnız düşünme ortağı olacağını ve doğru soruyu soran komut şablonunu anlatıyorum.
 keywords: yapay zekaya karar verdirmek, chatgpt'ye karar sormak, chatgpt hep hak veriyor, yapay zeka dalkavukluk, sycophancy nedir, chatgpt şeytanın avukatı komutu, premortem analizi, karar verme prompt şablonu
 type: adim-adim
+topic: gunluk
 audience: Herkes
 stage: hazir
 published: 2026-11-16

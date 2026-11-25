@@ -5,6 +5,7 @@ seo_title: ChatGPT, Claude ve Gemini'de eğitim ayarını kapat (2026)
 description: Üç araçta sohbetlerinin modeli eğitmesini iki dakikada kapat. Ayarın neyi korumadığı ve ayar ne olursa olsun yazmaman gereken bilgiler.
 summary: Üç araçta da sohbetlerinin eğitimde kullanılması açık geliyor. İki dakikada kapat; ama kimlik numarası, şifre ve müşteri bilgisini ayar ne olursa olsun yazma.
 type: adim-adim
+topic: guvenlik
 audience: Herkes, İş yerleri
 keywords: chatgpt eğitim ayarı kapatma, chatgpt verilerim eğitimde kullanılıyor mu, improve the model for everyone, claude gizlilik ayarı, gemini keep activity kapatma, yapay zekaya ne yazılmaz, chatgpt güvenli mi, chatgpt kişisel veri kvkk, yapay zekaya şirket bilgisi yazmak
 stage: hazir

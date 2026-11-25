@@ -6,6 +6,7 @@ description: TBB'nin yapay zekâ tavsiye rehberine göre avukat yapay zekâyı n
 summary: Türkiye Barolar Birliği'nin yapay zekâ tavsiye rehberine göre avukatın yapay zekâyı nerede serbestçe, nerede güvenceyle kullanabileceği, mesleki sır ve doğrulama kuralları ve büro politikası taslağı.
 keywords: avukatlar için yapay zeka, tbb yapay zeka tavsiye rehberi, avukat chatgpt kullanabilir mi, yapay zeka mesleki sır, avukat kvkk yapay zeka, uydurma içtihat, hukuk bürosu yapay zeka politikası
 type: kontrol-listesi
+topic: is
 audience: Avukatlar ve hukukçular
 stage: hazir
 published: 2026-11-16

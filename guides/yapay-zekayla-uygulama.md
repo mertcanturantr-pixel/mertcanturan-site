@@ -6,6 +6,7 @@ slug: yapay-zekayla-uygulama
 summary: Yapay zekâ araçlarıyla uygulama ya da otomasyon yaparken veri tabanını, anahtarları ve kullanıcı verisini korumak için adım adım kontroller, iki gerçek olay ve komut şablonu.
 keywords: yapay zeka ile uygulama yapmak, vibe coding nedir, lovable güvenli mi, replit veri tabanı silindi, supabase rls nasıl açılır, api anahtarı sızdı ne yapmalı, yapay zeka ile yapılan uygulama kvkk, slopsquatting
 type: adim-adim
+topic: uretim
 audience: Herkes, Yazılımcılar
 stage: hazir
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: Yapay zekâ işimi elimden alır mı? IMF, Dünya Ekonomik Forumu, 
 summary: Araştırmalar yapay zekânın işlere etkisi hakkında ne söylüyor, hangi görevler değişiyor, Türkiye'de durum ne ve çalışan olarak hakların neler. Abartısız, kaynaklarıyla.
 keywords: yapay zeka işimi elimden alır mı, yapay zeka hangi meslekleri bitirecek, yapay zeka işsizlik türkiye, yapay zekadan etkilenecek meslekler, dünya bankası türkiye yapay zeka raporu, gelecekte kaybolacak meslekler, yapay zeka nedeniyle işten çıkarma hakları
 type: karsilastirma
+topic: is
 audience: Herkes
 stage: hazir
 published: 2026-11-16

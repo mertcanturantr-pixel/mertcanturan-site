@@ -6,6 +6,7 @@ description: LLM, token, bağlam penceresi, halüsinasyon, ajan, RAG, MCP, komut
 summary: Videolarda ve haberlerde geçen yapay zekâ terimleri sade Türkçeyle: model, token, bağlam penceresi, halüsinasyon, ajan, RAG, MCP ve diğerleri, her biri bir günlük örnekle.
 keywords: yapay zeka terimleri sözlüğü, llm nedir, token nedir, halüsinasyon nedir yapay zeka, yapay zeka ajanı nedir, rag nedir, mcp nedir, bağlam penceresi nedir, prompt injection nedir
 type: kontrol-listesi
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

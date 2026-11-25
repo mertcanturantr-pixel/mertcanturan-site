@@ -6,6 +6,7 @@ description: Canva yapay zekâ (Canva AI) ile metinden tasarım, görsel üretme
 summary: Canva AI'a ne yazacağın, görsel üretme ve düzenleme, boyut değiştirme ve çeviri; ücretsiz plandaki yapay zekâ sınırı, marka kiti, reklamda etiket ve indirim kuralı.
 keywords: canva yapay zeka, canva ai nasıl kullanılır, canva ai türkçe, canva magic studio, canva ile instagram gönderisi hazırlama, canva afiş yapma, canva arka plan silme ücretsiz mi, canva boyut değiştirme, canva pro fiyat
 type: adim-adim
+topic: icerik
 audience: Esnaf, İçerik üreticileri, Öğrenciler
 stage: hazir
 published: 2026-11-16

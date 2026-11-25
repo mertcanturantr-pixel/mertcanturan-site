@@ -6,6 +6,7 @@ description: Her sohbette kendini baştan anlatma: ChatGPT özel talimat ve proj
 summary: Her sohbette kendini baştan anlatmamak için ChatGPT, Claude ve Gemini'de kalıcı talimat, proje ve Gem kurmak: nerede, neyi yazmalı, neyi asla yazmamalı ve hazır şablon.
 keywords: chatgpt özel talimat nasıl yazılır, chatgpt custom instructions örnek, chatgpt kişiselleştirme, claude proje nasıl kurulur, claude profil tercihleri, gemini gem oluşturma, kalıcı talimat şablonu, chatgpt hafıza silme
 type: adim-adim
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

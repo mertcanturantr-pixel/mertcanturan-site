@@ -18,6 +18,17 @@ import common as C  # noqa: E402
 GUIDES_DIR = C.ROOT / "guides"
 FONT_SRC = C.ROOT / "fonts" / "src"
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+TOPICS = {  # rehber listesindeki konu grupları; sıra, listedeki sıradır
+    "baslangic": "Başlangıç ve araçlar",
+    "gunluk": "Günlük işler",
+    "guvenlik": "Güvenlik ve gizlilik",
+    "is": "İş ve meslek",
+    "egitim": "Öğrenci ve öğretmen",
+    "icerik": "Görsel, video ve içerik",
+    "uretim": "Para ve üretim",
+    "diger": "Diğer",
+}
+
 TYPES = {
     "kontrol-listesi": "Kontrol listesi",
     "adim-adim": "Adım adım",
@@ -80,6 +91,8 @@ def validate(meta: dict, name: str, cfg: dict, today: date) -> list[str]:
     for req in ("title", "slug", "summary", "type", "published", "checked"):
         if not meta.get(req):
             raise ValueError(f"{name}: '{req}' alanı boş.")
+    if meta.get("topic") and meta["topic"] not in TOPICS:
+        raise ValueError(f"{name}: 'topic' şunlardan biri olmalı: {', '.join(TOPICS)}.")
     if not SLUG_RE.match(meta["slug"]):
         raise ValueError(f"{name}: adres (slug) yalnızca küçük harf, rakam ve tire içerebilir.")
     if meta["slug"] in RESERVED_SLUGS:
@@ -125,6 +138,7 @@ def load(cfg: dict, include_drafts: bool = False, today: date | None = None) -> 
         warnings += validate(meta, f.name, cfg, today)
         meta["draft"] = meta.get("draft", "false").lower() == "true"
         meta["stage"] = meta.get("stage", "hazir")
+        meta["topic"] = meta.get("topic") or "diger"
         if meta["draft"] and not include_drafts:
             continue
         meta["audience"] = [a.strip() for a in meta.get("audience", "").split(",") if a.strip()]

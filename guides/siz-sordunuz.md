@@ -3,6 +3,7 @@ title: Siz sordunuz: yapay zekâ hakkında en çok gelen sorular
 slug: siz-sordunuz
 summary: Videolara gelen yorum ve mesajlardaki en sık sorular ve kısa, kaynaklı cevapları. Her soru-cevap videosuyla güncellenir.
 type: soru-cevap
+topic: baslangic
 audience: Herkes
 stage: iskelet
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: Yapay zekâyla sunum hazırlarken önce ana mesaj ve akış, sonra 
 summary: Yapay zekâyla sunum: tek cümlelik ana mesaj, akış, slayt başına bir fikir, konuşmacı notları, PowerPoint ve Canva'da yapay zekâ ve sorulara hazırlık için prova şablonu.
 keywords: yapay zeka ile sunum hazırlama, chatgpt ile sunum hazırlama, powerpoint copilot sunum oluşturma, canva yapay zeka sunum, gamma sunum, yapay zeka slayt hazırlama, sunum provası yapay zeka, öğrenci sunumu yapay zeka, sunum komutu
 type: sablon
+topic: gunluk
 audience: Çalışanlar, Öğrenciler
 stage: hazir
 published: 2026-11-16

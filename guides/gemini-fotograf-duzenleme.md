@@ -6,6 +6,7 @@ description: Gemini'nin Nano Banana modeliyle fotoğraf düzenlemek: arka plan, 
 summary: Gemini'yle fotoğraf düzenleme: arka planı değiştirmek, nesne silmek, eski fotoğrafı onarmak için komutlar; başkasının fotoğrafında izin, resmî vesikalık ve SynthID filigranı.
 keywords: gemini fotoğraf düzenleme, nano banana nasıl kullanılır, yapay zeka ile arka plan değiştirme, fotoğraftan nesne silme, eski fotoğraf onarma yapay zeka, gemini fotoğraf promptları, vesikalık yapay zeka, synthid nedir
 type: sablon
+topic: icerik
 audience: Herkes
 stage: hazir
 published: 2026-11-16

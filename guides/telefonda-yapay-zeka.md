@@ -6,6 +6,7 @@ description: Android'de Gemini ve Seçerek Arat (Circle to Search), iPhone'da T�
 summary: Telefonda en çok işe yarayan yapay zekâ kullanımları: Android'de Gemini ve Seçerek Arat, iPhone'da Türkçe Apple Intelligence, kamerayla soru, sesli sohbet ve izinlerde dikkat edilecekler.
 keywords: telefonda yapay zeka kullanımı, android gemini nasıl açılır, seçerek arat circle to search, daire çizerek arama, apple intelligence türkçe hangi iphone, iphone 15 pro apple intelligence, siri chatgpt nasıl açılır, gemini live kamera, telefonda kamerayla yapay zekaya soru sormak, yapay zeka uygulaması izinleri
 type: adim-adim
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

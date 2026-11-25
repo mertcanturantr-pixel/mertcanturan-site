@@ -6,6 +6,7 @@ description: İşi senin yerine yapan yapay zekâ ajanları: ChatGPT Work ve ben
 summary: İşi senin yerine adım adım yapan yapay zekâ ajanları: ChatGPT Work ve benzerleri, uygun işler, onay ve izin ayarları, sayfalardaki gizli talimat riski ve ajana asla bırakılmaması gerekenler.
 keywords: yapay zeka ajanı nedir, ai agent ne demek, chatgpt work nedir, chatgpt work ücretsiz mi, chatgpt ajan modu ne oldu, chatgpt atlas kapandı mı, yapay zeka ajanı güvenli mi, prompt injection nedir, etken yapay zeka kvkk, yapay zeka ajani
 type: kontrol-listesi
+topic: uretim
 audience: Herkes, Çalışanlar
 stage: hazir
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: ChatGPT'yi telefona doğru uygulamadan kurmak, hesap açmak, ilk ay
 summary: ChatGPT'yi ilk kez kullanacaksan: doğru uygulamayı kurmak, hesap açmak, gizlilik ayarı, ilk üç soru, sesle ve kamerayla kullanmak ve yeni başlayanların sık yaptığı hatalar.
 keywords: chatgpt nasıl kullanılır, chatgpt nasil kullanilir, chatgpt indir telefon, chatgpt hesap açma, chatgpt ücretsiz mi, chatgpt türkçe kullanım, chatgpt sesli sohbet, chatgpt fotoğrafla soru sorma, chatgpt veri kontrolleri ayarı, chatgpt yeni başlayanlar
 type: adim-adim
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

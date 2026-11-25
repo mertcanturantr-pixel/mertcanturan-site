@@ -6,6 +6,7 @@ description: Ödeme hatırlatma, ret, şikâyet, özür ve fiyat artışı e-pos
 summary: Yazmaya bir türlü oturamadığın e-postalar için yapay zekâya verilecek doldurulabilir komutlar: ödeme hatırlatma, ret, şikâyet, özür, fiyat artışı, kapsam dışı iş ve göndermeden önce yedi kontrol.
 keywords: yapay zeka ile e-posta yazma, chatgpt e-posta yazdırma, ödeme hatırlatma e-postası örneği, kibar ödeme hatırlatma mesajı, teklif reddetme e-postası, şirkete şikayet e-postası örneği, özür e-postası örneği, fiyat artışı bildirimi e-postası, kapsam dışı iş talebi e-postası, zor e-posta şablonları
 type: sablon
+topic: gunluk
 audience: Herkes, Çalışanlar, Serbest çalışanlar, Küçük işletmeler
 stage: hazir
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: Emlak danışmanları için yapay zekâyla ilan metni, sanal döşe
 summary: Emlak danışmanı için yapay zekâ: doğru bilgiyle ilan metni, sanal döşenmiş görselde etiket, müşteri yazışmaları ve bölge özeti; EİDS, yanıltıcı ilan riski ve müşteri verisi.
 keywords: emlakçılar için yapay zeka, chatgpt ile emlak ilanı yazma, emlak ilan metni örneği, sanal döşeme, virtual staging, eids yetki doğrulama, satılık ilan yetki doğrulama 2026, emlak danışmanı yapay zeka, emlakcilar icin yapay zeka
 type: sablon
+topic: is
 audience: Emlak danışmanları
 stage: hazir
 published: 2026-11-16

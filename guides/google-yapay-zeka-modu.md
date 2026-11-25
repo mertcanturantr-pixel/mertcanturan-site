@@ -6,6 +6,7 @@ description: Google AI Modu ve AI Bakışı Türkiye'de 18 Şubat 2026'dan beri 
 summary: Google'ın Türkiye'de açtığı AI Modu ve AI Bakışı: hangi aramalarda işe yarar, nerede yanılır, kaynak kontrolü, sesli ve kameralı arama ve yapay zekâ özeti olmadan yalnızca bağlantıları görmek.
 keywords: google ai modu nedir, google ai modu nasıl kullanılır, google ai bakışı kapatma, ai overviews türkçe, google yapay zeka özeti kapatma, google web filtresi, google search live türkçe, google ai modu türkiye
 type: adim-adim
+topic: gunluk
 audience: Herkes
 stage: hazir
 published: 2026-11-16

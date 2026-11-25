@@ -6,6 +6,7 @@ description: Yüz sayfalık bir raporu, yönetmeliği ya da tezi yapay zekâyla 
 summary: Yüz sayfalık bir raporu, yönetmeliği ya da tezi yapay zekâyla okumak: araç seçimi, belgeyi hazırlamak, işe yarayan komutlar ve uzun belgede yapay zekânın kaçırdığı yerleri yakalamak.
 keywords: yapay zeka ile pdf özetleme, uzun pdf özetleme, chatgpt pdf yükleme ve soru sorma, claude pdf okuma, gemini pdf özet, ihale şartnamesi yapay zeka ile okuma, taranmış pdf metne çevirme ocr, pdf özeti sayfa numarasıyla, lost in the middle ortada kaybolma, pdf ozetleme yapay zeka
 type: adim-adim
+topic: gunluk
 audience: Herkes, İş yerleri, Öğrenciler
 stage: hazir
 published: 2026-11-16

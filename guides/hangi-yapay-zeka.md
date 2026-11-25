@@ -5,6 +5,7 @@ seo_title: ChatGPT mi, Claude mu, Gemini mi? Türkiye fiyatları (2026)
 description: ChatGPT, Claude, Gemini ve Copilot'un Kasım 2026 Türkiye fiyatları, hangisinin hangi işe yattığı ve ücretsiz sürümün sana yetip yetmediği.
 summary: Dördü de ücretsiz kullanılabiliyor. Para vereceksen her gün açtığın programlara uyanı seç. Türkiye fiyatları (Kasım 2026) ve kendi işinde 30 dakikalık deneme.
 type: karsilastirma
+topic: baslangic
 audience: Herkes, Çalışanlar, Küçük işletmeler, Öğrenciler
 keywords: chatgpt mi claude mu gemini mi, hangi yapay zeka daha iyi, chatgpt plus fiyatı tl, claude pro türkiye fiyatı, google ai pro fiyatı, copilot fiyatı, yapay zeka aboneliği değer mi
 stage: hazir

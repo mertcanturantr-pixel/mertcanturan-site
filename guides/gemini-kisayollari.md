@@ -6,6 +6,7 @@ description: Türkiye'de çalışan Gemini kısayolları: adres çubuğuna @gemi
 summary: Türkiye'den Gemini'yi en hızlı açmanın yolları: Chrome adres çubuğunda @gemini, Android'de güç tuşu, iPhone'da widget ve Eylem düğmesi; Alt + G'nin Türkiye'de neden çalışmadığı.
 keywords: gemini kısayolları, @gemini adres çubuğu, gemini güç tuşu ile açma, iphone gemini kısayol, gemini eylem düğmesi, chrome gemini alt g türkiye, gemini in chrome türkiye, gemini yeni sohbet kısayolu
 type: kontrol-listesi
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

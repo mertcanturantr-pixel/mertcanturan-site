@@ -6,6 +6,7 @@ description: ChatGPT ve Gemini ile görsel üretmek: iyi komutun beş parçası,
 summary: ChatGPT ve Gemini'de görsel üretmek: iyi görsel komutunun beş parçası, Türkçe yazı hataları, düzeltme turları, gerçek kişi ve marka sınırları, ticari kullanım ve 2026 reklam etiketi kuralı.
 keywords: yapay zeka ile görsel oluşturma, chatgpt görsel üretme, gemini nano banana görsel, yapay zeka görsel komut örnekleri, yapay zeka resim oluşturma ücretsiz, yapay zeka görselde türkçe yazı hatası, yapay zeka logo yapmak, yapay zeka görseli ticari kullanım, yapay zeka görsel reklam etiketi, yapay zeka gorsel olusturma
 type: sablon
+topic: icerik
 audience: Herkes, İçerik üreticileri, Esnaf
 stage: hazir
 published: 2026-11-16

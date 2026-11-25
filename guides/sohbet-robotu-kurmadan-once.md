@@ -6,6 +6,7 @@ description: Sitene ya da WhatsApp'a müşteri sohbet robotu koymadan önce: rob
 summary: Sitene ya da WhatsApp'a müşteriyle konuşan bir yapay zekâ koymadan önce: sorumluluk, kapsam, yasak konular, KVKK, insana aktarma, kayıt ve yayından önce test listesi.
 keywords: siteye chatbot kurmak, yapay zeka müşteri hizmetleri, whatsapp chatbot kurma, chatbot hukuki sorumluluk, air canada chatbot davası, chatbot kvkk aydınlatma metni, chatbot test listesi
 type: kontrol-listesi
+topic: is
 audience: İş yerleri
 stage: hazir
 published: 2026-11-16

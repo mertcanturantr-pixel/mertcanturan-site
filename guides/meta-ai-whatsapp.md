@@ -6,6 +6,7 @@ description: WhatsApp'taki Meta AI sohbetlerini okuyor mu, kapatılır mı, geli
 summary: WhatsApp'taki Meta AI neyi görüyor, kapatılabiliyor mu, gelişmiş sohbet gizliliği ne yapar ve Meta AI'ya yazdıkların reklamlarda nasıl kullanılıyor: kaynaklarıyla.
 keywords: whatsapp meta ai kapatma, meta ai nasıl kapatılır, meta ai sohbetlerimi okuyor mu, whatsapp mavi daire nedir, gelişmiş sohbet gizliliği, meta ai reklam, meta ai sohbet silme
 type: adim-adim
+topic: guvenlik
 audience: Herkes
 stage: hazir
 published: 2026-11-16

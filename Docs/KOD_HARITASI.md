@@ -1,6 +1,6 @@
 # Kod haritası · mertcanturan.com
 
-Son güncelleme: 2026-11-22 (depo: github.com/mertcanturantr-pixel/mertcanturan-site). 70 hazır rehber (dört rollü denetimden geçti), 2 iskelet; mesleğine göre yapay zekâ aracı; llms-full.txt.
+Son güncelleme: 2026-11-25 (depo: github.com/mertcanturantr-pixel/mertcanturan-site). 70 hazır rehber (dört rollü denetimden geçti), 2 iskelet; mesleğine göre yapay zekâ aracı; llms-full.txt.
 
 ## 1. Kök düzen
 
@@ -50,7 +50,7 @@ Son güncelleme: 2026-11-22 (depo: github.com/mertcanturantr-pixel/mertcanturan-
 | Menü, üst bar, alt bilgi | `src/layout.html`, `render_follow()` |
 | Yeni rehber | `guides/<slug>.md` (`_SABLON.md`'den), `_KATALOG.md` durumu, gerekiyorsa `data/plan.json` |
 | Rehber blok türü (şablon, karne vb.) | `guides.py` → `render_body()`, `_template_block()`, `_karne_block()`; stil `site.css` sonu |
-| Rehber listesi, arama, filtre | `build.py` → `render_guide_index()`, `GUIDE_JS` |
+| Rehber listesi, arama, konu grupları | `build.py` → `render_guide_index()`, `GUIDE_JS`; konular `guides.py` → `TOPICS`, rehberde `topic:` alanı |
 | Karne kuralları (zorunlu alan, gelir vaadi, kırmızı çizgi) | `guides.py` → `KARNE_FIELDS`, `parse_karne()`; yazım kuralı `guides/_SABLON.md` |
 | Para kazanma sayfası | `build.py` → `collect_karnes()`, `money_page_ready()`, `render_money_page()`, `MONEY_JS`; eşik `config.json` → `money_page_min`; önizleme örnekleri `tests/fixtures/demo_karneler.json` |
 | Yapılandırılmış veri | `guides.py` → `json_ld()`, `site_json_ld()`, `index_json_ld()` |

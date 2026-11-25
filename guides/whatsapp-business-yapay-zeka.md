@@ -6,6 +6,7 @@ description: WhatsApp Business'ta yapay zekâyla hazır yanıt, karşılama ve u
 summary: Esnaf ve küçük işletme için WhatsApp Business: yapay zekâyla hazır yanıt seti, karşılama ve uzakta mesajı, katalog metni; robot kurmanın kuralları ve tanıtım mesajında izin.
 keywords: whatsapp business yapay zeka, whatsapp business hızlı yanıt nasıl eklenir, whatsapp karşılama mesajı örnekleri, uzakta mesajı örneği, whatsapp chatbot kurmak, whatsapp business api yapay zeka yasağı, whatsapp kampanya mesajı iys, esnaf whatsapp mesaj şablonu
 type: sablon
+topic: is
 audience: Esnaf, İş yerleri
 stage: hazir
 published: 2026-11-16

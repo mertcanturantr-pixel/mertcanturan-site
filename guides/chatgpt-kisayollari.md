@@ -6,6 +6,7 @@ description: ChatGPT'de yeni sohbet, geçici sohbet ve hızlı pencere kısayoll
 summary: ChatGPT'yi daha hızlı kullanmanın yolları: bilgisayarda klavye kısayolları, masaüstü uygulamasındaki hızlı pencere, Türkçe klavye tuzakları ve az bilinen ayarlar.
 keywords: chatgpt kısayolları, chatgpt klavye kısayolları, chatgpt yeni sohbet kısayolu, chatgpt geçici sohbet, chatgpt masaüstü uygulaması kısayol, chat bar alt space, chatgpt kisayol turkce klavye, chatgpt shortcuts
 type: kontrol-listesi
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

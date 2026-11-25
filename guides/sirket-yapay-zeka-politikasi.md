@@ -6,6 +6,7 @@ description: Küçük ve orta ölçekli şirket için yapay zekâ kullanım poli
 summary: Çalışanların yapay zekâ kullanımını yasaklamadan düzene sokmak için kopyalanabilir politika taslağı: izinli araçlar, asla girilmeyecek veriler, doğrulama, sorumluluk ve uygulama adımları.
 keywords: şirket yapay zeka kullanım politikası, yapay zeka kullanım politikası örneği, yapay zeka politikası şablonu, çalışanların chatgpt kullanımı kuralları, kvkk yapay zeka şirket, kurumsal chatgpt business, kobi yapay zeka politikası, iş yerinde yapay zeka yasağı, yapay zeka veri ihlali bildirimi, yapay zeka politikasi ornegi
 type: sablon
+topic: is
 audience: İş yerleri
 stage: hazir
 published: 2026-11-16

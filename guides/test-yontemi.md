@@ -6,6 +6,7 @@ description: Videolardaki testlerin kuralları ve aynı yöntemi kendi işinde k
 summary: Videolardaki testlerin kuralları: işi nasıl seçiyorum, araçları aynı koşulda nasıl deniyorum, sonucu nasıl puanlıyorum. Kendi işinde kullanman için şablon ve puan tablosu.
 keywords: yapay zeka aracı nasıl test edilir, chatgpt claude gemini karşılaştırma testi, yapay zeka değerlendirme kriterleri, yapay zeka puan tablosu, şirket için yapay zeka aracı seçimi
 type: adim-adim
+topic: baslangic
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

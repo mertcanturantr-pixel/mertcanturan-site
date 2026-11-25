@@ -6,6 +6,7 @@ description: e-Devlet belgesini (SGK dökümü, tapu, öğrenci belgesi) yapay z
 summary: e-Devlet'ten aldığın SGK dökümü, tapu ya da adli sicil gibi belgeleri yapay zekâya sorarken barkod ve kimlik numarası riski, belgeyi anonimleştirmek ve işe yarayan soru şablonları.
 keywords: e-devlet belgesi chatgpt'ye yüklemek güvenli mi, sgk hizmet dökümü nasıl okunur, hizmet dökümü yapay zeka, barkodlu belge doğrulama, tapu şerhi ne demek, e-devlet şifresi güvenliği, tc kimlik numarası paylaşmak, e-devlet belgesi karekod
 type: kontrol-listesi
+topic: guvenlik
 audience: Herkes
 stage: hazir
 published: 2026-11-16

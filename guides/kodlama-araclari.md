@@ -6,6 +6,7 @@ description: Codex, Claude Code, Copilot ve Cursor: hangisi ne işe yarar, göre
 summary: Codex, Claude Code, GitHub Copilot ve Cursor gibi kodlama araçları: hangi işe hangisi, iyi görev tanımı, üretilen kodu incelemek, testler, gizli anahtar ve şirket kodunda kurallar.
 keywords: yapay zeka kodlama araçları, claude code nedir, openai codex nasıl kullanılır, github copilot ajan modu, cursor editör, codex mi claude code mu, yapay zeka ile kod yazma güvenliği, api anahtarı sızdı ne yapmalı, vibe coding riskleri, yapay zeka kod incelemesi
 type: kontrol-listesi
+topic: uretim
 audience: Yazılımcılar
 stage: hazir
 published: 2026-11-16

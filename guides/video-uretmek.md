@@ -6,6 +6,7 @@ description: Yapay zekâyla kısa video üretmek: Gemini ve Google Flow'da Veo, 
 summary: Yapay zekâyla kısa video üretmek: hangi araç hangi planda, sahne komutunun parçaları, beklenti ve sınırlar, gerçek kişi ve ses kullanımında riskler ve paylaşmadan önce etiket.
 keywords: yapay zeka ile video oluşturma, gemini veo nasıl kullanılır, google flow nedir, sora kapandı mı, yapay zeka video prompt örnekleri, yapay zeka reklam videosu, ücretsiz yapay zeka video
 type: adim-adim
+topic: icerik
 audience: İçerik üreticileri, Esnaf
 stage: hazir
 published: 2026-11-16

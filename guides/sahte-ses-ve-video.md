@@ -6,6 +6,7 @@ description: Yakınının sesiyle para isteyen arama, sahte görüntülü toplan
 summary: Yakınının sesiyle para isteyen arama, sahte görüntülü toplantı ve ünlü yüzlü yatırım reklamı: dolandırıcılığı anlamanın yolları, aile parolası, şirket için kural ve dolandırıldıysan ilk saat.
 keywords: ses klonlama dolandırıcılığı, yapay zeka ile ses taklidi, deepfake dolandırıcılık nasıl anlaşılır, aile parolası, güvenlik kelimesi, sahte görüntülü toplantı dolandırıcılığı, ünlü yüzlü yatırım reklamı, telefonda dolandırıldım ne yapmalıyım, ses klonlama dolandiriciligi
 type: kontrol-listesi
+topic: guvenlik
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

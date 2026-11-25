@@ -6,6 +6,7 @@ description: ChatGPT'nin yazdığı sözleşmede ilk bakacağın 3 yer, Türk hu
 summary: Yapay zekânın hazırladığı sözleşme taslağında ilk bakacağın 3 yer, Türk hukukunda karşılığı olmayan kalıplar, sık unutulan maddeler ve taslak isterken kullanacağın şablon.
 keywords: chatgpt ile sözleşme yazdırmak, yapay zeka sözleşme taslağı geçerli mi, yapay zekaya sözleşme hazırlatmak, hizmet sözleşmesi taslağı kontrolü, kira sözleşmesi artış oranı sınırı, yetkili mahkeme maddesi tüketici, cezai şart tacir indirim, rekabet yasağı iki yıl, kefalet el yazısı şartı, e-imza ile kefalet
 type: kontrol-listesi
+topic: gunluk
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

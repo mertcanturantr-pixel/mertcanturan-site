@@ -6,6 +6,7 @@ description: ChatGPT, Gemini ve Claude'daki derin araştırmayla rapor yazdırma
 summary: Derin araştırma özelliği dakikalar içinde onlarca kaynaktan rapor yazıyor. İyi bir araştırma sorusu, kapsam şablonu, raporun zayıf noktaları ve kaynakları hızlı kontrol yöntemi.
 keywords: derin araştırma nedir, chatgpt deep research nasıl kullanılır, gemini deep research ücretsiz mi, claude research, yapay zekaya rapor yazdırma, yapay zeka kaynak kontrolü, pazar araştırması yapay zeka
 type: adim-adim
+topic: gunluk
 audience: Çalışanlar, Araştırmacılar, Öğrenciler
 stage: hazir
 published: 2026-11-16

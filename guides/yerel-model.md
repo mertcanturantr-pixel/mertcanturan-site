@@ -6,6 +6,7 @@ description: Yerel yapay zekâ modeli nedir, hangi bilgisayarda çalışır, Oll
 summary: Belgelerin hiçbir şirketin sunucusuna gitmeden yapay zekâ kullanmak: hangi bilgisayar yeter, LM Studio ve Ollama kurulumu, model seçimi, Türkçe performansı ve gerçekçi beklenti.
 keywords: yerel yapay zeka, ollama kurulumu, ollama nasıl kullanılır, lm studio kurulumu, bilgisayarda yapay zeka çalıştırmak, internetsiz yapay zeka, offline chatgpt alternatifi, açık kaynak yapay zeka modeli, gemma llama qwen türkçe, gizli belge için yapay zeka
 type: adim-adim
+topic: guvenlik
 audience: Meraklılar, Gizli belgeyle çalışanlar
 stage: hazir
 published: 2026-11-16

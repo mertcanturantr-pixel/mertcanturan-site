@@ -6,6 +6,7 @@ description: NotebookLM'in yeni adı Gemini Notebook. PDF, ders notu ve videolar
 summary: NotebookLM, Temmuz 2026'dan beri Gemini Notebook adıyla sürüyor. PDF, not ve videolarından kaynak gösteren asistan kurmak: kurulum, komutlar, ücretsiz sınırlar ve gizlilik.
 keywords: notebooklm nasıl kullanılır, gemini notebook nedir, notebooklm türkçe, notebooklm ücretsiz mi, notebooklm kaynak sınırı, pdf özet çıkarma yapay zeka, ders notu yapay zeka, sesli özet audio overview, notebooklm gizlilik
 type: adim-adim
+topic: gunluk
 audience: Herkes, Öğrenciler
 stage: hazir
 published: 2026-11-16

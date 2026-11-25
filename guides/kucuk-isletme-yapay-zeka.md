@@ -6,6 +6,7 @@ description: Kafe, kuaför, emlakçı ya da butik: müşteri mesajı, Google yor
 summary: Kafe, kuaför, emlakçı ya da butik: müşteri mesajları, yorum cevapları, menü ve ilan metni, sosyal medya ve kampanya duyurusunda yapay zekâyla bugün yapabileceğin işler.
 keywords: esnaf için yapay zeka, küçük işletme yapay zeka kullanımı, chatgpt ile müşteri mesajı yazma, whatsapp hazır cevap örnekleri, google yorumuna cevap örneği, menü açıklaması yapay zeka, ilan metni yazdırma, instagram gönderi planı yapay zeka, kampanya duyurusu iys onayı, kuaför kafe butik yapay zeka
 type: adim-adim
+topic: is
 audience: İş yerleri
 stage: hazir
 published: 2026-11-16

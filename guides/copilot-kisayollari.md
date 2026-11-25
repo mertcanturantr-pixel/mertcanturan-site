@@ -6,6 +6,7 @@ description: Copilot'u Windows'ta Alt + Space ve Windows + C ile, Word, Excel ve
 summary: Copilot'u daha hızlı kullanmanın yolları: Windows'ta Alt + Space ve Copilot tuşu, Word, Excel ve Outlook'ta Alt + C, F6 ile odak, ChatGPT ile çakışan kısayolun çözümü.
 keywords: copilot kısayolu, copilot klavye kısayolu, windows copilot alt space, windows c copilot, copilot tuşu değiştirme, word copilot kısayolu alt c, excel copilot nasıl açılır, alt space chatgpt copilot çakışma, copilot kisayol
 type: kontrol-listesi
+topic: baslangic
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

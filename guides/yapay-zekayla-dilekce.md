@@ -6,6 +6,7 @@ description: Ayıplı ürün, iade edilmeyen para ya da yerine getirilmeyen hizm
 summary: Ayıplı ürün, iade edilmeyen para ya da yerine getirilmeyen hizmet için yapay zekâyla dilekçe taslağı hazırlamak: dilekçenin bölümleri, şablon, TÜBİS başvurusu ve dikkat edilecekler.
 keywords: yapay zeka ile dilekçe yazma, chatgpt dilekçe yazdırma, tüketici hakem heyeti dilekçe örneği, tübis başvurusu nasıl yapılır, tüketici hakem heyeti 2026 sınırı, ayıplı mal iade dilekçesi, şikayet dilekçesi örneği, tuketici hakem heyeti dilekce
 type: sablon
+topic: gunluk
 audience: Herkes
 stage: hazir
 published: 2026-11-16

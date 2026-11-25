@@ -6,6 +6,7 @@ description: Deepfake ile sahte fotoğrafın ya da videon yayıldıysa: delili k
 summary: Yapay zekâyla hakkında sahte görüntü, video ya da ses yayıldıysa: delili doğru kaydetmek, platform bildirimi, StopNCII, erişim engeli ve kaldırma yolları, savcılık ve destek alabileceğin yerler.
 keywords: deepfake mağduru ne yapmalı, yapay zeka ile sahte fotoğrafım yapıldı, sahte video kaldırma, deepfake şikayet, deepfake suç mu, erişim engeli başvurusu, 5651 9/A özel hayatın gizliliği, stopncii nasıl kullanılır, müstehcen sahte görüntü şantaj, yapay zeka sahte görüntü savcılık
 type: kontrol-listesi
+topic: guvenlik
 audience: Herkes
 stage: hazir
 published: 2026-11-16

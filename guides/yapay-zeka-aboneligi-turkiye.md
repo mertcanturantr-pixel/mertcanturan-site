@@ -6,6 +6,7 @@ description: ChatGPT Plus, Claude Pro ve Gemini aboneliğini web'den mi App Stor
 summary: ChatGPT, Claude ve Gemini aboneliğini Türkiye'den almak: web mi App Store mu, dolar ve TL farkı, iptal adımları, iade kime sorulur ve sık yapılan hatalar.
 keywords: chatgpt plus türkiye fiyatı, chatgpt plus app store fiyatı, chatgpt abonelik iptal etme, chatgpt iade nasıl alınır, claude pro türkiye, gemini abonelik iptal, google ai pro fiyat, yapay zeka aboneliği dolar tl, app store abonelik iptal
 type: adim-adim
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

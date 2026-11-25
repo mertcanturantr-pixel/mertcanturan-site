@@ -6,6 +6,7 @@ description: ChatGPT, Claude, Gemini, Copilot ve Meta AI'nın ücretsiz sürüml
 summary: ChatGPT, Claude, Gemini, Copilot ve Meta AI'nın ücretsiz sürümleriyle neler yapılır, nerede sınıra takılırsın, sınırı nasıl idare edersin ve ne zaman ücretli plana geçmeye değer.
 keywords: ücretsiz yapay zeka, ucretsiz yapay zeka, chatgpt ücretsiz sınır, chatgpt mesaj limiti doldu, claude ücretsiz kullanım sınırı, gemini ücretsiz mi, copilot ücretsiz, meta ai ücretsiz, ücretli plana geçmeli miyim, bedava yapay zeka araçları
 type: karsilastirma
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: Küçük işletme için yapay zekâyla müşteri tanımı, aylık i
 summary: Yapay zekâyla pazarlama: gerçek müşterinden yola çıkan tanım, aylık içerik planı, reklam metni varyasyonları, basit ölçüm; reklam etiketi, ticari ileti izni ve 2026 kuralları.
 keywords: yapay zeka ile pazarlama, küçük işletme dijital pazarlama, chatgpt ile reklam metni yazma, sosyal medya içerik planı örneği, müşteri profili persona oluşturma, instagram reklam metni, reklam ibaresi zorunlu mu, iys kaydı
 type: sablon
+topic: is
 audience: Esnaf, Serbest çalışanlar, Küçük işletmeler
 stage: hazir
 published: 2026-11-16

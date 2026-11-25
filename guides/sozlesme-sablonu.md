@@ -6,6 +6,7 @@ description: Sözleşmeyi yapay zekâya okutmadan önce yapman gerekenler; madde
 summary: Bir sözleşmeyi yapay zekâya okutmadan önce yapman gerekenler ve maddeleri alıntılatarak inceleten, doldurup kopyalayabileceğin dört komut şablonu.
 keywords: chatgpt'ye sözleşme okutmak, yapay zeka ile sözleşme inceleme, kira sözleşmesi kontrol, sözleşme özeti çıkarma, iki sözleşmeyi karşılaştırma, sözleşme analiz prompt, sözleşme pdf yapay zeka güvenli mi
 type: sablon
+topic: gunluk
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

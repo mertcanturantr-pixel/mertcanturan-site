@@ -6,6 +6,7 @@ description: İş ya da staj başvurusu için yapay zekâyla ön yazı: şirkete
 summary: İş ya da staj başvurusu için yapay zekâyla ön yazı (motivasyon mektubu) yazmak: şirkete özel giriş, deneyimini ilana bağlamak, klişeden kaçınmak; şablon, temsili örnek ve kontrol listesi.
 keywords: ön yazı örneği, ön yazı nasıl yazılır, chatgpt ile ön yazı yazmak, motivasyon mektubu örneği, staj başvurusu ön yazı, cover letter türkçe, iş başvurusu e-postası örneği, yapay zeka ön yazı şablonu
 type: sablon
+topic: is
 audience: İş arayanlar, Öğrenciler
 stage: hazir
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: Yapay zekâ dedektörlerinin hata oranları, haksız yere suçland�
 summary: Ödevin ya da tezin "yapay zekâ yazmış" diye işaretlendiyse: dedektörlerin bilinen hataları, yazım sürecini kanıtlamanın yolları, itiraz ve yapay zekâyı dürüstçe kullanmak.
 keywords: yapay zeka dedektörü güvenilir mi, turnitin yapay zeka tespiti, ödevime yapay zeka yazdı dendi, chatgpt ile yazıldığı anlaşılır mı, gptzero yanlış pozitif, yapay zeka kopya suçlaması itiraz, öğrenci disiplin savunması, yök üretken yapay zeka etik rehberi, odev yapay zeka tespiti
 type: adim-adim
+topic: egitim
 audience: Öğrenciler, Öğretmenler
 stage: hazir
 published: 2026-11-16

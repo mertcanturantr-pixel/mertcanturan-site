@@ -6,6 +6,7 @@ description: Lisansüstü tezde ve makalede yapay zekânın nerede serbest, nere
 summary: Lisansüstü tezde ve akademik makalede yapay zekâ: YÖK'ün etik rehberi ne diyor, yayınevleri ne istiyor, nerede kullanılır, nasıl beyan edilir ve en büyük risk olan uydurma kaynak.
 keywords: tezde yapay zeka kullanımı, yök yapay zeka etik rehberi, tezde chatgpt kullanmak yasak mı, yapay zeka beyan formu, yapay zeka beyanı örneği, makalede yapay zeka beyanı, yüksek lisans tezi chatgpt, uydurma kaynak kontrolü
 type: kontrol-listesi
+topic: egitim
 audience: Öğrenciler, Akademisyenler
 stage: hazir
 published: 2026-11-16

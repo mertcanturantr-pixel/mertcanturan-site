@@ -6,6 +6,7 @@ description: Claude'da Option'a iki kez basıp her uygulamadan soru sormak, ekra
 summary: Claude'u daha hızlı kullanmak: Mac'te her uygulamadan açılan hızlı giriş, ekran görüntüsüyle soru, Caps Lock ile sesle yazma, Windows ve web'deki durum, zaman kazandıran ayarlar.
 keywords: claude kısayolları, claude klavye kısayolu, claude kisayollari, claude mac hızlı giriş, claude quick entry, claude option iki kez basma, claude sesle yazma, claude caps lock dikte, claude windows kısayol, claude masaüstü uygulaması
 type: kontrol-listesi
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

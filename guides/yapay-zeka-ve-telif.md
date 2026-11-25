@@ -6,6 +6,7 @@ description: Yapay zekâ çıktısı FSEK'e göre eser sayılır mı, ChatGPT ve
 summary: Yapay zekâyla ürettiğin görseli, metni ya da müziği kullanabilir, satabilir misin? Türk hukukunda eser sahipliği, araçların kullanım koşulları ve satmadan önce kontrol listesi.
 keywords: yapay zeka telif hakkı, yapay zeka görseli satmak, chatgpt görsel ticari kullanım, midjourney telif hakkı, yapay zeka eser sahibi fsek, yapay zeka logo marka tescili, yapay zeka kitap kapağı, ai görsel telif türkiye
 type: kontrol-listesi
+topic: icerik
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

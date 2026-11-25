@@ -6,6 +6,7 @@ description: Kod bilmeden yapay zekâyla kafe ya da dükkân sitesi: hangi araç
 summary: Kod bilmeden, yapay zekâyla bir kafeye ya da dükkâna tanıtım sitesi kurmak: araç seçimi, adım adım kurulum, alan adı, maliyet kalemleri ve yayına almadan önce kontrol listesi.
 keywords: yapay zeka ile web sitesi yapmak, yapay zeka site oluşturma, kod bilmeden site kurmak, küçük işletme web sitesi, kafe web sitesi, alan adı nasıl alınır, web sitesi kvkk aydınlatma metni, çerez izni zorunlu mu, google işletme profili, lovable bolt türkçe
 type: adim-adim
+topic: uretim
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

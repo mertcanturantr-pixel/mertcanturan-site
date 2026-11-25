@@ -6,6 +6,7 @@ description: Yapay zekâyla üretilmiş görsel, ses ve videoyu ne zaman etiketl
 summary: Yapay zekâyla ürettiğin içerik için etiket ne zaman zorunlu: YouTube, Instagram/Facebook, TikTok ayarları, Türkiye'deki reklam kuralı, AB'deki şeffaflık yükümlülüğü ve karar tablosu.
 keywords: yapay zeka etiketi, ai etiketi nasıl eklenir, youtube değiştirilmiş içerik etiketi, instagram ai info etiketi, tiktok yapay zeka etiketi, reklamda yapay zeka belirtme zorunluluğu, ticari reklam yönetmeliği yapay zeka 2026, ab yapay zeka yasası madde 50, yapay zeka icerik etiketi
 type: kontrol-listesi
+topic: icerik
 audience: İçerik üreticileri, İş yerleri
 stage: hazir
 published: 2026-11-16

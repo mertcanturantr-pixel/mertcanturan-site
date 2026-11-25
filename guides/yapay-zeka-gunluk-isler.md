@@ -6,6 +6,7 @@ description: E-posta özeti, toplantı notu, haftalık plan, uzun belge, sunum t
 summary: E-posta, toplantı notu, plan, uzun belge, sunum, çeviri, tablo ve öğrenme: günlük işlerde yapay zekâyı verimli kullanmak için doldurup kopyalayacağın komutlar.
 keywords: yapay zeka ile günlük işler, yapay zeka nerelerde kullanılır, chatgpt ile e-posta özeti, toplantı notundan görev listesi, chatgpt haftalık plan, pdf özetleme komutu, chatgpt prompt örnekleri türkçe, yapay zeka verimlilik
 type: karsilastirma
+topic: gunluk
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

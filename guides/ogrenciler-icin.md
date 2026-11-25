@@ -6,6 +6,7 @@ description: Yapay zekâyı kopya aracı değil öğretmen gibi kullanmak: konu 
 summary: Yapay zekâyı ödevi yazdırmak için değil, öğrenmek için kullanmak: konu anlattırma, kendini sınama, ders notundan soru üretme, yazını düzeltme ve okulun kurallarına uyma.
 keywords: öğrenciler için yapay zeka, yapay zeka ile ders çalışmak, chatgpt ile sınava hazırlık, yapay zekaya soru sordurmak, ders notu özeti çıkarma, chatgpt ödev yaptırmak kopya mı, yapay zeka konu anlatımı, üniversite yapay zeka kuralları, meb yapay zeka etik kılavuzu, yok yapay zeka etik rehberi
 type: adim-adim
+topic: egitim
 audience: Öğrenciler
 stage: hazir
 published: 2026-11-16

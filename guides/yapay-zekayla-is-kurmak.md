@@ -3,6 +3,7 @@ title: Yapay zekâyla sıfırdan bir iş kurmak: fikirden ilk müşteriye
 slug: yapay-zekayla-is-kurmak
 summary: Yapay zekâyı iş fikri bulmak, test etmek, tanıtmak ve ilk müşteriyi bulmak için nasıl kullandığımı 14 günlük gerçek bir denemeyle anlatıyorum: süre, maliyet ve sonuç.
 type: adim-adim
+topic: uretim
 audience: Herkes
 stage: iskelet
 published: 2026-11-16

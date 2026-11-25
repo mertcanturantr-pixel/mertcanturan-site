@@ -6,6 +6,7 @@ description: ChatGPT ve Gemini'de yaş sınırı kaç, ebeveyn denetimi nasıl a
 summary: Çocuğun ya da gencin yapay zekâ kullanıyorsa: araçların yaş sınırları, ChatGPT ebeveyn denetimi ve Gemini'de Family Link, konuşulması gereken beş konu ve ev kuralı şablonu.
 keywords: chatgpt yaş sınırı kaç, chatgpt ebeveyn denetimi nasıl açılır, chatgpt ebeveyn kontrolü, çocuğum chatgpt kullanıyor, gemini çocuk hesabı family link, genç hesabı chatgpt, çocuklar için yapay zeka güvenliği, ödevde yapay zeka veli
 type: kontrol-listesi
+topic: guvenlik
 audience: Veliler
 stage: hazir
 published: 2026-11-16

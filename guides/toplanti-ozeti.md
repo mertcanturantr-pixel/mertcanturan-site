@@ -6,6 +6,7 @@ description: Toplantıyı yapay zekâya özetletmeden önce kayıt izni (TCK 133
 summary: Toplantıyı yapay zekâya özetletmek: herkesin kayıt izni neden şart, Teams, Zoom ve Meet'in not alma özellikleri, özet şablonu ve özetteki hataları yakalamak.
 keywords: yapay zeka toplantı özeti, toplantı notu alma yapay zeka, teams copilot toplantı özeti, zoom ai companion türkçe, google meet not alma gemini, toplantı kaydı izin, ses kaydı yasal mı tck 133, toplantı tutanağı şablonu
 type: sablon
+topic: gunluk
 audience: Çalışanlar, Yöneticiler
 stage: hazir
 published: 2026-11-16

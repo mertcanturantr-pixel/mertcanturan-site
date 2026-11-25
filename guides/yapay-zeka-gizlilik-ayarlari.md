@@ -6,6 +6,7 @@ description: ChatGPT, Claude ve Gemini'de sohbet geçmişini indirmek, paylaşı
 summary: ChatGPT, Claude ve Gemini'de yazdıklarını nasıl görür, indirir ve silersin: veri dışa aktarma, paylaşılan bağlantılar, hafıza, hesap silme ve şirketten bilgi isteme.
 keywords: chatgpt verilerimi indir, chatgpt sohbet geçmişi silme, chatgpt hesap silme, chatgpt paylaşılan bağlantılar, chatgpt hafıza silme, claude sohbet dışa aktarma, gemini etkinliği silme, yapay zeka kvkk başvurusu
 type: adim-adim
+topic: guvenlik
 audience: Herkes, İş yerleri
 stage: hazir
 published: 2026-11-16

@@ -5,6 +5,7 @@ seo_title: Yapay zekâya iyi komut (prompt) yazmak: 5 parça ve şablon
 description: Komutu beş parçayla kur: durum, görev, malzeme, biçim, örnek. Uydurmayı azaltan cümleler, önce-sonra örneği ve doldurup kopyalayacağın şablon.
 summary: Kötü cevabın çoğu eksik bağlamdan geliyor. Komutu beş parçayla kur, uydurmayı azaltan üç cümleyi ekle, ilk cevabı ikinci turda düzelt. Doldurup kopyalayacağın şablonla.
 type: sablon
+topic: baslangic
 audience: Herkes
 keywords: prompt nasıl yazılır, iyi prompt örnekleri, chatgpt komut örnekleri türkçe, yapay zekaya nasıl soru sorulur, prompt şablonu, yapay zeka uydurmasın diye ne yazılmalı
 stage: hazir

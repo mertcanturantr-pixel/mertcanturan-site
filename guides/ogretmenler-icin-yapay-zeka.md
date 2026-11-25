@@ -6,6 +6,7 @@ description: Ders planı, farklı seviyelerde etkinlik, ölçme soruları, rubri
 summary: Öğretmenler için yapay zekâ: ders planı, farklı seviyede etkinlik, ölçme sorusu, rubrik ve veli mesajı için hazır komutlar; öğrenci verisini korumak ve MEB'in etik çerçevesi.
 keywords: öğretmenler için yapay zeka, yapay zeka ile ders planı hazırlama, chatgpt ile soru hazırlama, rubrik hazırlama yapay zeka, farklılaştırılmış etkinlik, veli mesajı örneği, meb yapay zeka etik kılavuzu, yazek nedir
 type: sablon
+topic: egitim
 audience: Öğretmenler
 stage: hazir
 published: 2026-11-16

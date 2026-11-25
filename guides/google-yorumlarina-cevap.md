@@ -6,6 +6,7 @@ description: Google İşletme Profili yorumlarına yapay zekâyla cevap: olumsuz
 summary: İşletmenin Google yorumlarına yapay zekâyla cevap: olumlu, olumsuz ve sahte yorum için şablonlar, cevapta asla yazılmaması gerekenler ve yorum satın almanın neden kötü fikir olduğu.
 keywords: google yorumlarına cevap, olumsuz yoruma cevap örneği, google yorumlarina cevap ornekleri, google işletme profili yorum cevaplama, sahte yorum bildirme, google maps yorum silme, chatgpt ile yorum cevabı, yorum satın almak yasak mı, müşteri şikayetine cevap
 type: sablon
+topic: is
 audience: Esnaf, İş yerleri
 stage: hazir
 published: 2026-11-16

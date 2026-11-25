@@ -6,6 +6,7 @@ description: Türkçe Excel'de yapay zekâya formül yazdırmak, dağınık veri
 summary: Ne istediğini tarif et, formülü yapay zekâ yazsın. Türkçe Excel'de İngilizce formülün neden çalışmadığı, veriyi temizletmek, hatayı buldurmak ve sonucu kontrol etmek için komutlar.
 keywords: excel yapay zeka formül yazdırma, chatgpt excel formülü, türkçe excel formül hatası, vlookup türkçe düşeyara, chatgpt formülü türkçe excel'de çalışmıyor, excel noktalı virgül virgül farkı, excel veri temizleme yapay zeka, telefon numarası düzenleme formülü, google e-tablolar yapay zeka formül, excel formül açıklatma
 type: adim-adim
+topic: gunluk
 audience: Herkes, Çalışanlar, Küçük işletmeler, Muhasebe ve finans
 stage: hazir
 published: 2026-11-16

@@ -5,6 +5,7 @@ seo_title: İsteğe bağlı. Arama sonucunda görünen başlık, en fazla 65 (id
 description: İsteğe bağlı. Arama sonucundaki açıklama, en fazla 160 karakter. Yoksa summary kullanılır.
 summary: Tek cümle, en fazla 200 karakter. Kime ve ne zaman yarayacağını söyle.
 type: kontrol-listesi
+topic: baslangic
 audience: Herkes
 published: 2026-12-01
 checked: 2026-12-01
@@ -18,6 +19,7 @@ Bu dosya yayınlanmaz (adı alt çizgiyle başlıyor). Yeni rehber için kopyala
 
 ## Alanlar
 
+- topic (rehber listesindeki konu grubu): baslangic | gunluk | guvenlik | is | egitim | icerik | uretim
 - type: kontrol-listesi | adim-adim | sablon | karsilastirma
 - audience: virgülle ayır (Herkes, İş yerleri, Hukukçular, Yazılımcılar)
 - change: her güncellemede yeni bir satır ekle: `change: 2027-01-10 Ayar menüsünün yeni adı eklendi.`

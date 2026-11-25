@@ -6,6 +6,7 @@ description: Yapay zekânın verdiği kaynağı, rakamı, tarihi ve kanun maddes
 summary: ChatGPT'nin verdiği kaynak, rakam, tarih ya da kanun maddesi gerçek mi? Ödevine, raporuna ya da bir karara koymadan önce adım adım kontrol ve yazdırılabilir liste.
 keywords: chatgpt kaynak uyduruyor, yapay zekanın verdiği kaynak gerçek mi, yapay zeka cevabı doğru mu nasıl anlaşılır, yapay zeka halüsinasyon nedir, chatgpt yanlış bilgi veriyor, yapay zeka kanun maddesi uyduruyor, google akademik kaynak kontrolü, dergipark makale doğrulama, doi numarası sorgulama, yapay zeka cevabi kontrol
 type: kontrol-listesi
+topic: guvenlik
 audience: Herkes
 stage: hazir
 published: 2026-11-16

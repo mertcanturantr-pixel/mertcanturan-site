@@ -6,6 +6,7 @@ description: Claude nasıl kullanılır: hesap açmak, eğitim ayarı, belge yü
 summary: Claude'u ilk kez kullanacaksan: hesap açmak, eğitim ayarı, belge yükleyip soru sormak, projeler ve kişiselleştirme, ChatGPT'den farkı ve ücretsiz sürümün sınırı.
 keywords: claude nasıl kullanılır, claude ai türkçe, claude ücretsiz mi, claude hesap açma, claude proje oluşturma, claude pdf yükleme, claude chatgpt farkı, claude sınıra takıldım
 type: adim-adim
+topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16

@@ -6,6 +6,7 @@ description: Yapay zekâyla ürün açıklaması, ürün görseli ve iade cevab�
 summary: Pazaryeri ve site satıcısı için: ürün açıklaması ve başlık şablonu, ürün görselinde sınır, iade cevapları, 2026 yorum ve indirim kuralları, reklamda yapay zekâ beyanı ve müşteri verisi.
 keywords: yapay zeka ile ürün açıklaması yazma, trendyol ürün açıklaması yapay zeka, hepsiburada ürün başlığı, yapay zeka ürün fotoğrafı, e-ticaret müşteri mesajı şablonu, iade cevabı örneği, reklam yönetmeliği 2026 yorum kuralı, indirim öncesi fiyat kuralı, e-ticaret yapay zeka
 type: sablon
+topic: is
 audience: E-ticaret satıcıları, Esnaf
 stage: hazir
 published: 2026-11-16

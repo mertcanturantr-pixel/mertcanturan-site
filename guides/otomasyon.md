@@ -6,6 +6,7 @@ description: Tekrarlayan işi yapay zekâlı otomasyona çevir: hangi iş uygun,
 summary: Tekrarlayan bir işi otomasyona çevirmek: hangi iş uygun, n8n, Make, Zapier karşılaştırması, form-tablo-yapay zekâ-taslak e-posta akışı, insan onayı, hata, maliyet ve veri güvenliği.
 keywords: yapay zeka ile otomasyon, n8n nedir nasıl kullanılır, n8n türkçe, make zapier karşılaştırma, zapier yapay zeka, iş akışı otomasyonu, e-posta otomasyonu yapay zeka, form otomasyonu, power automate yapay zeka, kodsuz otomasyon
 type: adim-adim
+topic: uretim
 audience: Çalışanlar, Küçük işletmeler, Serbest çalışanlar
 stage: hazir
 published: 2026-11-16

@@ -220,26 +220,30 @@ def render_guides_home(guides: list[dict], links: Links) -> str:
 def render_guide_index(guides: list[dict], links: Links, email: str, filter_min: int, tpl_count: int = 0,
                        money_href: str | None = None, repo_href: str | None = None, repo_count: int = 0,
                        job_href: str | None = None) -> str:
-    rows = []
-    for g in guides:
+    def row(g):
         text = C.search_fold(" ".join([g["title"], g["summary"], g["type_label"], " ".join(g["audience"]),
-                                       " ".join(t for _, t in g["toc"]), g.get("keywords", "")]))
+                                       G.TOPICS[g["topic"]], " ".join(t for _, t in g["toc"]), g.get("keywords", "")]))
         aud = f' · {e(", ".join(g["audience"]))}' if g["audience"] else ""
-        rows.append(
-            f'<li data-type="{e(g["type"])}" data-text="{e(text)}"><a href="{_guide_href(links, g)}">'
-            f'<span class="kind">{e(g["type_label"])}{_draft(g)}</span><h2>{e(g["title"])}</h2><p>{e(g["summary"])}</p>'
-            f'<span class="when">Son kontrol: {e(C.tr_date(g["checked"], with_year=True))} · {g["minutes"]} dk okuma{aud}</span>'
-            f'</a></li>')
+        return (f'<li data-text="{e(text)}"><a href="{_guide_href(links, g)}">'
+                f'<span class="kind">{e(g["type_label"])}{_draft(g)}</span><h3>{e(g["title"])}</h3><p>{e(g["summary"])}</p>'
+                f'<span class="when">{g["minutes"]} dk okuma{aud}</span></a></li>')
+    groups = [(t, lbl, sorted((g for g in guides if g["topic"] == t), key=lambda g: C.search_fold(g["title"])))
+              for t, lbl in G.TOPICS.items()]
+    groups = [x for x in groups if x[2]]
+    sections = "".join(
+        f'<section class="guide-group" data-topic="{t}" aria-labelledby="konu-{t}">'
+        f'<h2 id="konu-{t}">{e(lbl)} <span class="n">{len(gs)}</span></h2>'
+        f'<ul class="guide-list">{"".join(row(g) for g in gs)}</ul></section>' for t, lbl, gs in groups)
     tools = ""
     if len(guides) >= filter_min:
-        counts = {t: sum(1 for g in guides if g["type"] == t) for t in G.TYPES}
-        chips = [f'<button type="button" class="chip" data-type="" aria-pressed="true">Hepsi ({len(guides)})</button>']
-        chips += [f'<button type="button" class="chip" data-type="{t}" aria-pressed="false">{e(lbl)} ({counts[t]})</button>'
-                  for t, lbl in G.TYPES.items() if counts[t]]
-        tools = (f'<div class="guide-tools"><div class="chips" role="group" aria-label="Rehber türü">{"".join(chips)}</div>'
-                 f'<label class="search"><span class="sr-only">Rehberlerde ara</span>'
-                 f'<input type="search" placeholder="Rehberlerde ara" autocomplete="off"></label></div>')
-    body = "".join(rows) if rows else '<li><p class="empty">İlk rehber yakında burada.</p></li>'
+        chips = ['<button type="button" class="chip" data-topic="" aria-pressed="true">Hepsi</button>']
+        chips += [f'<button type="button" class="chip" data-topic="{t}" aria-pressed="false">{e(lbl)}</button>'
+                  for t, lbl, _ in groups]
+        tools = (f'<div class="guide-tools"><label class="search"><span class="sr-only">Rehberlerde ara</span>'
+                 f'<input type="search" placeholder="Ara: CV, KDV, fotoğraf, gizlilik" autocomplete="off"></label>'
+                 f'<div class="chips" role="group" aria-label="Konu">{"".join(chips)}</div>'
+                 f'<p class="found" data-found aria-live="polite" hidden></p></div>')
+    body = sections if guides else '<ul class="guide-list"><li><p class="empty">İlk rehber yakında burada.</p></li></ul>'
     subject = "Rehber%20%C3%B6nerisi"
     money = (f'<p class="money-link">Yapay zekâyla para kazanma yöntemlerinin karneleri tek sayfada: '
              f'<a href="{e(money_href)}">işe yarayan yollar ve tuzaklar</a></p>') if money_href else ""
@@ -262,8 +266,8 @@ def render_guide_index(guides: list[dict], links: Links, email: str, filter_min:
   <h1>Rehberler</h1>
   <p class="lede">Videolarda bahsettiğim kontrol listeleri, komut şablonları ve adım adım anlatımlar. Ücretsiz, kayıt istemez. Her rehberde kaynaklar ve son kontrol tarihi yazar.</p>
   <p class="index-meta">{len(guides)} rehber{tpl_link} · <a href="feed.xml">Yeni rehberleri RSS ile takip et</a></p>
-  {start}{money}{tools}
-  <ul class="guide-list">{body}</ul>
+  {tools}{start}{money}
+  <div class="guide-groups">{body}</div>
   <p class="empty" data-empty hidden>Bu aramaya uyan rehber yok. Başka bir kelime dene.</p>
   <aside class="suggest"><p><b>Hangi konuda rehber istersin?</b> Bir sonraki rehberi senin sorundan yazabilirim.</p>
   <a class="btn line" href="mailto:{e(email)}?subject={subject}">Konu öner</a></aside>
@@ -411,15 +415,18 @@ GUIDE_JS = """(function(){
     var url=location.href.split('#')[0];
     if(navigator.share){navigator.share({title:document.title,url:url}).catch(function(){});return}
     copy(url,function(ok){st.textContent=ok?'Bağlantı kopyalandı.':'Kopyalanamadı.'})})}
-  // rehber listesi: tür ve arama
-  var list=document.querySelector('.guide-list'),chips=document.querySelectorAll('.chip'),q=document.querySelector('.search input');
-  if(list&&(chips.length||q)){var type='',empty=document.querySelector('[data-empty]');
+  // rehber listesi: konu ve arama
+  var groups=document.querySelectorAll('.guide-group'),chips=document.querySelectorAll('.chip[data-topic]'),q=document.querySelector('.search input');
+  if(groups.length&&(chips.length||q)){var topic='',empty=document.querySelector('[data-empty]'),found=document.querySelector('[data-found]');
     function tr(s){s=s.replace(/I/g,'ı').replace(/İ/g,'i').toLowerCase();var a='âîûıöüşğç',b='aiuiousgc',o='';
       for(var i=0;i<s.length;i++){var k=a.indexOf(s[i]);o+=k>-1?b[k]:s[i]}return o}
     function apply(){var term=q?tr(q.value.trim()):'',shown=0;
-      [].forEach.call(list.children,function(li){var ok=(!type||li.getAttribute('data-type')===type)&&(!term||(li.getAttribute('data-text')||'').indexOf(term)>-1);
-        li.hidden=!ok;if(ok)shown++});if(empty)empty.hidden=shown>0}
-    [].forEach.call(chips,function(c){c.addEventListener('click',function(){type=c.getAttribute('data-type');
+      [].forEach.call(groups,function(sec){var n=0,inTopic=!topic||sec.getAttribute('data-topic')===topic;
+        [].forEach.call(sec.querySelectorAll('li'),function(li){var ok=inTopic&&(!term||(li.getAttribute('data-text')||'').indexOf(term)>-1);
+          li.hidden=!ok;if(ok)n++});sec.hidden=!n;shown+=n});
+      if(empty)empty.hidden=shown>0;
+      if(found){found.hidden=!term||!shown;found.textContent=shown+' rehber bulundu'}}
+    [].forEach.call(chips,function(c){c.addEventListener('click',function(){topic=c.getAttribute('data-topic');
       [].forEach.call(chips,function(x){x.setAttribute('aria-pressed',x===c)});apply()})});
     if(q)q.addEventListener('input',apply);
   }

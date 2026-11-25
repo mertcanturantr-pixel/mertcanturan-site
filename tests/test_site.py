@@ -375,6 +375,18 @@ class RepoTests(unittest.TestCase):
         self.assertEqual([repo_meta.tr_stars(n) for n in (950, 1000, 184712, 95400)], ["950", "1 bin", "184,7 bin", "95,4 bin"])
 
 
+class TopicTests(unittest.TestCase):
+    def test_every_real_guide_has_a_known_topic(self):
+        guides, _ = G.load(C.load_config(), include_drafts=True, today=date(2026, 11, 25))
+        self.assertEqual([g["slug"] for g in guides if g["topic"] not in G.TOPICS or g["topic"] == "diger"], [])
+
+    def test_unknown_topic_is_rejected(self):
+        meta = {"title": "a", "slug": "a", "summary": "a", "type": "sablon", "published": "2026-01-01",
+                "checked": "2026-01-01", "topic": "yok", "changes": []}
+        with self.assertRaises(ValueError):
+            G.validate(meta, "a.md", C.load_config(), date(2026, 11, 25))
+
+
 class PlanTests(unittest.TestCase):
     def test_every_video_has_an_existing_guide(self):
         code, rows = plan_check.check(today=date(2026, 11, 25))

@@ -6,6 +6,7 @@ description: Mali müşavir ve muhasebeciler için yapay zekâ: mükellefe açı
 summary: Mali müşavir ve muhasebeci için yapay zekâ: mükellefe sade açıklama, mevzuat değişikliği özeti, Excel ve mutabakat işleri; mükellef verisi, sır saklama ve uydurma mevzuat riski.
 keywords: muhasebeciler için yapay zeka, mali müşavir chatgpt kullanımı, smmm yapay zeka, mükellefe mesaj şablonu, tebliğ özeti yapay zeka, banka ekstresi sınıflandırma, excel mutabakat yapay zeka, mükellef bilgisi chatgpt gizlilik
 type: sablon
+topic: is
 audience: Mali müşavirler, Muhasebeciler
 stage: hazir
 published: 2026-11-16
