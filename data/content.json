@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-25T10:50:44+00:00",
+  "platforms": {
+    "youtube": {
+      "status": "ok",
+      "items": [
+        {
+          "platform": "youtube",
+          "id": "DVEeLCsEGZs",
+          "kind": "video",
+          "title": "Tek Bir Sayı Bu Roketi Düşürdü | Tarihin En Pahalı Yazılım Hataları",
+          "url": "https://www.youtube.com/watch?v=DVEeLCsEGZs",
+          "published": "2026-11-11T15:00:39+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "youtube-DVEeLCsEGZs.jpg"
+        },
+        {
+          "platform": "youtube",
+          "id": "6t--gJviYT0",
+          "kind": "short",
+          "title": "Karar Vermeden Önce Zihninde Ne Oluyor? 🤯 #Shorts",
+          "url": "https://www.youtube.com/shorts/6t--gJviYT0",
+          "published": "2026-09-09T17:17:49+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "youtube-6t--gJviYT0.jpg"
+        },
+        {
+          "platform": "youtube",
+          "id": "ojp4hD9lCLE",
+          "kind": "video",
+          "title": "Kararların Kuantum Doğası: Seçimlerimiz Gerçekliği Etkiliyor mu?",
+          "url": "https://www.youtube.com/watch?v=ojp4hD9lCLE",
+          "published": "2026-09-09T16:29:41+00:00",
+          "ad": false,
+          "guides": [],
+          "thumb": "youtube-ojp4hD9lCLE.jpg"
+        }
+      ],
+      "updated_at": "2026-11-25T10:50:45+00:00"
+    },
+    "instagram": {
+      "status": "not_configured",
+      "items": []
+    },
+    "tiktok": {
+      "status": "not_configured",
+      "items": []
+    }
+  }
+}
