@@ -38,310 +38,58 @@
       "guide": "yapay-zeka-ve-is"
     },
     {
-      "code": "K1",
+      "code": "S1",
       "date": "2026-12-01",
-      "title": "Ben kimim, burada ne yapıyoruz",
-      "guide": "hangi-yapay-zeka"
-    },
-    {
-      "code": "K2",
-      "date": "2026-12-03",
-      "title": "Tek bir cümle Google'a 100 milyar dolara patladı",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K3",
-      "date": "2026-12-05",
-      "title": "Yapay zekâya asla yazmaman gereken 5 şey",
+      "title": "Avukat olarak söylüyorum: yapay zekâya bunları yazma",
       "guide": "yapay-zekaya-ne-yazilmaz"
     },
     {
-      "code": "K4",
+      "code": "S2",
+      "date": "2026-12-02",
+      "title": "Sesini birkaç saniyede kopyalıyorlar: ailenle bir parola belirle",
+      "guide": "sahte-ses-ve-video"
+    },
+    {
+      "code": "S3",
+      "date": "2026-12-03",
+      "title": "KDV'yi yapay zekâya hesaplatmadan önce bunu söyle",
+      "guide": "yapay-zekaya-hesap-yaptirmak"
+    },
+    {
+      "code": "S5",
       "date": "2026-12-06",
-      "title": "1 dolara Tahoe satan robot",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K5",
-      "date": "2026-12-08",
-      "title": "Yapay zekâ neden uyduruyor?",
-      "guide": "yapay-zekaya-iyi-komut-yazmak"
-    },
-    {
-      "code": "K6",
-      "date": "2026-12-09",
-      "title": "\"Onu robot söyledi, biz değil\" (U1 tanıtımı)",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K7",
-      "date": "2026-12-12",
-      "title": "440 bin dolarlık raporda hiç yazılmamış kitaplar",
-      "guide": "yapay-zeka-cevabini-kontrol-etmek"
-    },
-    {
-      "code": "K8",
-      "date": "2026-12-13",
-      "title": "Bir hafta boyunca tüm kararlarımı yapay zekâya veriyorum",
-      "guide": "yapay-zekaya-karar-verdirmek"
-    },
-    {
-      "code": "K9",
-      "date": "2026-12-15",
-      "title": "Deney, 3. gün",
-      "guide": "yapay-zekaya-karar-verdirmek"
-    },
-    {
-      "code": "K10",
-      "date": "2026-12-17",
-      "title": "Deney, 5. gün",
-      "guide": "yapay-zekaya-karar-verdirmek"
-    },
-    {
-      "code": "K11",
-      "date": "2026-12-19",
-      "title": "\"Hiçbir şeye dokunma\" dendi, veri tabanını sildi",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K12",
-      "date": "2026-12-20",
-      "title": "Deneyin en kötü kararı",
-      "guide": "yapay-zekaya-karar-verdirmek"
-    },
-    {
-      "code": "K13",
-      "date": "2026-12-22",
-      "title": "Ev alan algoritma: 880 milyon dolarlık tahmin hatası",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K14",
-      "date": "2026-12-23",
-      "title": "U2 tanıtımı",
-      "guide": "yapay-zekaya-karar-verdirmek"
-    },
-    {
-      "code": "K15",
-      "date": "2026-12-26",
-      "title": "Yapay zekâya yazdırdığın sözleşmede ilk bakacağın 3 yer",
-      "guide": "yapay-zeka-sozlesme-kontrol"
-    },
-    {
-      "code": "K16",
-      "date": "2026-12-27",
-      "title": "Aynı kaynak sorusunu 3 yapay zekâya sordum",
-      "guide": "yapay-zekaya-iyi-komut-yazmak"
-    },
-    {
-      "code": "K17",
-      "date": "2026-12-29",
-      "title": "Yapay zekâyla ürettiğin görselin sahibi kim?",
-      "guide": "yapay-zeka-ve-telif"
-    },
-    {
-      "code": "K18",
-      "date": "2026-12-31",
-      "title": "Halüsinasyonu azaltan 3 cümle",
-      "guide": "yapay-zekaya-iyi-komut-yazmak"
-    },
-    {
-      "code": "K19",
-      "date": "2027-01-02",
-      "title": "Siz sordunuz: en çok gelen soru",
-      "guide": "siz-sordunuz"
-    },
-    {
-      "code": "K20",
-      "date": "2027-01-03",
-      "title": "Mahkemeye uydurma içtihat sunan avukatlar",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K21",
-      "date": "2027-01-05",
-      "title": "Yapay zekâ sözleşmede hangi maddeyi unuttu?",
-      "guide": "yapay-zeka-sozlesme-kontrol"
-    },
-    {
-      "code": "K22",
-      "date": "2027-01-06",
-      "title": "U3 tanıtımı",
-      "guide": "yapay-zeka-sozlesme-kontrol"
-    },
-    {
-      "code": "K23",
-      "date": "2027-01-09",
-      "title": "2026'nın en pahalı yapay zekâ hataları",
-      "guide": "yapay-zeka-hatalari"
-    },
-    {
-      "code": "K24",
-      "date": "2027-01-10",
-      "title": "Yüzsüz yapay zekâ kanalıyla para kazanılır mı? YouTube'un kuralı ne diyor",
-      "guide": "yapay-zeka-yan-is-gercekleri"
-    },
-    {
-      "code": "K25",
-      "date": "2027-01-12",
-      "title": "Yeni yıl planlarımı yapay zekâya yaptırdım",
-      "guide": "yapay-zeka-gunluk-isler"
-    },
-    {
-      "code": "K26",
-      "date": "2027-01-14",
-      "title": "Kanalın ilk 7 haftası: rakamlar ve yorumlarınız",
-      "guide": "test-yontemi"
-    },
-    {
-      "code": "K27",
-      "date": "2027-01-16",
-      "title": "Esnaf için yapay zekâ: müşteri mesajına 10 saniyede cevap",
-      "guide": "kucuk-isletme-yapay-zeka"
-    },
-    {
-      "code": "K28",
-      "date": "2027-01-17",
-      "title": "Sohbet geçmişini kapatmak gerçekten işe yarıyor mu?",
+      "title": "ChatGPT senin hakkında ne hatırlıyor? Bak ve sil",
       "guide": "yapay-zeka-gizlilik-ayarlari"
     },
     {
-      "code": "K29",
-      "date": "2027-01-19",
-      "title": "Şirket verisini yüklemeden önce 3 soru",
-      "guide": "yapay-zekaya-ne-yazilmaz"
+      "code": "S6",
+      "date": "2026-12-08",
+      "title": "CV'ni yapay zekâyla yazmanın doğru yolu",
+      "guide": "cv-ve-mulakat"
     },
     {
-      "code": "K30",
-      "date": "2027-01-20",
-      "title": "U4 tanıtımı",
-      "guide": "yapay-zeka-yan-is-gercekleri"
+      "code": "S7",
+      "date": "2026-12-09",
+      "title": "Gemini'yle fotoğraf düzenle, ama vesikalığına dokunma",
+      "guide": "gemini-fotograf-duzenleme"
     },
     {
-      "code": "K31",
-      "date": "2027-01-23",
-      "title": "Siz sordunuz",
-      "guide": "siz-sordunuz"
+      "code": "S8",
+      "date": "2026-12-10",
+      "title": "Toplantı notunu yapay zekâya bırak, ama önce bir cümle kur",
+      "guide": "toplanti-ozeti"
     },
     {
-      "code": "K32",
-      "date": "2027-01-24",
-      "title": "Yeni bir hata hikâyesi",
-      "guide": "yapay-zeka-hatalari"
+      "code": "S9",
+      "date": "2026-12-11",
+      "title": "Google'ın yapay zekâ özetine ne zaman güvenmemelisin?",
+      "guide": "google-yapay-zeka-modu"
     },
     {
-      "code": "K33",
-      "date": "2027-01-26",
-      "title": "3 yapay zekâya aynı zor e-postayı yazdırdım",
-      "guide": "zor-e-postalar"
-    },
-    {
-      "code": "K34",
-      "date": "2027-01-28",
-      "title": "Bu hafta uygulama yapıyorum: siz seçin",
-      "guide": "yapay-zekayla-uygulama"
-    },
-    {
-      "code": "K35",
-      "date": "2027-01-30",
-      "title": "Yapay zekâ becerisiyle hizmet satmak: ilk müşteri nasıl bulunur",
-      "guide": "yapay-zekayla-hizmet-satmak"
-    },
-    {
-      "code": "K36",
-      "date": "2027-01-31",
-      "title": "Uygulama günlüğü: ilk saat",
-      "guide": "yapay-zekayla-uygulama"
-    },
-    {
-      "code": "K37",
-      "date": "2027-02-02",
-      "title": "Uygulama günlüğü: yapay zekânın en büyük hatası",
-      "guide": "yapay-zekayla-uygulama"
-    },
-    {
-      "code": "K38",
-      "date": "2027-02-03",
-      "title": "U5 tanıtımı",
-      "guide": "yapay-zekayla-uygulama"
-    },
-    {
-      "code": "K39",
-      "date": "2027-02-06",
-      "title": "Kodlama yapay zekâlarını yarıştırdım",
-      "guide": "yapay-zekayla-uygulama"
-    },
-    {
-      "code": "K40",
-      "date": "2027-02-07",
-      "title": "TikTok Türkiye'de izlenme başına para ödüyor mu? Uygulamada kontrol ettim",
-      "guide": "yapay-zeka-yan-is-gercekleri"
-    },
-    {
-      "code": "K41",
-      "date": "2027-02-09",
-      "title": "İş ilanı ve CV'de yapay zekâ: neye dikkat?",
-      "guide": "yapay-zeka-ve-is"
-    },
-    {
-      "code": "K42",
-      "date": "2027-02-11",
-      "title": "Aynı sunumu 3 yapay zekâya hazırlattım",
-      "guide": "yapay-zeka-gunluk-isler"
-    },
-    {
-      "code": "K43",
-      "date": "2027-02-13",
-      "title": "Siz sordunuz",
-      "guide": "siz-sordunuz"
-    },
-    {
-      "code": "K44",
-      "date": "2027-02-14",
-      "title": "Hangi meslek gerçekten risk altında? Tek grafik",
-      "guide": "yapay-zeka-ve-is"
-    },
-    {
-      "code": "K45",
-      "date": "2027-02-16",
-      "title": "Yapay zekâ çağında yeni doğan 5 iş",
-      "guide": "yapay-zeka-ve-is"
-    },
-    {
-      "code": "K46",
-      "date": "2027-02-17",
-      "title": "U6 tanıtımı",
-      "guide": "yapay-zeka-ve-is"
-    },
-    {
-      "code": "K47",
-      "date": "2027-02-20",
-      "title": "Bir görevi 3 yapay zekâyla otomatikleştirdim",
-      "guide": "yapay-zeka-gunluk-isler"
-    },
-    {
-      "code": "K48",
-      "date": "2027-02-21",
-      "title": "Yapay zekâyla kitap yazıp Amazon'da satmak: anlatılmayan kural",
-      "guide": "yapay-zeka-yan-is-gercekleri"
-    },
-    {
-      "code": "K49",
-      "date": "2027-02-23",
-      "title": "Küçük bir işletmeye yapay zekâyla 1 saatte web sitesi",
-      "guide": "yapay-zekayla-web-sitesi"
-    },
-    {
-      "code": "K50",
-      "date": "2027-02-25",
-      "title": "90 günde en çok işime yarayan 3 araç",
-      "guide": "yapay-zeka-gunluk-isler"
-    },
-    {
-      "code": "K51",
-      "date": "2027-02-27",
-      "title": "90 günde ne öğrendim: tüm rakamlar",
-      "guide": "test-yontemi"
+      "code": "S10",
+      "date": "2026-12-13",
+      "title": "Yapay zekâ aboneliğine para vermeden önce bu testi yap",
+      "guide": "ucretsiz-yapay-zeka"
     }
   ]
 }

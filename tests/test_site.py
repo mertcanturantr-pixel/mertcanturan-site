@@ -379,7 +379,7 @@ class PlanTests(unittest.TestCase):
     def test_every_video_has_an_existing_guide(self):
         code, rows = plan_check.check(today=date(2026, 11, 16))
         self.assertEqual([r for r in rows if r["state"] == "REHBER YOK"], [])
-        self.assertEqual(len(rows), 57)
+        self.assertEqual(len(rows), 15)
 
     def test_late_guide_is_reported(self):
         code, rows = plan_check.check(today=date(2026, 12, 9))
