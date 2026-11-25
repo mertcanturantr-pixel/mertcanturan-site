@@ -359,6 +359,11 @@ class RepoTests(unittest.TestCase):
         repos, _ = self._load({"a.md": REPO_OK.replace("draft: false", "draft: true")}, {"sahip/deneme": {"archived": True}})
         self.assertTrue(repos[0]["archived"])
 
+    def test_unrecognized_github_license_does_not_stop_build(self):
+        text = REPO_OK.replace("license: MIT", "license: Sustainable-Use-License\nlicense_note: Açık kaynak değil.")
+        repos, _ = self._load({"a.md": text}, {"sahip/deneme": {"license": "NOASSERTION", "stars": "5 bin"}})
+        self.assertEqual((repos[0]["license"], repos[0]["stars"]), ("Sustainable-Use-License", "5 bin"))
+
     def test_license_note_allows_custom_license(self):
         text = REPO_OK.replace("license: MIT", "license: Sustainable-Use-License\nlicense_note: Açık kaynak değil.")
         repos, _ = self._load({"a.md": text})

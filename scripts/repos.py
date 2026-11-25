@@ -80,6 +80,10 @@ def load(include_drafts: bool = False, today: date | None = None) -> tuple[list[
         m, body = G.parse_front_matter(f.read_text(encoding="utf-8"))
         ov = overrides.get(m.get("repo", ""), {})
         # GitHub API'den gelen güncel bilgi elle yazılanın önüne geçer; lisans değiştiyse derleme durur
+        # GitHub, tanımadığı lisanslar için (ör. n8n'in Sustainable Use License'ı) "NOASSERTION" döner;
+        # bu bir değişiklik değil, GitHub'ın lisansı belirleyememesi. Dosyadaki elle doğrulanmış lisans geçerli kalır.
+        if ov.get("license") in ("NOASSERTION", "OTHER"):
+            ov = {k: v for k, v in ov.items() if k != "license"}
         if ov.get("license") and m.get("license") and ov["license"] != m["license"]:
             raise ValueError(f"{f.name}: GitHub'daki lisans ({ov['license']}) dosyadakiyle ({m['license']}) aynı değil. "
                              "Lisans değişikliğini incele, sonra dosyayı güncelle.")
