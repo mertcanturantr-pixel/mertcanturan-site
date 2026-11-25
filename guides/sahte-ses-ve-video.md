@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: FBI duyurusu birincil kaynağa bağlandı, kanıtsız "evet deme" tavsiyesi düzeltildi, ünlü kopyası reklam yasağı ve SPK kontrolü eklendi, başlıklar soru biçimine çevrildi, iç bağlantılar
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Telefon çalıyor, oğlunun sesi: "Anne, kaza yaptım, polis burada, hemen şu hesaba para göndermen lazım." Ses onun sesi, ağlıyor, acele ediyor. Yapay zekâ ses klonlama araçları, birkaç saniyelik bir ses kaydından birinin sesini taklit edebiliyor; o kayıt da çoğu zaman sosyal medyadaki bir videodan geliyor. Bu yüzden "sesini tanıdım" artık bir kanıt değil.

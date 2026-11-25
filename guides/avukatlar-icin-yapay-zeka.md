@@ -14,7 +14,7 @@ change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 dört rollü denetim: TBB rehberinin tarihleri (20 Haziran panel, 28 Ağustos yayım) netleştirildi, yasak kullanımlar ve kaynaklar eklendi, Kısaca paragrafı ve iç bağlantılar.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Mevzuat taraması, dilekçe taslağı, belge özeti, içtihat ön elemesi: Avukatların çoğu bu işlerde yapay zekâyı zaten deniyor. Sorun şu ki avukatın elindeki bilgi çoğu meslekten daha hassas: müvekkil sırrı, dosya içeriği, sağlık ve sabıka bilgisi, ticari sır. Yanlış araca yapıştırılan tek bir paragraf hem sır saklama yükümlülüğünü hem 6698 sayılı Kişisel Verilerin Korunması Kanunu'nu (KVKK) çiğneyebilir; kontrol edilmemiş tek bir içtihat da mahkeme önünde itibarını.

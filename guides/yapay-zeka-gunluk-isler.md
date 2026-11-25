@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İskeletten tam rehbere çevrildi: sekiz günlük iş, hazır komutlar ve araç önerileri; 2026-11-16 dört rollü denetim: Kısaca paragrafı, ilgili rehberlere bağlantılar ve Copilot lisans notu eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yapay zekâyı her gün açıp yine de "bana pek bir şey kazandırmıyor" diyen çok kişi var. Genellikle sorun araçta değil, ona verilen işte: Ya çok büyük ve belirsiz bir iş veriliyor ("bana iş planı yaz"), ya da her seferinde bağlam baştan anlatılıyor. Aşağıdaki sekiz iş, yapay zekânın gerçekten zaman kazandırdığı, sonucunu da kolayca kontrol edebildiğin işler. Her biri için doldurup kullanacağın bir komut var.

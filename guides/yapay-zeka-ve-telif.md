@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İskeletten tam rehbere çevrildi: Türk hukuku, ABD kararları, araç koşulları, benzerlik riski, satış öncesi kontrol listesi; 2026-11-16 dört rollü denetim: Thaler ve Midjourney koşulları yeniden doğrulandı, doğrulanamayan dosya numarası çıkarıldı, gerçek kişi kopyası için 2026 reklam kuralı ve AB Yapay Zekâ Yasası etiket yükümlülüğü eklendi, sorumluluk ifadesi yumuşatıldı.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Kısaca: Yapay zekâyla ürettiğin bir görseli, metni ya da müziği çoğu araçta kullanabilir, satabilirsin; aracın kullanım koşulları bunu sana bırakıyor. Ama "kullanabilmek" ile "telif hakkına sahip olmak" aynı şey değil. Türk hukukunda eser sahibi bir insan olmalı. Yalnızca komut yazıp aldığın bir çıktı büyük ihtimalle kimsenin eseri sayılmaz; yani başkası da aynısını kopyaladığında ona karşı telif hakkına dayanman zor. Asıl risk ise tersinden gelir: Çıktı başkasının eserine, karakterine ya da markasına benziyorsa, onu kullanan sensin.

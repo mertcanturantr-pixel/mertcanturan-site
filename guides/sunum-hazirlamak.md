@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: Copilot lisans durumu (Nisan 2026) ve Gemini Notebook slayt özelliği eklendi, yazım hatası düzeltildi, başlıklar soru biçimine çevrildi, iç bağlantılar artırıldı.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yarın sunum var ve elinde sadece bir yığın not. "Yapay zekâ bana sunum yapsın" dersen, birkaç saniyede on beş slaytlık, maddeli, renkli bir dosya çıkar. Sorun şu: Bu slaytların çoğu bir şey söylemez ve sen sahneye çıktığında ne anlatacağını bilmezsin. Yapay zekâ sunumda en çok slayttan önceki işte, yani ne anlatacağına karar vermekte ve provada işe yarıyor.

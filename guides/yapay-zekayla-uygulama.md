@@ -15,7 +15,7 @@ change: 2026-11-16 Yeni yazı standardına göre yeniden yazılmak üzere iskele
 change: 2026-11-16 Tam rehbere çevrildi: Lovable ve paket uydurma olayları, araç seçimi, sık hatalar, dürüst sınır; 2026-11-16 dört rollü denetim: KVKK yurt dışı aktarım ve aydınlatma maddeleri, ilgili rehberlere bağlantılar ve soru başlıkları eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yapay zekâ araçlarıyla, yazılım bilmeden bile çalışan bir uygulama yapmak artık mümkün. Lovable, Bolt ya da Replit gibi araçlara ne istediğini yazıyorsun, birkaç dakikada giriş ekranı, veri tabanı ve sayfaları olan bir uygulama çıkıyor. Ama "çalışıyor" ile "güvenle kullanılabilir" arasında büyük bir fark var ve bu fark, uygulamaya ilk gerçek kullanıcı girdiğinde ortaya çıkıyor.

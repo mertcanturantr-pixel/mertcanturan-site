@@ -14,7 +14,7 @@ change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 Tam rehbere çevrildi: dört şablon, temsili örnek çıktı, uzun ve taranmış belge, sık hatalar; 2026-11-16 dört rollü denetim: örnek çıktının açıklamasına TBK m.325 ve m.342 notu, iç bağlantılar ve soru başlıkları eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Elinde imzalaman istenen bir kira, iş ya da hizmet sözleşmesi var ve on iki sayfa. Yapay zekâya okutmak, maddeleri hızlıca gözden geçirmenin pratik bir yolu. Ama araç senin yerine karar veren bir avukat değil: Metinde olmayan bir maddeden söz edebilir, yanlış bir kanun maddesi gösterebilir, en önemli maddeyi hiç görmeyebilir.

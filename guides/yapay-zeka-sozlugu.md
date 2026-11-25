@@ -14,7 +14,7 @@ change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 dört rollü denetim: başlıktaki 30 terim sayısı tutsun diye komut enjeksiyonu eklendi, Kısaca paragrafı, açık ağırlık ile açık kaynak farkı ve iç bağlantılar.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir yapay zekâ videosu izliyorsun ve "bağlam penceresi 200 bin token", "ajan modu", "RAG ile halüsinasyonu azalttık" gibi cümleler geçiyor. Bu terimlerin çoğu karmaşık değil; yalnızca İngilizceden çevrilmeden kullanılıyor. Aşağıda en sık karşılaşacağın terimleri, her birini bir cümlelik açıklama ve günlük bir örnekle yazdım. Terimler konuya göre gruplu; aradığını sayfada bulmak için Ctrl + F (telefonda "sayfada bul") kullan.

@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: YÖK rehberinin kapsamı kaynağa göre düzeltildi, disiplin savunması ve dava süresi eklendi, Kısaca alıntılanabilir hâle getirildi, başlıklar soru biçimine çevrildi
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Ödevini kendin yazdın ve hocan "yapay zekâ tespit aracı bunun yüzde 70'ini yapay zekâ yazmış diyor" dedi. Ya da yapay zekâdan yardım aldın ama metni kendin yazdın ve şimdi nerede çizgiyi aştığını bilmiyorsun. İki durumda da önce şunu bil: Yapay zekâ dedektörlerinin verdiği sonuç bir kanıt değil, bir tahmin. Bu tahminlerin yanılma oranı, bir öğrenciyi yalnızca ona dayanarak suçlamaya yetmeyecek kadar yüksek.

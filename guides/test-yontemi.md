@@ -15,7 +15,7 @@ change: 2026-11-16 Tam rehbere çevrildi: test planı şablonu, puan kartı, sı
 change: 2026-11-16 dört rollü denetim: reklam kuralının yönetmelik maddesi ve Ticaret Bakanlığı kaynağı, soru biçimli başlıklar ve iç bağlantılar eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir yapay zekâ aracı hakkında "harika" ya da "işe yaramaz" demek kolay. Zor olan, bunu neye göre söylediğini gösterebilmek. Bu sayfada videolardaki testlerde izlediğim kuralları yazdım; bir sonuca katılmasan bile nasıl varıldığını görebilesin diye. İkinci yarısında da aynı yöntemi kendi işinde, bir aracı satın almadan ya da ekibine önermeden önce nasıl kullanacağını anlattım.

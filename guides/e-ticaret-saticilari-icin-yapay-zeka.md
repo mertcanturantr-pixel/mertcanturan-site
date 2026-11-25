@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: 2026 yönetmelik değişikliği Bakanlık duyurusuyla doğrulandı (indirimde son 10 gün kuralı, çevresel beyan, reklamda yapay zekâ beyanı, 48 saat), cayma ve ayıplı mal hakları, İYS onayı eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Pazaryerinde 300 ürünün var ve her birine düzgün bir açıklama yazmak haftalar alıyor. Müşteri soruları gece gelişiyor, iade talepleri birbirine benziyor, kampanya dönemi yaklaşıyor. Yapay zekâ bu işlerin çoğunu hızlandırabilir. Ama e-ticarette yazdığın her cümle, tüketiciye verilmiş bir bilgi: Yanlış bir ölçü, uydurulmuş bir "yüzde 100 pamuk" ya da gerçeğinden güzel bir ürün fotoğrafı iade, şikâyet ve ceza demek.

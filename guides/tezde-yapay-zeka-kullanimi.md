@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: YÖK rehberinin somut kuralları (yöntem bölümünde açıklama, araç-sürüm-tarih), üniversite yönetmeliği örneği ve dedektör uyarısı eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yüksek lisans ya da doktora tezi yazıyorsun ve yapay zekânın literatür taramasında, İngilizce özeti düzeltmede ya da analiz kodunu yazmada işini hızlandırabileceğini biliyorsun. Ama nerede çizginin aşıldığını, ne zaman beyan etmen gerektiğini ve jüriye ne söyleyeceğini bilmiyorsun.

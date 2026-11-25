@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: kişisel veri ve ticari sırda cezai sorumluluk, işe iade süresi ve kurumsal plan adları eklendi, başlıklar soru biçimine çevrildi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Raporunu ChatGPT'ye özetletiyorsun, müşteri e-postalarını Gemini'ye yazdırıyorsun ve işin yarı yarıya kısalıyor. Sonra bir gün aklına geliyor: Buna iznim var mıydı? Yüklediğim o müşteri listesi nereye gitti? Yanlış bir şey olursa kim sorumlu?

@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: KVKK yurt dışına aktarım ve veri ihlali bildirimi eklendi, Kısaca somutlaştırıldı, başlıklar soru biçimine çevrildi, iç bağlantılar artırıldı.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Çalışanlarının yapay zekâ kullanıp kullanmadığını bilmiyorsan, büyük ihtimalle kullanıyorlar; çoğu da kişisel hesaplarından. Bir müşterinin sözleşmesi, bir çalışanın maaş bilgisi ya da şirketin teklif fiyatları, kimsenin haberi olmadan bir yapay zekâ şirketinin sunucusuna gidiyor olabilir. Yasaklamak çoğu zaman işe yaramıyor; kullanım yer altına iniyor. Daha iyisi, açık ve kısa bir politika.

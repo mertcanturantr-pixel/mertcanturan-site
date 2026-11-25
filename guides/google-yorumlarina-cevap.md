@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: seçici yorum isteme yasağı eklendi, reklam yönetmeliğinin tüketici değerlendirmesi kuralları netleştirildi, hakaret için TCK m.125 ve şikâyet süresi, başlıklar soru biçimine çevrildi
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Gece on birde telefonuna bildirim düşüyor: Bir müşteri Google'da işletmene bir yıldız vermiş ve uzun bir şikâyet yazmış. İlk içgüdün hemen cevap yazmak; ama o saatte, o öfkeyle yazılan cevap yorumdan daha çok zarar verebilir. Yorum cevapları sadece yorumu yazana değil, işletmeni araştıran herkese yazılıyor. Yapay zekâ burada iki işe yarıyor: öfkeyi metinden çıkarmak ve her yoruma aynı kalıbı yapıştırmak yerine yoruma özel cevap yazmak.

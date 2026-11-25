@@ -65,7 +65,7 @@ Son güncelleme: 2026-11-22 (depo: github.com/mertcanturantr-pixel/mertcanturan-
 
 ## 6. Bilinen tuzaklar
 
-- Yayın açılana kadar `.github/workflows/site.yml` yalnız elle (workflow_dispatch) çalışır. Açılış günü `schedule` ve `push` tetiklerini geri ekle; aksi hâlde site kendiliğinden güncellenmez.
+- Site 25 Kasım 2026'da GitHub Pages'te yayına açıldı (mertcanturan.com). SAHA notu olmayan 28 rehber `draft: false`; SAHA notu kapanan rehberde `draft: false` yapılınca yayına girer.
 
 - Önizleme derlemesi bağlantıları `index.html` ile bitirir; canlı derleme bitirmez (`Links` sınıfı). 404 sayfası kök yollu (`/`) bağlantı kullanır.
 - Taslak ve iskelet rehberler yalnız önizlemede çıkar; yayındaki rehber taslağa bağlantı verirse bağlantı düz metne döner (uyarı basılır).

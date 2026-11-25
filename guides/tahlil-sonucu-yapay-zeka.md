@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: ChatGPT Health durumu Kasım 2026'ya göre netleştirildi, KVKK tam adı, Kısaca alıntılanabilir hâle getirildi, başlıklar soru biçimine çevrildi, iç bağlantılar
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 e-Nabız'a tahlil sonucun düşüyor; bazı değerlerin yanında yukarı ya da aşağı ok var ve doktor randevun bir hafta sonra. Merakla sonucu ChatGPT'ye yapıştırıyorsun. Yapay zekâ burada gerçekten işe yarayabilir: Terimleri anlatabilir, bir değerin genelde neyle ilişkili olduğunu söyleyebilir, doktoruna ne soracağını hazırlamana yardım edebilir. Ama teşhis koyamaz, seni muayene edemez ve geçmişini bilmez. Ve sağlık bilgin, paylaşabileceğin en hassas bilgilerden biri.

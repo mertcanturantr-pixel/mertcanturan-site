@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İskeletten tam rehbere çevrildi: araştırmalar, Türkiye verisi, görev analizi şablonu, işe alım ve işten çıkarmada haklar; 2026-11-16 dört rollü denetim: Kısaca paragrafı eklendi, Dünya Bankası çalışmasının tarihi ve bulgusu kaynağa göre düzeltildi, kanun adları tamamlandı.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 "Yapay zekâ işimi elimden alacak mı?" sorusuna en dürüst cevap: Büyük ihtimalle işini değil, işinin bir kısmını değiştirecek; ama bu değişim herkese aynı hızda ve aynı şekilde gelmiyor. En çok etkilenenler, işinin büyük kısmı yazı, rakam ve rutin bilgi işleme olan kişiler ve en çok da işe yeni başlayanlar. Aşağıda büyük araştırmaların gerçekte ne bulduğunu, Türkiye'deki durumu ve kendi işin için yapabileceğin basit bir analizi anlattım.

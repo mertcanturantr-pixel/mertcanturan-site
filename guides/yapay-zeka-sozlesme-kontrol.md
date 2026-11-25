@@ -14,7 +14,7 @@ change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 Tam rehbere çevrildi: yabancı kalıplar tablosu, sözleşme türüne göre kurallar, örnek, kontrol komutu, sık hatalar; 2026-11-16 dört rollü denetim: rekabet yasağında hâkimin sınırlama yetkisi ve tüketici arabuluculuğu eklendi, kanun adları tam yazıldı, başlıklar soru biçimine çevrildi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yapay zekâ birkaç saniyede düzgün görünen bir sözleşme yazıyor. Düzgün görünmesi işini gördüğü anlamına gelmiyor. Taraflar eksik, ödeme belirsiz, fesih maddesi yok ya da Türk hukukunda geçersiz bir yetkili mahkeme maddesi var olabilir. İmzalamadan önce bu rehberdeki kontrolleri yap: İlk üç kontrol beş dakika sürer, hepsi yarım saat.

@@ -1,10 +1,11 @@
 name: Siteyi güncelle
 
 on:
-  # Yayına açılana kadar yalnız elle çalışır. Açılış günü şu iki tetik geri eklenecek:
-  #   schedule: - cron: "17 */3 * * *"   (üç saatte bir, UTC)
-  #   push: branches: [main]
+  schedule:
+    - cron: "17 */3 * * *"   # üç saatte bir (UTC)
   workflow_dispatch:          # Actions sekmesinden elle çalıştırma
+  push:
+    branches: [main]
 
 permissions:
   contents: write

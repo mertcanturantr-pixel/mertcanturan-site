@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: KDV kararı künyesi ve tarih bağlamı eklendi, başlıklar soru biçimine çevrildi, iç bağlantılar artırıldı.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 ChatGPT'ye bir fatura toplatıyorsun, sonuç makul görünüyor ve geçiyorsun. Sonra hesap makinesiyle kontrol ettiğinde bir kalemin atlandığını ya da bir yüzdenin yanlış uygulandığını görüyorsun. Dil modelleri hesap makinesi değil: Metni kelime kelime tahmin ederek yazıyorlar ve sayılarla çalışırken de bazen bu tahmini yapıyorlar. Uzun toplama, ondalıklı sayılar, birden fazla adımı olan hesaplar ve Türkçe sayı biçimi (binlik nokta, ondalık virgül) en sık hata yapılan yerler.

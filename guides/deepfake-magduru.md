@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: 5651 m.9'un Anayasa Mahkemesince iptali ve 9/A başvuru makamı güncellendi, şikâyet süresi ve KVKK başvuru sırası eklendi, 155 yerine 112.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir arkadaşın sana bir bağlantı gönderiyor: Senin yüzünle, hiç bulunmadığın bir yerde, hiç yapmadığın bir şeyi yaparken çekilmiş gibi görünen bir fotoğraf ya da video. Belki cinsel içerikli, belki aşağılayıcı, belki de seni bir şey söylemiş gibi gösteren sahte bir ses kaydı. Bu senin suçun değil ve yalnız değilsin. İlk saatlerde yapacakların, içeriğin ne kadar yayılacağını ve sonrasında haklarını ne kadar etkili kullanabileceğini belirliyor.

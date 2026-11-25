@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: kaynaksız genellemeler yumuşatıldı, kişisel bilgi maddesi ve iç bağlantılar eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Ön yazı, CV'nin söyleyemediğini söyler: Neden bu şirket, neden bu iş, neden sen? Yapay zekâya hazır yazdırılan ön yazıların çoğu aynı cümleyle başlıyor ve bu yüzden işe alımcının gözüne hemen batıyor: "Şirketinizin yenilikçi vizyonunu büyük bir heyecanla takip ediyorum." Yapay zekâ ön yazı yazmayı hızlandırabilir; ama ilk paragrafı ve şirkete özel bilgiyi sen vermezsen, ortaya herkesinkine benzeyen bir mektup çıkar.

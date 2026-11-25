@@ -14,7 +14,7 @@ change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 dört rollü denetim: komut enjeksiyonu uyarısı netleştirildi, reklam yönetmeliği maddesi, KVKK tam adı ve kampanya mesajı izni eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Sitene ya da WhatsApp hattına müşteriyle konuşan bir yapay zekâ koymak, gece yarısı gelen sorulara bile anında cevap vermenin cazip bir yolu. Ama müşteriyle konuşan robot, şirketin adına konuşuyor. Kanada'da Air Canada'nın sitesindeki robot, bir yolcuya şirketin politikasında olmayan bir indirim hakkından söz etti; şirket robotun ayrı bir varlık olduğunu savundu, kurul kabul etmedi ve şirketi sorumlu tuttu. ABD'de bir Chevrolet bayisinin robotu, kullanıcıların yönlendirmesiyle bir arabayı bir dolara satmayı "kabul etti". İki olayın ayrıntısı [hata dosyasında](rehber:yapay-zeka-hatalari#air-canada).

@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: MEB etik kılavuzunun tarihi (Ocak 2026) ve YÖK rehberinin içeriği kaynağa göre düzeltildi, Kısaca kısaltıldı, başlıklar soru biçimine çevrildi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yapay zekâ bir öğrenci için iki şeyden biri olabilir: Ödevi senin yerine yazan bir kopya aracı ya da gece ikide bile soru sorabileceğin sabırlı bir öğretmen. İlki kısa vadede zaman kazandırır ama sınavda, mülakatta ve işte seni yalnız bırakır. İkincisi seni gerçekten daha iyi yapar. Bu sayfa ikincisi için.

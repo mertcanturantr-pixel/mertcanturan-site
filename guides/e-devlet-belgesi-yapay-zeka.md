@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: karekod riski, veri ayarı adımı ve KVKK kaynakları eklendi, başlıklar soru biçimine çevrildi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 SGK hizmet dökümünde bir boşluk var ve ne anlama geldiğini bilmiyorsun; ya da tapu kaydındaki bir şerhi anlamak istiyorsun. Belgeyi e-Devlet'ten PDF olarak indirip ChatGPT'ye yüklemek en kolayı gibi görünüyor. Ama e-Devlet belgeleri, sıradan bir belgeden daha fazla şey taşıyor: Kimlik numaranı, adresini ve çoğu zaman bir barkod. Barkodlu belgeler, barkod numarasıyla (bazı belgelerde kimlik numarasıyla birlikte) ya da belgedeki karekodu e-Devlet uygulamasıyla okutarak "Barkodlu Belge Doğrulama" hizmetinde başkaları tarafından da görüntülenebiliyor.

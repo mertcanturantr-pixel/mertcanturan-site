@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: başlıklar soru biçimine çevrildi, araç tablosuna tarih bağlamı ve iç bağlantılar eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Önünde 140 sayfalık bir faaliyet raporu, bir ihale şartnamesi ya da bir yönetmelik var ve yarına kadar ne dediğini bilmen gerekiyor. Yapay zekâya yüklemek mantıklı; ama "bunu özetle" dediğinde aldığın beş paragraflık özet, belgenin önemli bir maddesini atlamış olabilir. Uzun belgelerde yapay zekânın bilinen bir zayıflığı var: Başı ve sonu iyi hatırlarken ortadaki bilgiyi daha sık kaçırıyor.

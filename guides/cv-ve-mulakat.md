@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: Kısaca yeniden yazıldı, İş Kanunu m.25 ve KVKK m.11 eklendi, kanıtsız genellemeler yumuşatıldı, başlıklar soru biçimine çevrildi
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Yüzlerce başvurunun gittiği bir ilanda işe alım uzmanı her CV'ye ancak kısa bir süre ayırabiliyor. Yapay zekâ CV'ni daha düzenli, ilana daha uygun ve daha somut hâle getirebilir. Ama yapay zekânın ürettiği klişelerle dolu bir CV, işe alımcının gözünde diğer yüzlerce CV'ye benzer: "Sonuç odaklı, dinamik, takım oyuncusu bir profesyonelim." Aşağıdaki adımlar yapay zekâyı CV'ni herkesinkine benzetmek için değil, seni daha net anlatmak için kullanmanın yolu.

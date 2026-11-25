@@ -13,7 +13,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: araç tablosu Kasım 2026 durumuna göre güncellendi, Ticari Reklam Yönetmeliği'nin 1 Ağustos 2026 yapay zekâ kuralı eklendi, başlıklar soru biçimine çevrildi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir kampanya afişi, bir blog yazısı için kapak, çocuğunun doğum günü davetiyesi ya da bir sunum için illüstrasyon. Yapay zekâyla görsel üretmek artık ChatGPT ve Gemini'nin ücretsiz sürümlerinde bile var ve sonuçlar çoğu zaman şaşırtıcı derecede iyi. Ama ilk denemede çıkan görsel genellikle "neredeyse" doğru: Yazı yanlış harfli, eller tuhaf, renkler istediğin gibi değil. İyi sonuç, iyi bir ilk komut ve birkaç düzeltme turuyla geliyor.

@@ -14,7 +14,7 @@ change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 dört rollü denetim: reklam yönetmeliği maddeleri Ticaret Bakanlığı duyurusuna göre düzeltildi (sesli paylaşım, çocuklara profillemeli reklam, değerlendirmeler), 6563 sayılı Kanun ve iç bağlantılar eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Küçük bir işletmede pazarlama genelde "vakit bulunca bir şeyler paylaşmak" demek. Yapay zekâ bu durumu değiştirebilir: Bir saatte bir aylık içerik planı, beş farklı reklam metni ya da bir kampanya duyurusu. Ama yapay zekâ kendi başına senin müşterini tanımıyor; ona "hedef kitlem 25-45 yaş kadınlar" dersen, herkese hitap eden, kimseye dokunmayan metinler yazar. İyi sonuç, gerçek müşterilerinden yola çıkınca geliyor.
