@@ -14,7 +14,7 @@ checked: 2026-11-25
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: TCK 133 anlatımı fıkralara göre netleştirildi, KVKK aydınlatma yükümlülüğü ve çalışan rızası notu, örnek özet çıktısı ve iç bağlantılar eklendi.; 2026-11-25 hukuki doğrulama: TCK 133'ün yüz yüze ve çevrim içi toplantıya uygulanışı Yargıtay kararlarına göre netleştirildi
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir saatlik toplantıdan çıkıyorsun ve kimse not almamış. Ne karar verildi, kim neyi yapacak, ne zamana kadar? Yapay zekâ not alıcılar bu sorunu çözüyor: Toplantıyı dinleyip özet, karar ve görev listesi çıkarıyorlar. Ama önce bir konuyu netleştir: Aleni olmayan bir konuşmayı diğer katılımcıların rızası olmadan kaydetmek, Türk Ceza Kanunu'na göre suç. Yapay zekâ not alıcısı da bir kayıt cihazı.
@@ -45,7 +45,6 @@ Yargı kararlarında, kişinin kendisine karşı işlenen bir suçu başka yolla
 | Google Meet (Gemini ile not alma) | Toplantı notunu Google Dokümanlar'a yazıyor | Plana ve dile göre değişiyor |
 | Bağımsız not alıcılar | Toplantıya bir "katılımcı" olarak girip kaydediyor | Veriler üçüncü bir şirkete gidiyor; şirketinin onayı olmadan kullanma |
 
-> SAHA: Şirketinde ya da kendi hesabında kullandığın toplantı aracının yapay zekâ özetini Türkçe bir toplantıda dene; özetin doğruluğunu ve Türkçe isimleri nasıl yazdığını not et.
 
 Bağımsız not alıcılar konusunda dikkatli ol: Bazıları takvimine bağlandıktan sonra davet edildiğin her toplantıya otomatik katılıyor. Ayarlarını kontrol et.
 

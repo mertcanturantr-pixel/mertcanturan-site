@@ -10,32 +10,31 @@ topic: baslangic
 audience: Herkes
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: Kısaca eklendi, kanıtsız "tek ücretli plandan fazla" iddiası yumuşatıldı, başlıklar soru biçimine çevrildi, tarih bağlamı
+checked: 2026-11-25
+change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: Kısaca eklendi, kanıtsız "tek ücretli plandan fazla" iddiası yumuşatıldı, başlıklar soru biçimine çevrildi, tarih bağlamı; 2026-11-25 tablo resmî sayfalarla yeniden kontrol edildi, sınıra takılınca ne olduğu güncellendi
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Çoğu kişi için ücretsiz yapay zekâ yeterli. Haftada birkaç kez soru soruyor, mesaj ve e-posta yazdırıyor, kısa belgeler okutuyorsan, büyük ihtimalle hiç para vermene gerek yok. Ücretli plan üç durumda fark ettiriyor: her gün saatlerce kullanıp sınıra takılıyorsan, uzun belgelerle ya da çok dosyayla çalışıyorsan, ya da yalnızca ücretli planlarda olan bir özelliğe (uzun video üretimi, yüksek kotalı derin araştırma gibi) ihtiyacın varsa.
 
 Kısaca: ChatGPT, Claude, Gemini, Copilot ve Meta AI'nın ücretsiz sürümleri, haftada birkaç kez soru soran, mesaj yazdıran ve kısa belge okutan biri için yeterli. Sınıra takılırsan ilk mesajı iyi yazarak, kalıcı talimat kurarak ve araçları dönüşümlü kullanarak idare edebilirsin. Bir ay boyunca neredeyse her gün sınıra takılıyorsan ve işin buna bağlıysa ücretli plan mantıklı.
 
-Aşağıdaki tablo beş aracın ücretsiz sürümünü Kasım 2026 itibarıyla özetliyor. Kesin mesaj sayısı vermiyorum, çünkü şirketler bunları sık değiştiriyor ve çoğu zaman yoğunluğa göre esnek tutuyor.
+Aşağıdaki tablo beş aracın ücretsiz sürümünü 25 Kasım 2026 itibarıyla, şirketlerin kendi sayfalarına göre özetliyor. Kesin mesaj sayısı vermiyorum, çünkü şirketler bunları sık değiştiriyor ve çoğu zaman yoğunluğa göre esnek tutuyor.
 
 ## Ücretsiz sürümler genel olarak ne veriyor? {#genel}
 
 | Araç | Ücretsiz sürümde iyi yaptığı | Sınıra takılınca |
 | --- | --- | --- |
-| ChatGPT | Sohbet, dosya ve fotoğraf yükleme, görsel üretme, sesli sohbet, internette arama | Bir süre daha basit bir modele geçer ya da bekletir |
-| Claude | Uzun ve düzgün metin, belge okuma, Türkçe yazı kalitesi | Kullanım hakkı birkaç saat sonra yenilenene kadar bekletir |
-| Gemini | Google hesabıyla gelir; Gmail, Drive ve YouTube ile çalışır, görsel düzenleme | Bazı özelliklerde günlük sınır |
-| Copilot | Ücretsiz sohbet ve görsel üretme; Windows'ta hazır | Yoğun saatlerde yavaşlayabilir |
+| ChatGPT | Sohbet, internette arama, dosya ve fotoğraf yükleme, görsel üretme | Dosya, görsel, ses ve veri analizi gibi araçların ayrı sınırı var. Sınıra gelince ChatGPT uyarıyor ve ne zaman açılacağını gösteriyor. Bazı ülkelerde ücretsiz sürümde reklam çıkabiliyor. |
+| Claude | Uzun ve düzgün metin, belge okuma, Türkçe yazı kalitesi | Kullanım hakkı 5 saatlik dilimlerle yenileniyor; ayrıca haftalık bir sınır var. Ücretsiz sürümde en güçlü model yok. |
+| Gemini | Google hesabıyla gelir; Gmail, Drive ve YouTube ile çalışır, görsel üretip düzenler | Kullanım hakkı 5 saatte bir yenileniyor, haftalık sınıra kadar. Google ücretsiz sürüm için sayı vermiyor. |
+| Copilot | Ücretsiz sohbet ve görsel üretme; Windows'ta hazır | Ücretsiz kullanım Microsoft'un o anki kapasitesine bağlı. Sınıra gelince ya bekliyorsun ya ücretli plana geçiyorsun. |
 | Meta AI | WhatsApp ve Instagram içinde, ayrı uygulama gerektirmez | Yazdıkların reklam kişiselleştirmede kullanılabilir; ayrıntısı [Meta AI rehberinde](rehber:meta-ai-whatsapp) |
 
 Hangi aracın ücretsiz sürümünde hangi modelin ve hangi özelliğin olduğu sık değişiyor; kesin bilgi her aracın kendi plan sayfasında.
 
-> SAHA: Bugün dört aracın (ChatGPT, Claude, Gemini, Copilot) ücretsiz sürümünde aynı gün yoğun kullanım yap ve hangisinin ne zaman, nasıl bir uyarıyla sınıra takıldığını not et. Uyarıların ekran görüntüsünü al; tabloya "gerçekte ne oldu" sütunu ekleyelim.
 
 ## Ücretsiz sürümde sınıra takılmadan nasıl kullanılır? {#sinir-idaresi}
 
@@ -73,7 +72,7 @@ Mesaj sayısı dışında ücretsiz sürümlerde dikkat etmen gereken şeyler:
 
 ## Dürüst sınır {#sinir}
 
-Ücretsiz sürümlerin sınırları ve içerikleri sık değişiyor; bu sayfadaki genel tablo 16 Kasım 2026 tarihli. Bir özellik bugün ücretsiz sürümdeyse yarın ücretli plana taşınabilir ya da tersi olabilir. Karar vermeden önce aracın kendi plan karşılaştırma sayfasına bak.
+Ücretsiz sürümlerin sınırları ve içerikleri sık değişiyor; bu sayfadaki tablo 25 Kasım 2026 tarihli. Bir özellik bugün ücretsiz sürümdeyse yarın ücretli plana taşınabilir ya da tersi olabilir. Karar vermeden önce aracın kendi plan karşılaştırma sayfasına bak.
 
 ## Sonraki adım {#sonraki-adim}
 
@@ -81,7 +80,8 @@ Bu ay ücretsiz sürümlerle çalış ve sınıra takıldığın günleri say. A
 
 ## Kaynaklar
 
+- OpenAI, ChatGPT ücretsiz sürüm SSS: [help.openai.com/en/articles/9275245](https://help.openai.com/en/articles/9275245)
 - OpenAI, ChatGPT planları: [openai.com/chatgpt/pricing](https://openai.com/chatgpt/pricing/)
 - Anthropic, Claude planları: [claude.com/pricing](https://claude.com/pricing)
 - Google, Gemini ve Google AI planları (Free, Google AI Plus, Pro, Ultra): [gemini.google/subscriptions](https://gemini.google/subscriptions/)
-- Microsoft Copilot: [copilot.microsoft.com](https://copilot.microsoft.com/)
+- Microsoft Copilot planları: [microsoft.com/copilot/pricing/individuals](https://www.microsoft.com/en-us/copilot/pricing/individuals)
