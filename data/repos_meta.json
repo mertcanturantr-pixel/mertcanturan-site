@@ -1,56 +1,56 @@
 {
  "Mintplex-Labs/anything-llm": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "MIT",
   "pushed_at": "2026-11-24",
   "stars": "68,6 bin"
  },
  "Stirling-Tools/Stirling-PDF": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
   "pushed_at": "2026-11-25",
-  "stars": "97,4 bin"
+  "stars": "97,5 bin"
  },
  "microsoft/markitdown": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "MIT",
   "pushed_at": "2026-11-07",
-  "stars": "198,4 bin"
+  "stars": "198,5 bin"
  },
  "n8n-io/n8n": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
   "pushed_at": "2026-11-25",
   "stars": "212,1 bin"
  },
  "ollama/ollama": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "MIT",
-  "pushed_at": "2026-11-24",
+  "pushed_at": "2026-11-25",
   "stars": "188,1 bin"
  },
  "open-webui/open-webui": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
   "pushed_at": "2026-11-25",
-  "stars": "159,5 bin"
+  "stars": "159,6 bin"
  },
  "openai/whisper": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "MIT",
   "pushed_at": "2026-08-31",
   "stars": "113,5 bin"
  },
  "paperless-ngx/paperless-ngx": {
   "archived": false,
-  "fetched_at": "2026-11-25",
+  "fetched_at": "2026-11-26",
   "license": "GPL-3.0",
   "pushed_at": "2026-11-25",
   "stars": "48,6 bin"
