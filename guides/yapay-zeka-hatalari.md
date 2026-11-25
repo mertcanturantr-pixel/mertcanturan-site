@@ -9,8 +9,8 @@ audience: Herkes, İş yerleri, Küçük işletmeler
 keywords: yapay zeka hataları örnekleri, yapay zeka halüsinasyon örneği, chatgpt yanlış bilgi, bard james webb hatası, air canada chatbot davası, deloitte yapay zeka raporu, replit veri tabanı silindi, sohbet robotu hatası, prompt injection örneği
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 Baştan yazıldı.
+checked: 2026-11-25
+change: 2026-11-16 Baştan yazıldı.; 2026-11-25 hukuki doğrulama: sohbet robotunun yanlış bilgisine ilişkin Türk hukuku notu eklendi
 change: 2026-11-16 Kaynaklar birincil belgelerle güçlendirildi, Air Canada savunması kararın ifadesiyle düzeltildi, sohbet robotu talimat şablonu eklendi; 2026-11-16 dört rollü denetim: Kısaca paragrafı, sık yapılan hatalar ve dürüst sınır bölümleri, WhatsApp 15 Ocak 2026 kısıtı, iç bağlantılar eklendi, SAHA notu netleştirildi.
 video:
 video_title:
@@ -59,7 +59,7 @@ Kurul bu savunmayı kabul etmedi. Robotun da şirketin sitesinin bir parçası o
 
 Ödenen para küçük, ama kararın söylediği açık: Şirket, sitesindeki robotun verdiği bilgiden de sorumlu. Bu bir küçük alacak kararı; Kanada'da bile bağlayıcı emsal sayılmıyor, Türkiye'yi hiç bağlamıyor. Yine de müşteriye yanlış bilgi veren bir robot yüzünden "onu robot söyledi" savunmasına güvenme.
 
-> SAHA: Türkiye'de bir şirketin sitesindeki sohbet robotunun verdiği yanlış bilgi şirketi hangi hükümle bağlar? Genel bilgi düzeyinde bir iki cümle ve madde numarası yaz (akla ilk gelenler: robotun beyanının şirkete atfı için TBK'nın genel hükümleri ve m.116, tüketiciyi yanıltan bilgi için 6502 sayılı Kanun m.62); kesin hüküm kurma.
+Türkiye'de de "onu robot söyledi" demek şirketi sorumluluktan kendiliğinden kurtarmaz. Duruma göre borca aykırılıktan doğan sorumluluk (Türk Borçlar Kanunu m.112) ya da tüketiciyi yanıltan bilgi nedeniyle tüketici mevzuatından doğan yaptırım (6502 sayılı Kanun m.62 ve Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği) gündeme gelebilir. Açık bir fiyat hatasında ise satıcı esaslı yanılmaya dayanabilir: Yargıtay, 5.999 TL'lik bir ürünün sitede 6 TL görünmesini böyle değerlendirdi.
 
 İade, iptal, fiyat ve hak gibi konularda robotun kendi cümlesiyle cevap vermesi yerine resmî sayfaya bağlantı vermesi daha güvenli. Robotun cevaplarını da resmî kurallarınla düzenli olarak karşılaştır.
 

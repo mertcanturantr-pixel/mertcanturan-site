@@ -9,8 +9,8 @@ type: sablon
 audience: Çalışanlar, Yöneticiler
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: TCK 133 anlatımı fıkralara göre netleştirildi, KVKK aydınlatma yükümlülüğü ve çalışan rızası notu, örnek özet çıktısı ve iç bağlantılar eklendi.
+checked: 2026-11-25
+change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: TCK 133 anlatımı fıkralara göre netleştirildi, KVKK aydınlatma yükümlülüğü ve çalışan rızası notu, örnek özet çıktısı ve iç bağlantılar eklendi.; 2026-11-25 hukuki doğrulama: TCK 133'ün yüz yüze ve çevrim içi toplantıya uygulanışı Yargıtay kararlarına göre netleştirildi
 video:
 video_title:
 draft: true
@@ -22,7 +22,9 @@ Kısaca: Toplantıyı yapay zekâya özetletmeden önce, toplantının başında
 
 ## Toplantıyı kaydetmek için izin şart mı? {#izin}
 
-5237 sayılı Türk Ceza Kanunu'nun 133. maddesinin birinci fıkrası, kişiler arasındaki aleni olmayan konuşmaları taraflardan birinin bile rızası olmadan dinlemeyi ya da kaydetmeyi suç sayıyor. İkinci fıkra, senin de katıldığın aleni olmayan bir konuşmayı diğer konuşanların rızası olmadan kaydetmeyi ayrıca düzenliyor; yani "ben de toplantıdaydım" demek yetmiyor. Üçüncü fıkra, bu yolla elde edilen kaydı hukuka aykırı olarak yaymayı daha ağır cezaya bağlıyor. İş toplantıları da çoğu zaman aleni değil.
+5237 sayılı Türk Ceza Kanunu'nun 133. maddesi, kişiler arasındaki aleni olmayan konuşmaları rızaları olmadan dinlemeyi ya da kaydetmeyi suç sayıyor. İkinci fıkra, senin de katıldığın aleni olmayan bir söyleşiyi diğer konuşanların rızası olmadan kaydetmeyi ayrıca düzenliyor; yani yüz yüze bir toplantıda "ben de oradaydım" demek yetmiyor. Üçüncü fıkra, bu yolla elde edilen kaydı hukuka aykırı olarak yaymayı daha ağır cezaya bağlıyor.
+
+Yargıtay bu maddeyi en az üç kişinin yüz yüze konuştuğu durumlar için uyguluyor; internet üzerinden yapılan sesli ya da görüntülü görüşmeleri "konuşma" değil "haberleşme" sayıyor. Bu yüzden Teams, Zoom ya da Meet toplantısında uygulanacak ceza hükmü değişebilir. Ama ses kaydı her durumda kişisel veri ve KVKK'daki yükümlülükler ceza hukukundan ayrı işliyor. Pratik sonuç değişmiyor: Kaydı baştan söyle, onay al. İş toplantıları da çoğu zaman aleni değil.
 
 Bu yüzden:
 

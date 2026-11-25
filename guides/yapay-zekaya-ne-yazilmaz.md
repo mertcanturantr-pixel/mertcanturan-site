@@ -9,8 +9,8 @@ audience: Herkes, İş yerleri
 keywords: chatgpt eğitim ayarı kapatma, chatgpt verilerim eğitimde kullanılıyor mu, improve the model for everyone, claude gizlilik ayarı, gemini keep activity kapatma, yapay zekaya ne yazılmaz, chatgpt güvenli mi, chatgpt kişisel veri kvkk, yapay zekaya şirket bilgisi yazmak
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 Baştan yazıldı: ayar adımları, ayarın sınırları ve iş yerleri için bölüm eklendi.
+checked: 2026-11-25
+change: 2026-11-16 Baştan yazıldı: ayar adımları, ayarın sınırları ve iş yerleri için bölüm eklendi.; 2026-11-25 hukuki doğrulama: ilgili kişilere bildirim ve çalışan kaynaklı ihlal örneği eklendi
 change: 2026-11-16 Ayar yolları ve saklama süreleri şirketlerin kendi yardım sayfalarından yeniden kontrol edildi; Claude'un tarihleri düzeltildi, hızlı kontrol listesi eklendi; 2026-11-16 dört rollü denetim: Kısaca, sık yapılan hatalar ve dürüst sınır bölümleri, kamuya açık Samsung örneği, 72 saatlik ihlal bildirimi, yeni bölüm adresleri ve iç bağlantılar eklendi, SAHA notları düzeltildi. 2026-11-16 gizlilik ayarları rehberiyle rol ayrımı netleştirildi (Mertcan'ın kararı).
 video:
 video_title:
@@ -102,9 +102,9 @@ Panik yapma, sırayla şunları yap:
 1. Ne paylaştığını not al: hangi araç, hangi gün, hangi bilgi.
 2. Şifre ya da anahtar paylaştıysan önce onu değiştir. En acil adım bu.
 3. Sohbeti sil; adımları [gizlilik ayarları rehberinin silme bölümünde](rehber:yapay-zeka-gizlilik-ayarlari#sil). Silmenin, bilginin şirketin kayıtlarından aynı anda silindiği anlamına gelmediğini bil.
-4. Şirket verisiyse yöneticine ya da şirketin kişisel verilerden sorumlu kişisine söyle. Hukuki sonucu olaya göre değişir ve bunu şirket değerlendirecek. Ne kadar erken söylersen şirketin o kadar zamanı olur; saklarsan o zamanı elinden alırsın. Olay bir veri ihlali sayılırsa, KVKK m.12/5 ve Kurul'un 2019/10 sayılı kararına göre şirket bunu öğrendiği andan itibaren en geç 72 saat içinde Kurul'a bildirmek zorunda.
+4. Şirket verisiyse yöneticine ya da şirketin kişisel verilerden sorumlu kişisine söyle. Hukuki sonucu olaya göre değişir ve bunu şirket değerlendirecek. Ne kadar erken söylersen şirketin o kadar zamanı olur; saklarsan o zamanı elinden alırsın. Olay bir veri ihlali sayılırsa, KVKK m.12/5 ve Kurul'un 2019/10 sayılı kararına göre şirket bunu öğrendiği andan itibaren en geç 72 saat içinde Kurul'a, makul olan en kısa sürede de etkilenen kişilere bildirmek zorunda.
 
-> SAHA: Yukarıdaki 72 saat cümlesini avukat gözüyle oku; bir çalışanın kişisel hesabına müşteri verisi yapıştırmasının ihlal sayılıp sayılmayacağına dair genel bir not eklemek ister misin? Kesin hüküm kurmadan bir iki cümle.
+Müşteri bilgisini kişisel bir yapay zekâ hesabına yapıştırmak, olayın özelliğine göre kişisel veri ihlali sayılabilir. Kurul 2020'de, bir çalışanın 91 müşterinin listesini kurum e-postasından kendi kişisel e-postasına göndermesini veri ihlali olarak inceledi ve şirkete idari para cezası verdi (Kurul kararı 2020/357).
 
 ## Sık yapılan hatalar {#hatalar}
 

@@ -9,8 +9,8 @@ type: kontrol-listesi
 audience: Herkes
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: 5651 m.9'un Anayasa Mahkemesince iptali ve 9/A başvuru makamı güncellendi, şikâyet süresi ve KVKK başvuru sırası eklendi, 155 yerine 112.
+checked: 2026-11-25
+change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: 5651 m.9'un Anayasa Mahkemesince iptali ve 9/A başvuru makamı güncellendi, şikâyet süresi ve KVKK başvuru sırası eklendi, 155 yerine 112.; 2026-11-25 hukuki doğrulama: hakarette iki yıllık şikâyet üst sınırı eklendi
 video:
 video_title:
 draft: false
@@ -68,7 +68,7 @@ Türkiye'de Kasım 2026 itibarıyla "deepfake" adıyla ayrı bir suç tanımı y
 - [ ] Faili tanıyorsan ya da şüphelendiğin biri varsa bilgileri.
 - [ ] Olayın kısa, tarihli bir özeti.
 
-Hakaret ve özel hayatın gizliliğini ihlal gibi şikâyete bağlı suçlarda, fiili ve faili öğrendiğin günden itibaren altı ay içinde şikâyet etmen gerekiyor (TCK m.73). Faili bilmiyorsan da beklemeden başvur; failin tespiti soruşturmanın işi.
+Hakaret ve özel hayatın gizliliğini ihlal gibi şikâyete bağlı suçlarda, fiili ve faili öğrendiğin günden itibaren altı ay içinde şikâyet etmen gerekiyor (TCK m.73). Hakarette ayrıca fiilin üzerinden iki yıl geçince şikâyet hakkı tamamen sona eriyor. Faili bilmiyorsan da beklemeden başvur; failin tespiti soruşturmanın işi.
 
 ## Şantaj varsa ne yapmalısın? {#santaj}
 

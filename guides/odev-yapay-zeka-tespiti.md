@@ -9,8 +9,8 @@ type: adim-adim
 audience: Öğrenciler, Öğretmenler
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: YÖK rehberinin kapsamı kaynağa göre düzeltildi, disiplin savunması ve dava süresi eklendi, Kısaca alıntılanabilir hâle getirildi, başlıklar soru biçimine çevrildi
+checked: 2026-11-25
+change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: YÖK rehberinin kapsamı kaynağa göre düzeltildi, disiplin savunması ve dava süresi eklendi, Kısaca alıntılanabilir hâle getirildi, başlıklar soru biçimine çevrildi; 2026-11-25 hukuki doğrulama: disiplin dayanağı 2547 m.54 olarak düzeltildi, itiraz süresi eklendi
 video:
 video_title:
 draft: false
@@ -38,8 +38,8 @@ Türkçe metinler için durum daha da belirsiz: Bu araçların çoğu ağırlık
    - İlk taslaklar, el yazısı notlar, okuduğun kaynakların listesi, kaynaklarda aldığın notlar.
    - Araştırma sırasındaki tarayıcı geçmişi ve indirdiğin makaleler.
 3. **Metni anlatmayı teklif et.** Hocana, ödevi sözlü olarak anlatabileceğini, sorularını cevaplayabileceğini söyle. Kendi yazdığın bir metni savunmak, en ikna edici kanıttır.
-4. **Kuralları öğren.** Okulunun ya da üniversitenin yapay zekâ kullanım yönergesini ve disiplin yönetmeliğini iste. Ödevde yapay zekânın hangi ölçüde serbest olduğu, hocanın ders izlencesinde ya da üniversitenin kurallarında yazıyor olabilir.
-5. **Resmî süreçte savunma hakkını kullan.** Üniversitedeysen Yükseköğretim Kurumları Öğrenci Disiplin Yönetmeliği'ne göre savunman alınmadan disiplin cezası verilemez; savunma için sana tanınan süreyi kaçırma. Savunmanda dedektörlerin bilinen hata oranlarını (yukarıdaki kaynaklar) ve topladığın yazım kanıtlarını sun. Verilen bir disiplin cezasına karşı idare mahkemesinde dava açma süresi genel kural olarak kararın tebliğinden itibaren 60 gün; uzaklaştırma gibi ağır bir cezayla karşılaştıysan bu süre dolmadan bir avukata danış.
+4. **Kuralları öğren.** Okulunun ya da üniversitenin yapay zekâ kullanım yönergesini ve disiplin kurallarını sor. Ödevde yapay zekânın hangi ölçüde serbest olduğu, hocanın ders izlencesinde ya da üniversitenin kurallarında yazıyor olabilir.
+5. **Resmî süreçte savunma hakkını kullan.** Üniversitedeysen 2547 sayılı Yükseköğretim Kanunu'nun 54. maddesine göre hakkındaki suçlama, savunma yapacağın tarihten en az yedi gün önce sana yazılı bildirilmeli; çağrıya özürsüz gitmezsen savunma hakkından vazgeçmiş sayılabilirsin. Savunmanda dedektörlerin bilinen hata oranlarını (yukarıdaki kaynaklar) ve topladığın yazım kanıtlarını sun. Verilen cezaya karşı 15 gün içinde üniversite yönetim kuruluna itiraz edebilir ya da kural olarak tebliğden itibaren 60 gün içinde idare mahkemesinde dava açabilirsin. Uzaklaştırma gibi ağır bir cezayla karşılaştıysan bu süreler dolmadan bir avukata danış.
 
 **Yapmaman gerekenler:** Metni bir "insanlaştırıcı" araçtan geçirip yeniden teslim etmek, suçlamayı doğruluyormuş gibi görünür ve gerçekten kurallara aykırı olabilir. Panikle "evet yapay zekâ kullandım" deme; ne yaptığını açıkça ve doğru anlat.
 
@@ -89,4 +89,4 @@ Bir sonraki ödevini Google Dokümanlar ya da OneDrive'daki Word'de yaz, sürüm
 - OpenAI, "New AI classifier for indicating AI-written text" (20 Temmuz 2023 güncellemesiyle kapatıldı): [openai.com](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text)
 - Liang ve diğerleri, "GPT detectors are biased against non-native English writers", Patterns, Temmuz 2023: [arXiv](https://arxiv.org/abs/2304.02819)
 - YÖK, "Yükseköğretim Kurumları Bilimsel Araştırma ve Yayın Faaliyetlerinde Üretken Yapay Zekâ Kullanımına Dair Etik Rehber", Mayıs 2024: [yok.gov.tr](https://www.yok.gov.tr/Documents/2024/yapay-zeka-kullanimina-dair-etik-rehber.pdf)
-- Yükseköğretim Kurumları Öğrenci Disiplin Yönetmeliği ve 2577 sayılı İdari Yargılama Usulü Kanunu (m.7, dava açma süresi): [Mevzuat Bilgi Sistemi](https://www.mevzuat.gov.tr/)
+- 2547 sayılı Yükseköğretim Kanunu, m.54 (öğrenci disiplin işleri; eski Öğrenci Disiplin Yönetmeliği 11 Mart 2023'te yürürlükten kaldırıldı) ve 2577 sayılı İdari Yargılama Usulü Kanunu (m.7, dava açma süresi): [Mevzuat Bilgi Sistemi](https://www.mevzuat.gov.tr/)

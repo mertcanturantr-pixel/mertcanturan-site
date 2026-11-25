@@ -377,7 +377,7 @@ class RepoTests(unittest.TestCase):
 
 class PlanTests(unittest.TestCase):
     def test_every_video_has_an_existing_guide(self):
-        code, rows = plan_check.check(today=date(2026, 11, 16))
+        code, rows = plan_check.check(today=date(2026, 11, 25))
         self.assertEqual([r for r in rows if r["state"] == "REHBER YOK"], [])
         self.assertEqual(len(rows), 15)
 

@@ -9,8 +9,8 @@ type: karsilastirma
 audience: Herkes
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 İskelet ve içerik planı.
+checked: 2026-11-25
+change: 2026-11-16 İskelet ve içerik planı.; 2026-11-25 hukuki doğrulama: sosyal içerik üreticiliği istisnasının şartları, 2026 sınırı ve kesinti oranı güncellendi
 change: 2026-11-16 "Gerçekten kazandırır mı?" formatının ana rehberi oldu; U4, K24, K30, K40 ve K48 buraya bağlandı.
 change: 2026-11-16 İlk dört karne yazıldı: yüzsüz kanal, TikTok, kitap, hizmet satmak; 2026-11-16 dört rollü denetim: YouTube yapay zekâ persona kuralı ve KDP beyanı birincil kaynakla doğrulandı, vergi istisnasının tutar sınırı eklendi, Kısaca ve soru biçimli başlıklar, iç bağlantılar 2026-11-16 komisyon cümlesi çıkarıldı (Mertcan'ın kararı).
 video:
@@ -44,7 +44,7 @@ Başlangıç maliyeti: Seslendirme, görsel ve kurgu araçlarının abonelikleri
 Gereken beceri: Konu seçimi, senaryo, kurgu ve izleyiciyi tutan anlatım. Yapay zekâ üretimi hızlandırıyor, bu becerilerin yerini tutmuyor.
 Türkiye'den yapılabilir mi: Evet, YouTube İş Ortağı Programı Türkiye'de açık.
 Platform kuralı: YouTube, şablonla yapılmış, birbirinin yerine geçebilecek videoları ve "seri üretim izlenimi veren" yapay zekâ içeriğini para kazanmaya kapatıyor. Gerçekçi yapay içerikte yükleme sırasında beyan da isteniyor.
-Vergi: YouTube geliri için Gelir Vergisi Kanunu'nda sosyal içerik üreticiliği istisnası var; şartı, gelirin Türkiye'de bu iş için açılan bir banka hesabına gelmesi ve yıllık tutarın gelir vergisi tarifesinin dördüncü dilimini aşmaması. Banka bu hesaba gelen paradan stopaj kesiyor. Başlamadan önce mali müşavirine danış.
+Vergi: YouTube geliri için Gelir Vergisi Kanunu'nda sosyal içerik üreticiliği istisnası var (mükerrer m.20/B). Şartları: vergi dairesinden istisna belgesi almak, bu işin bütün gelirini Türkiye'de yalnız bu işe ayrılmış bir banka hesabında toplamak ve yıllık kazancın sınırı aşmaması; sınır 2026 için 5.300.000 TL. Banka bu hesaba gelen tutardan yüzde 15 vergi kesiyor. Başlamadan önce mali müşavirine danış.
 Bunun yerine: Yapay zekâyı senaryo, araştırma ve kurgu için kullan; kendi bilgini, kendi yorumunla anlattığın bir kanal aç. Yüzün görünmek zorunda değil, ama anlatan sen olmalısın.
 Karar: Bu haliyle çalışmıyor
 ```
