@@ -45,9 +45,9 @@ ChatGPT, Claude ve Gemini artık sohbetler arasında senin hakkında bilgi hatı
 - **Claude ve Gemini:** İkisinde de ayarlarda hafıza ya da kişisel bağlam bölümü var; buradan neyin kaydedildiğini görebilir ve kapatabilirsin. Hafızayla kalıcı talimat arasındaki farkı [kalıcı talimat rehberinde](rehber:kalici-talimat#hafiza) anlattım.
 - **WhatsApp'taki Meta AI:** Ayrı bir durum; neyi gördüğü ve nasıl silineceği [Meta AI rehberinde](rehber:meta-ai-whatsapp#kapatma).
 
-> SAHA: Claude ve Gemini'de hafıza ayarının Türkçe arayüzdeki adını ve yerini kontrol et. Kendi hesabında kayıtlı hafızaya baktığında seni şaşırtan bir şey oldu mu? Kişisel bilgi vermeden bir cümleyle yaz.
+> SAHA: Claude ve Gemini'de hafıza ayarının Türkçe arayüzdeki adını ve yerini kontrol et (Cumartesi ekran kaydıyla).
 
-Hafızana bakmak beş dakika sürer ve çoğu kişiyi şaşırtır. Silmek istediğin bir şey varsa önce oradan sil, sonra sohbetin kendisini sil.
+Hafızana bakmak beş dakika sürer. Silmek istediğin bir şey varsa önce oradan sil, sonra sohbetin kendisini sil.
 
 ## 3. Sohbet geçmişini nasıl indirirsin? {#indir}
 

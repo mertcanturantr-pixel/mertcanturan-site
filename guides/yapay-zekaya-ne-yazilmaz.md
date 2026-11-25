@@ -93,7 +93,7 @@ Kamuya açık bir örnek: Nisan 2023'te Samsung'un yarı iletken biriminde çal�
 2. Kişisel hesabını mı, şirketin anlaştığı kurumsal sürümü mü kullanıyorsun? OpenAI'ın iş planlarında olduğu gibi kurumsal sürümlerde veriler varsayılan olarak eğitimde kullanılmıyor ve sözleşmeyle korunuyor; kişisel hesabında bu güvence yok.
 3. Aynı işi isimleri ve numaraları çıkararak yapabilir misin? Çoğu iş için cevap evet.
 
-> SAHA: Samsung örneğinin yanına Türkiye'den kamuya açık bir olay (haber, Kurul kararı özeti) ya da açıkça kurgu olan ikinci bir örnek eklemek ister misin? Kurguysa metinde "temsili örnek" yazarız; kendi çevrenden ya da işinden bir olay kullanma.
+Temsili örnek: Bir muhasebe bürosunda çalışan biri ay sonu yetişsin diye müşterilerin adını, T.C. kimlik numarasını ve borç tutarını içeren tabloyu kendi ücretsiz yapay zekâ hesabına yapıştırıyor ve "bunu düzenle" diyor. İş on dakikada bitiyor. Ama o tablo artık büronun kontrolünde değil: Büro, hangi müşterinin bilgisinin nereye gittiğini bilmiyor; hesabın eğitim ayarı açıksa sohbet modelin geliştirilmesinde de kullanılabiliyor. Aynı iş, isimler ve kimlik numaraları çıkarılıp yerine "Müşteri 1, Müşteri 2" yazılarak da aynı sürede yapılabilirdi.
 
 ## Yanlışlıkla hassas bilgi yazdıysan ne yapmalı? {#yanlislikla}
 
