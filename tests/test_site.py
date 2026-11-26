@@ -408,7 +408,8 @@ class PlanTests(unittest.TestCase):
         code, rows = plan_check.check(today=date(2026, 12, 9))
         self.assertEqual(code, 1)
         late = {r["code"] for r in rows if r["state"] == "GECİKTİ"}
-        self.assertIn("U1", late)  # taslak hâlâ yayında değil
+        self.assertIn("S1", late)  # taslak hâlâ yayında değil
+        self.assertNotIn("U1", late)  # yayındaki rehber gecikmiş sayılmaz
 
 
 class BuildTests(unittest.TestCase):

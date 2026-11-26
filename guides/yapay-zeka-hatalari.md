@@ -11,11 +11,10 @@ keywords: yapay zeka hataları örnekleri, yapay zeka halüsinasyon örneği, ch
 stage: hazir
 published: 2026-11-16
 checked: 2026-11-25
-change: 2026-11-16 Baştan yazıldı.; 2026-11-25 hukuki doğrulama: sohbet robotunun yanlış bilgisine ilişkin Türk hukuku notu eklendi
-change: 2026-11-16 Kaynaklar birincil belgelerle güçlendirildi, Air Canada savunması kararın ifadesiyle düzeltildi, sohbet robotu talimat şablonu eklendi; 2026-11-16 dört rollü denetim: Kısaca paragrafı, sık yapılan hatalar ve dürüst sınır bölümleri, WhatsApp 15 Ocak 2026 kısıtı, iç bağlantılar eklendi, SAHA notu netleştirildi.
+change: 2026-11-16 Kaynaklar birincil belgelerle güçlendirildi, Air Canada savunması kararın ifadesiyle düzeltildi, sohbet robotu talimat şablonu eklendi; 2026-11-16 dört rollü denetim: Kısaca paragrafı, sık yapılan hatalar ve dürüst sınır bölümleri, WhatsApp 15 Ocak 2026 kısıtı, iç bağlantılar eklendi, SAHA notu netleştirildi.; 2026-11-25 hukuki doğrulama: sohbet robotunun yanlış bilgisine ilişkin Türk hukuku notu eklendi; 2026-11-26 "Benim notum" eklendi ve rehber yayına alındı
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Google'ın tanıtım reklamındaki tek bir yanlış cümle, Alphabet hisselerinin bir günde yüzde 8 düştüğü günün simgesi oldu. Aşağıdaki altı olayda yapay zekâ ya kendinden emin bir şey söyledi ya da kendinden emin bir şey yaptı; birileri de buna kontrol etmeden güvendi.
@@ -133,7 +132,9 @@ Robotu yayına almadan önce yapman gerekenlerin tamamı (kapsam, insana aktarma
 
 Bu altı olay iyi belgelenmiş, kamuya açık örnekler; yapay zekâ hatalarının ne kadar sık olduğunu göstermiyor. Aynı araçlar her gün milyonlarca işi sorunsuz yapıyor. Buradaki önlemler riski düşürür ama sıfırlamaz: Komut saldırısına karşı kesin bir çözüm yok, uydurma kaynak ise en dikkatli kontrolde bile arada kaçabilir. Hukuki sonuçlar da ülkeye ve olaya göre değişiyor; Air Canada kararı Türkiye'de bir mahkemeyi bağlamaz.
 
-> SAHA: Bu olaylardan seni en çok hangisi etkiledi ve neden? İki üç cümle, kendi sesinle. Sayfanın en altına "Benim notum" olarak eklenecek.
+## Benim notum {#benim-notum}
+
+Altı olaydan en önemlisi bence Air Canada. Ötekilerde zarar şirketin kendisinde kaldı; burada yanlış bilgiyi bir müşteri yedi, şirket de "onu robot söyledi" diyerek kenara çekilmeye çalıştı. Sitene ya da WhatsApp hattına bir sohbet robotu koyacaksan şunu unutma: Müşteri robotla değil, seninle konuştuğunu düşünüyor.
 
 ## Sonraki adım {#sonraki-adim}
 
