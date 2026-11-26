@@ -10,13 +10,13 @@ audience: Herkes, Çalışanlar, Küçük işletmeler, Öğrenciler
 keywords: chatgpt mi claude mu gemini mi, hangi yapay zeka daha iyi, chatgpt plus fiyatı tl, claude pro türkiye fiyatı, google ai pro fiyatı, copilot fiyatı, yapay zeka aboneliği değer mi
 stage: hazir
 published: 2026-11-16
-checked: 2026-11-16
-change: 2026-11-16 İlk sürüm. Fiyatlar 16 Kasım 2026 itibarıyla. 2026-11-16 Google fiyatlarında resmî sayfa ve yenileme fiyatı birlikte yazıldı (Mertcan'ın kararı).
+checked: 2026-11-26
+change: 2026-11-16 İlk sürüm. Fiyatlar 16 Kasım 2026 itibarıyla. 2026-11-16 Google fiyatlarında resmî sayfa ve yenileme fiyatı birlikte yazıldı (Mertcan'ın kararı).; 2026-11-26 TL fiyatlar yeniden kontrol edildi, Google AI Pro yenileme fiyatı resmî sayfada görünmediği için çıkarıldı, Mertcan'ın kendi kullanımı eklendi
 change: 2026-11-16 Fiyatlar resmî sayfalardan yeniden kontrol edildi; Copilot fiyatları, Google AI Plus değişikliği, sık yapılan hatalar ve karşılaştırma şablonu eklendi.
 change: 2026-11-16 dört rollü denetim: fiyatlar yeniden doğrulandı, Claude App Store yıllık fiyatı ve Google'ın Ağustos zam haberi eklendi, Kısaca paragrafı ve iç bağlantılar. 2026-11-16 fiyat bölümü sadeleştirildi: araç başına tek plan, tarih ve resmî fiyat sayfası bağlantısı; önce mağaza-web farkı (Mertcan'ın kararı).
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 ChatGPT, Claude, Gemini ve Copilot'un dördü de ücretsiz kullanılabiliyor. Ücretli bireysel planlar Türkiye'de ayda yaklaşık 200 TL ile 1.000 TL arasında. Bence çoğu kişi için doğru seçim, zaten her gün açtığı programlara en iyi uyan araç: Gmail ve Drive'la çalışıyorsan Gemini, şirketin Word ve Outlook kullanıyorsa Copilot.
@@ -29,18 +29,17 @@ Aşağıda en yaygın ücretli planların Türkiye fiyatını, her aracın öne 
 
 Önce şunu bil: Aynı abonelik App Store'da, Google Play'de ve web'de farklı fiyatla satılabiliyor; Türkiye'de yenilemede zam da gelebiliyor. Web'den dolarla ödersen kart ekstrende her ay kura göre farklı bir tutar görürsün. Hangisini seçersen seç, ödemeden önce son ekrandaki tutara bak. Web ile mağaza aboneliğinin farkı ve iptal yolları [abonelik rehberinde](rehber:yapay-zeka-aboneligi-turkiye#web-magaza).
 
-Dördünün de ücretsiz sürümü var. En yaygın ücretli bireysel planlar (16 Kasım 2026'da resmî sayfalardan kontrol edildi):
+Dördünün de ücretsiz sürümü var. En yaygın ücretli bireysel planlar (TL fiyatlar 26 Kasım 2026'da App Store'dan ve şirketlerin Türkiye sayfalarından, web'deki dolar fiyatları 16 Kasım 2026'da kontrol edildi):
 
 | Araç | Plan | Aylık fiyat | Güncel fiyat |
 | --- | --- | --- | --- |
 | ChatGPT | Plus | Web'de 20 dolar + vergi; App Store'da 999,99 TL | [chatgpt.com/pricing](https://chatgpt.com/pricing) |
 | Claude | Pro | Web'de 20 dolar + vergi; App Store'da 999,99 TL | [claude.com/pricing](https://claude.com/pricing) |
-| Gemini | Google AI Pro | 869,99 TL (yenilemede 1.519,99 TL bildirilebiliyor) | [Google AI planları](https://gemini.google/tr/subscriptions?hl=tr) |
+| Gemini | Google AI Pro | Web'de 869,99 TL; Google Play'de farklı olabilir | [Google AI planları](https://gemini.google/tr/subscriptions?hl=tr) |
 | Copilot | Microsoft 365 Bireysel | 329,99 TL (Word, Excel, Outlook dahil) | [Microsoft 365 fiyatları](https://www.microsoft.com/tr-tr/microsoft-365-copilot/pricing/individuals) |
 
 ChatGPT Go ve Google AI Plus gibi daha ucuz giriş planları da var, ama sınırları daha dar; örneğin Google AI Plus 13 Kasım 2026'dan beri Gemini'nin Pro modellerini içermiyor. Google ve Microsoft planlarında bulut depolama da var; zaten Google One ya da Office'e para veriyorsan hesabı ona göre yap.
 
-> SAHA: Kendi Türk hesabınla Google AI Pro fiyatına hem web'den hem Play Store'dan bak; iki ekranın görüntüsünü al. Tabloda iki fiyat birlikte duruyor; gördüğün fiyat hangisiyse onu teyit et ya da düzelt.
 
 ## Hangi yapay zekâ hangi işte öne çıkıyor? {#hangisi}
 
@@ -62,7 +61,7 @@ Uzun bir sözleşmeyi ya da birkaç raporu birlikte okutup soru sormak, düzgün
 
 Word'de taslak yazmak, Excel'de tabloyu yorumlatmak ve Outlook'ta e-posta özetlemek için en zahmetsiz yol; ayrı bir pencereye geçmeden, açık olan dosyanda çalışıyor. Bir ayrıntıya dikkat: Şirketin Microsoft 365 kullanıyorsa Copilot Chat zaten elinde olabilir, ama Word ve Excel'in içinde tam çalışan Copilot için şirketin ayrıca Copilot lisansı alması gerekiyor.
 
-> SAHA: Bu dört aracı kendi işinde (hukuk ve yazılım) nasıl kullanıyorsun? Her biri için bir cümle yaz: "Ben X'i şu iş için açıyorum, çünkü..." Bu bölümün en değerli kısmı senin cümlelerin olacak. Hukuk tarafında kimseye ait belge ya da olay anlatma; güvenli kalıp: "Hukuk tarafında yapay zekâyı yalnızca kamuya açık mevzuatı ve kararları taramak için kullanıyorum; kimseye ait belgeyi yüklemiyorum."
+Benim kullanımım şöyle: En çok Claude'u kullanıyorum; önceden ChatGPT kullanıyordum. ChatGPT'yi bugün en çok görsel için açıyorum; sosyal medya gönderisi ve hikâye görseli üretmede bence çok iyi. Gemini'yi de genel bilgi almak için kullanıyorum.
 
 ## Ücretsiz sürüm sana yeter mi? {#ucretsiz}
 

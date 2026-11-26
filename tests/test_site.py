@@ -377,14 +377,14 @@ class RepoTests(unittest.TestCase):
 
 class TopicTests(unittest.TestCase):
     def test_every_real_guide_has_a_known_topic(self):
-        guides, _ = G.load(C.load_config(), include_drafts=True, today=date(2026, 11, 25))
+        guides, _ = G.load(C.load_config(), include_drafts=True, today=date(2026, 11, 26))
         self.assertEqual([g["slug"] for g in guides if g["topic"] not in G.TOPICS or g["topic"] == "diger"], [])
 
     def test_unknown_topic_is_rejected(self):
         meta = {"title": "a", "slug": "a", "summary": "a", "type": "sablon", "published": "2026-01-01",
                 "checked": "2026-01-01", "topic": "yok", "changes": []}
         with self.assertRaises(ValueError):
-            G.validate(meta, "a.md", C.load_config(), date(2026, 11, 25))
+            G.validate(meta, "a.md", C.load_config(), date(2026, 11, 26))
 
 
 class ShortLinkTests(unittest.TestCase):
@@ -400,7 +400,7 @@ class ShortLinkTests(unittest.TestCase):
 
 class PlanTests(unittest.TestCase):
     def test_every_video_has_an_existing_guide(self):
-        code, rows = plan_check.check(today=date(2026, 11, 25))
+        code, rows = plan_check.check(today=date(2026, 11, 26))
         self.assertEqual([r for r in rows if r["state"] == "REHBER YOK"], [])
         self.assertEqual(len(rows), 15)
 
