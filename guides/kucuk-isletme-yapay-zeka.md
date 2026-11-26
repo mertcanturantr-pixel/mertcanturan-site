@@ -11,10 +11,10 @@ audience: İş yerleri
 stage: hazir
 published: 2026-11-16
 checked: 2026-11-16
-change: 2026-11-16 İskeletten tam rehbere çevrildi: sekiz iş, hazır komutlar, ileti izni ve sahte yorum kuralları; 2026-11-16 dört rollü denetim: 1 Ağustos 2026 reklam yönetmeliği (yorum, indirim, yapay zekâ beyanı) eklendi, ChatGPT menü adı düzeltildi, Kısaca ve iç bağlantılar eklendi.
+change: 2026-11-16 İskeletten tam rehbere çevrildi: sekiz iş, hazır komutlar, ileti izni ve sahte yorum kuralları; 2026-11-16 dört rollü denetim: 1 Ağustos 2026 reklam yönetmeliği (yorum, indirim, yapay zekâ beyanı) eklendi, ChatGPT menü adı düzeltildi, Kısaca ve iç bağlantılar eklendi; 2026-11-26 EİDS tarihi netleştirildi (15 Şubat 2026).
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir kuaför düşün. Gün içinde onlarca WhatsApp mesajı geliyor: "Yarın saat 3'te yer var mı?", "Fön kaç para?", "Adresiniz neresi?" Akşam da Google'da yeni bir yorum: Biri bekletildiğinden şikâyet etmiş. Bunların her birine düşünerek cevap yazmak saatler alıyor; düşünmeden yazmak da müşteri kaybettiriyor.
@@ -56,7 +56,6 @@ Her soru için WhatsApp'tan gönderebileceğim kısa bir cevap yaz. Her cevap en
 
 Çıkan cevapları kontrol et, köşeli parantezleri doldur ve WhatsApp Business'taki hızlı yanıtlar bölümüne kaydet. Bir dahaki sefere "/" yazıp kaydettiğin cevabı seçersin; yapay zekâyı her mesajda açmana gerek kalmaz. Hızlı yanıtların, karşılama ve uzakta mesajlarının kurulumu [WhatsApp Business rehberinde](rehber:whatsapp-business-yapay-zeka#hazir-yanitlar).
 
-> SAHA: Bir esnafla (iş birliğiyle, izinli) bu adımı uygula. Hangi beş soru en sık geliyordu, hazır cevaplar haftada yaklaşık ne kadar vakit kazandırdı? Esnafın izniyle, işletme adını vermeden iki cümle yaz.
 
 ## 2. Google yorumlarına cevap {#yorumlar}
 
@@ -89,7 +88,7 @@ Uzunluk: [ÖRNEĞİN "EN FAZLA 60 KELİME"]
 Abartılı sıfatlar (eşsiz, muhteşem, mükemmel) kullanma. Bilgilerde olmayan bir özelliği ekleme.
 ```
 
-**Emlak ilanında dikkat:** Yapay zekâ "metroya 5 dakika", "deniz manzaralı" gibi sana sorulmamış özellikleri ekleyebilir. İlandaki her özelliği kendin kontrol et; yanlış bilgi müşteriyi yanıltır ve sorumluluk sende olur. Satılık taşınmaz ilanlarında 2026 başından beri EİDS yetki doğrulaması da zorunlu; ayrıntısı [emlakçılar rehberinde](rehber:emlakcilar-icin-yapay-zeka#eids).
+**Emlak ilanında dikkat:** Yapay zekâ "metroya 5 dakika", "deniz manzaralı" gibi sana sorulmamış özellikleri ekleyebilir. İlandaki her özelliği kendin kontrol et; yanlış bilgi müşteriyi yanıltır ve sorumluluk sende olur. Satılık taşınmaz ilanlarında 15 Şubat 2026'dan beri EİDS yetki doğrulaması da ülke genelinde zorunlu; ayrıntısı [emlakçılar rehberinde](rehber:emlakcilar-icin-yapay-zeka#eids).
 
 **Menüde dikkat:** Alerjen bilgisi (gluten, fındık, süt) ve içerik gibi bilgileri yapay zekâya yazdırma; tarifinden kendin yaz. Yanlış bir alerjen bilgisi sağlık sorunu demek.
 

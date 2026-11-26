@@ -14,7 +14,7 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: kurum ve kanun adları tamamlandı, başlıklar soru biçimine çevrildi, iç bağlantılar eklendi.
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir mali müşavirlik bürosunda ay sonu: beyanname dönemi, mükelleflerden gelen sonu gelmeyen sorular, yeni bir tebliğ, karşılaştırılması gereken iki Excel dosyası. Yapay zekâ bu yükün bir kısmını hafifletebilir: mükellefe bir vergi kuralını sade dille anlatan bir mesaj, bir tebliğin ilk okuması, karmaşık bir formül. Ama muhasebede iki kırmızı çizgi var: Mükellefin bilgisi bir sır ve yapay zekânın yazdığı oran, süre ya da madde numarası yanlış olabilir.
@@ -47,7 +47,6 @@ Metin: [METİN]
 
 Yapay zekâya mevzuatı metin vermeden sorma; eski bir kuralı güncel sanabilir, madde numarası uydurabilir. [Avukatlar için anlattığımız](rehber:avukatlar-icin-yapay-zeka#dogrulama) uydurma kaynak riski muhasebede de aynı; kontrol yöntemi [kontrol rehberinde](rehber:yapay-zeka-cevabini-kontrol-etmek#hukuk).
 
-> SAHA: Bir mali müşavirle konuş: Yapay zekâyı en çok hangi işte kullanıyor, hangi işte hiç kullanmıyor? İzin alarak, kimliğini ve mükellef bilgisi vermeden bir iki cümle ekle.
 
 ## Excel ve banka mutabakatında yapay zekâ {#excel}
 

@@ -11,15 +11,15 @@ audience: Emlak danışmanları
 stage: hazir
 published: 2026-11-16
 checked: 2026-11-16
-change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: EİDS tarihleri kaynağa göre düzeltildi (satılıkta 1 Şubat 2026), reklam yönetmeliğinin yapay zekâ kuralı sanal döşemeye bağlandı, 6502 ve KVKK tam adları, Kısaca yeniden yazıldı
+change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: reklam yönetmeliğinin yapay zekâ kuralı sanal döşemeye bağlandı, 6502 ve KVKK tam adları, Kısaca yeniden yazıldı; 2026-11-26 EİDS tarihleri düzeltildi: satılıkta 1 Şubat 2026 pilot, 15 Şubat 2026 ülke geneli
 video:
 video_title:
-draft: true
+draft: false
 ---
 
 Bir emlak danışmanının gününün büyük kısmı yazıyla geçiyor: ilan metinleri, müşteri mesajları, mal sahibine bilgi notları, portföy sunumları. Yapay zekâ bu yazıları hızlandırabilir ve boş bir odayı döşenmiş gibi gösteren görseller üretebilir. Ama emlak ilanı, tüketicinin büyük bir karar verdiği bir bilgi: Yanlış bir metrekare, olmayan bir manzara ya da gerçekte boş olan bir evin döşenmiş fotoğrafı, hem müşteri kaybı hem de hukuki sorun demek.
 
-Kısaca: Yapay zekâyı emlak ilanında yalnızca yazı için kullan; metrekare, oda, kat ve aidat gibi bilgileri tapudan, iskândan ve kendi ölçümünden al. Sanal döşenmiş görselin üstüne "temsilidir" yaz ve aynı odanın gerçek fotoğrafını da koy. Satılık taşınmaz ilanlarında Elektronik İlan Doğrulama Sistemi (EİDS) yetki doğrulaması 1 Şubat 2026'dan beri zorunlu; yapay zekâ bu süreci değiştirmiyor.
+Kısaca: Yapay zekâyı emlak ilanında yalnızca yazı için kullan; metrekare, oda, kat ve aidat gibi bilgileri tapudan, iskândan ve kendi ölçümünden al. Sanal döşenmiş görselin üstüne "temsilidir" yaz ve aynı odanın gerçek fotoğrafını da koy. Satılık taşınmaz ilanlarında Elektronik İlan Doğrulama Sistemi (EİDS) yetki doğrulaması 15 Şubat 2026'dan beri ülke genelinde zorunlu; yapay zekâ bu süreci değiştirmiyor.
 
 ## Yapay zekâya emlak ilanı nasıl yazdırılır? {#ilan}
 
@@ -52,11 +52,10 @@ Etiket yalnızca nezaket değil. 1 Ağustos 2026'da yürürlüğe giren reklam y
 
 Gerçek sanılabilecek yapay zekâ görselleri için genel kurallar [etiket rehberinde](rehber:yapay-zeka-icerik-etiketi).
 
-> SAHA: Bir emlak danışmanıyla konuş: Sanal döşenmiş görseller müşterinin ilgisini artırıyor mu, yoksa evi görünce hayal kırıklığı mı yaratıyor? Kimliğini belirtmeden bir iki cümle ekle.
 
 ## EİDS yetki doğrulaması ne istiyor? {#eids}
 
-Ticaret Bakanlığı'nın Elektronik İlan Doğrulama Sistemi (EİDS) ile emlak işletmelerinin verdiği kiralık ilanlarda yetki doğrulaması daha önce başladı; 1 Şubat 2026'dan beri konut, arsa ve iş yeri dahil bütün satılık taşınmaz ilanlarında da zorunlu. Mal sahibinin e-Devlet üzerinden senin işletmene yetki vermesi gerekiyor; doğrulama olmadan ilan yayımlanamıyor. Bu süreçte yapay zekâya bir rol yok; ama ilan metnindeki bilgilerin yetki verilen taşınmazla birebir uyması gerekiyor.
+Ticaret Bakanlığı'nın Elektronik İlan Doğrulama Sistemi (EİDS) ile emlak işletmelerinin verdiği ilanlarda yetki doğrulaması aşama aşama geldi: kiralık taşınmazlarda 1 Ocak 2025'te, satılık iş yerlerinde 7 Nisan 2025'te başladı. Konut, arsa ve iş yeri dahil bütün satılık taşınmaz ilanlarında 1 Şubat 2026'da üç pilot ilde başladı, 15 Şubat 2026'dan beri ülke genelinde zorunlu. Mal sahibinin e-Devlet üzerinden senin işletmene yetki vermesi gerekiyor; doğrulama olmadan ilan yayımlanamıyor. Bu süreçte yapay zekâya bir rol yok; ama ilan metnindeki bilgilerin yetki verilen taşınmazla birebir uyması gerekiyor.
 
 ## Müşteri mesajları için şablon {#yazisma}
 
@@ -95,7 +94,7 @@ Portföyündeki bir ilanı şablonla yeniden yazdır ve eski metinle karşılaş
 
 ## Kaynaklar
 
-- EİDS ile satılık taşınmaz ilanlarında 1 Şubat 2026'dan itibaren yetki doğrulaması: [Hukuki Haber, 2 Ocak 2026](https://www.hukukihaber.net/satilik-konut-ilanlarina-yetki-sarti-geliyor) · [Ticaret Bakanlığı](https://ticaret.gov.tr/)
+- EİDS'nin satılık taşınmaz ilanlarında 1 Şubat 2026'da üç pilot ilde, 15 Şubat 2026'da ülke genelinde zorunlu olması: [TRT Haber](https://www.trthaber.com/haber/ekonomi/satilik-konut-ilanlarinda-yeni-donem-933076.html) · [CNBC-e](https://www.cnbce.com/gayrimenkul/satilik-tasinmaz-ilanlarinda-yeni-donem-basliyor-subat-ayinda-zorunlu-olacak-h23968) · [Sabah, önceki aşamalar](https://sabah.com.tr/ekonomi/sahte-ilana-artik-gecit-yok-7492259) · [Ticaret Bakanlığı](https://ticaret.gov.tr/)
 - 6502 sayılı Tüketicinin Korunması Hakkında Kanun: [Mevzuat Bilgi Sistemi](https://www.mevzuat.gov.tr/)
 - Taşınmaz Ticareti Hakkında Yönetmelik: [Mevzuat Bilgi Sistemi](https://www.mevzuat.gov.tr/)
 - Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği'nde değişiklik, Resmî Gazete 1 Temmuz 2026 (33297): [Resmî Gazete](https://www.resmigazete.gov.tr/eskiler/2026/07/20260701-9.htm)
