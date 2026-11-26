@@ -4,13 +4,13 @@
   "fetched_at": "2026-11-26",
   "license": "MIT",
   "pushed_at": "2026-11-24",
-  "stars": "68,6 bin"
+  "stars": "68,7 bin"
  },
  "Stirling-Tools/Stirling-PDF": {
   "archived": false,
   "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
-  "pushed_at": "2026-11-25",
+  "pushed_at": "2026-11-26",
   "stars": "97,5 bin"
  },
  "microsoft/markitdown": {
@@ -24,15 +24,15 @@
   "archived": false,
   "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
-  "pushed_at": "2026-11-25",
-  "stars": "212,1 bin"
+  "pushed_at": "2026-11-26",
+  "stars": "212,2 bin"
  },
  "ollama/ollama": {
   "archived": false,
   "fetched_at": "2026-11-26",
   "license": "MIT",
-  "pushed_at": "2026-11-25",
-  "stars": "188,1 bin"
+  "pushed_at": "2026-11-26",
+  "stars": "188,2 bin"
  },
  "open-webui/open-webui": {
   "archived": false,
@@ -46,13 +46,13 @@
   "fetched_at": "2026-11-26",
   "license": "MIT",
   "pushed_at": "2026-08-31",
-  "stars": "113,5 bin"
+  "stars": "113,6 bin"
  },
  "paperless-ngx/paperless-ngx": {
   "archived": false,
   "fetched_at": "2026-11-26",
   "license": "GPL-3.0",
-  "pushed_at": "2026-11-25",
+  "pushed_at": "2026-11-26",
   "stars": "48,6 bin"
  }
 }
