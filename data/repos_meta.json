@@ -18,14 +18,14 @@
   "fetched_at": "2026-11-26",
   "license": "MIT",
   "pushed_at": "2026-11-07",
-  "stars": "198,5 bin"
+  "stars": "198,6 bin"
  },
  "n8n-io/n8n": {
   "archived": false,
   "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
   "pushed_at": "2026-11-26",
-  "stars": "212,2 bin"
+  "stars": "212,3 bin"
  },
  "ollama/ollama": {
   "archived": false,
@@ -38,7 +38,7 @@
   "archived": false,
   "fetched_at": "2026-11-26",
   "license": "NOASSERTION",
-  "pushed_at": "2026-11-25",
+  "pushed_at": "2026-11-26",
   "stars": "159,6 bin"
  },
  "openai/whisper": {
@@ -53,6 +53,6 @@
   "fetched_at": "2026-11-26",
   "license": "GPL-3.0",
   "pushed_at": "2026-11-26",
-  "stars": "48,6 bin"
+  "stars": "48,7 bin"
  }
 }
