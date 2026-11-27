@@ -16,6 +16,12 @@
     "gizli": "rehber/yapay-zeka-gizlilik-ayarlari/",
     "ozet": "rehber/yapay-zeka-cevabini-kontrol-etmek/",
     "ekran": "rehber/yapay-zekaya-ne-yazilmaz/",
-    "baglanti": "rehber/yapay-zeka-gizlilik-ayarlari/"
+    "baglanti": "rehber/yapay-zeka-gizlilik-ayarlari/",
+    "uygulama": "rehber/claude-ile-uygulama-yapmak/",
+    "spor": "rehber/claude-ile-uygulama-yapmak/#spor",
+    "butce": "rehber/claude-ile-uygulama-yapmak/#butce",
+    "ders": "rehber/claude-ile-uygulama-yapmak/#ders",
+    "aliskanlik": "rehber/claude-ile-uygulama-yapmak/#aliskanlik",
+    "menu": "rehber/claude-ile-uygulama-yapmak/#menu"
   }
 }

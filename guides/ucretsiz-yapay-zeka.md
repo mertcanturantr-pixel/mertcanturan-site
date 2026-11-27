@@ -12,6 +12,7 @@ stage: hazir
 published: 2026-11-16
 checked: 2026-11-25
 change: 2026-11-16 İlk sürüm; 2026-11-16 dört rollü denetim: Kısaca eklendi, kanıtsız "tek ücretli plandan fazla" iddiası yumuşatıldı, başlıklar soru biçimine çevrildi, tarih bağlamı; 2026-11-25 tablo resmî sayfalarla yeniden kontrol edildi, sınıra takılınca ne olduğu güncellendi
+change: 2026-11-27 Claude artifact'larının ücretsiz planda veri saklamadığı bilgisi ve bağlantısı eklendi.
 video:
 video_title:
 draft: false
@@ -54,6 +55,7 @@ Mesaj sayısı dışında ücretsiz sürümlerde dikkat etmen gereken şeyler:
 - **Model farkı:** Ücretsiz sürümde bazen daha küçük ya da daha hızlı bir model kullanılıyor; zor bir akıl yürütme sorusunda fark edilir.
 - **Dosya ve uzunluk:** Yükleyebileceğin dosya sayısı ve okunabilecek belge uzunluğu daha düşük olabiliyor. Uzun belgeler için [uzun PDF rehberine](rehber:uzun-pdf-okumak) bak.
 - **Veri ayarı:** Ücretsiz ve bireysel ücretli planlarda sohbetlerin modeli eğitmek için kullanılabiliyor; bu ayar genellikle açık geliyor. Para ödemek bunu kendiliğinden değiştirmiyor; ayar [ne yazılmaz rehberinde](rehber:yapay-zekaya-ne-yazilmaz#ayarlar).
+- **Kayıt tutan uygulamalar:** Claude'un ücretsiz planında yaptırdığın küçük uygulamalar girdiğin veriyi saklamıyor; ayrıntısı ve yedek yolu [Claude ile uygulama yapmak rehberinde](rehber:claude-ile-uygulama-yapmak#plan).
 - **İş kullanımı:** Ücretsiz sürümler kişisel kullanım için. Şirket verisiyle çalışacaksan şirketin kurumsal planı daha doğru yer.
 
 ## Ücretli plana ne zaman geçmeli? {#ne-zaman}

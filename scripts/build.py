@@ -287,9 +287,9 @@ def write_short_links(out_dir: Path, cfg: dict, published: set[str], has_job: bo
     for short, target in json.loads(f.read_text(encoding="utf-8")).get("links", {}).items():
         if not SHORT_RE.match(short) or short in SHORT_RESERVED:
             raise ValueError(f"kisa.json: '{short}' kısa adres olarak kullanılamaz.")
-        if not re.match(r"^[a-z0-9/-]+/$", target):
-            raise ValueError(f"kisa.json: '{short}' hedefi site içi bir sayfa olmalı (ör. rehber/adres/).")
-        m = re.match(r"^rehber/([a-z0-9-]+)/$", target)
+        if not re.match(r"^[a-z0-9/-]+/(#[a-z0-9-]+)?$", target):
+            raise ValueError(f"kisa.json: '{short}' hedefi site içi bir sayfa olmalı (ör. rehber/adres/ ya da rehber/adres/#bolum).")
+        m = re.match(r"^rehber/([a-z0-9-]+)/(#[a-z0-9-]+)?$", target)
         if (m and m.group(1) not in published) or (target == M.JOB_PATH and not has_job):
             target = "rehber/"
         url = f"{base}/{target}"

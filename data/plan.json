@@ -40,7 +40,7 @@
     {
       "code": "S1",
       "date": "2026-12-01",
-      "title": "Avukat olarak söylüyorum: yapay zekâya bunları yazma",
+      "title": "Yapay zekâya bunları asla yazma",
       "guide": "yapay-zekaya-ne-yazilmaz"
     },
     {
@@ -90,6 +90,42 @@
       "date": "2026-12-13",
       "title": "Yapay zekâ aboneliğine para vermeden önce bu testi yap",
       "guide": "ucretsiz-yapay-zeka"
+    },
+    {
+      "code": "T0",
+      "date": "2026-12-04",
+      "title": "Claude'a kendi uygulamanı yaptır (ücretsiz planda kapatınca silinen verin)",
+      "guide": "claude-ile-uygulama-yapmak"
+    },
+    {
+      "code": "T1",
+      "date": "2026-12-07",
+      "title": "Kendi spor uygulamanı Claude'a yaptır",
+      "guide": "claude-ile-uygulama-yapmak"
+    },
+    {
+      "code": "T2",
+      "date": "2026-12-12",
+      "title": "Maaş nereye gidiyor? Kendi bütçe uygulamanı yaptır",
+      "guide": "claude-ile-uygulama-yapmak"
+    },
+    {
+      "code": "T3",
+      "date": "2026-12-15",
+      "title": "Sınava geri sayan kendi ders programını yaptır",
+      "guide": "claude-ile-uygulama-yapmak"
+    },
+    {
+      "code": "T4",
+      "date": "2026-12-17",
+      "title": "Haftalık menüden alışveriş listesi çıkaran uygulama",
+      "guide": "claude-ile-uygulama-yapmak"
+    },
+    {
+      "code": "T5",
+      "date": "2027-01-01",
+      "title": "Kaçırınca suçlamayan alışkanlık takibi",
+      "guide": "claude-ile-uygulama-yapmak"
     }
   ]
 }

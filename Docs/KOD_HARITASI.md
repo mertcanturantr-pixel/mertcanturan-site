@@ -1,6 +1,6 @@
 # Kod haritası · mertcanturan.com
 
-Son güncelleme: 2026-11-25 (depo: github.com/mertcanturantr-pixel/mertcanturan-site). 70 hazır rehber (dört rollü denetimden geçti), 2 iskelet; mesleğine göre yapay zekâ aracı; llms-full.txt.
+Son güncelleme: 2026-11-27 (depo: github.com/mertcanturantr-pixel/mertcanturan-site). Rehberler, meslek aracı, kısa adresler, llms-full.txt.
 
 ## 1. Kök düzen
 
@@ -57,7 +57,8 @@ Son güncelleme: 2026-11-25 (depo: github.com/mertcanturantr-pixel/mertcanturan-
 | Arama başlığı ve açıklaması | Rehber üst bilgisinde `seo_title` (≤65) ve `description` (≤160); `build.py` → `guide_title_tag()` |
 | Video açıklamasından bölüme bağlantı | Başlığa kalıcı adres: `## Başlık {#adres}` (`attr_list`); `guides.py` → `render_body()`, `_heading()` |
 | Rehber sonu (abone ol, ilgili rehberler, imza) | `build.py` → `render_guide_page()`; ilgili rehber sırası önce birbirine bağlantı verenler |
-| Videoda söylenen kısa adres (mertcanturan.com/ayar) | `data/kisa.json`; `build.py` → `write_short_links()` |
+| Videoda söylenen kısa adres (mertcanturan.com/ayar) | `data/kisa.json` (hedef bölüm de olabilir: `rehber/adres/#bolum`); `build.py` → `write_short_links()` |
+| Doldurulabilir komut şablonu | Rehberde ```sablon (ChatGPT/Claude/Gemini bağlantıları) ya da ```sablon-claude (yalnız Claude); alan `[AD, İSTEĞE BAĞLI, ÖRNEĞİN ...]`: etiket virgülden önce, örnek kutuda soluk yazı; `guides.py` → `_template_block()` |
 | Meslek aracı (meslek, iş, komut, kural) | `data/meslekler.json`; görünüm `scripts/meslek.py` → `render()`, `JS`; stil `site.css` sonu ("mesleğine göre"); test `JobToolTests` |
 | Rehber listesi başındaki "buradan başla" kutusu | `build.py` → `START_GUIDES`, `render_guide_index()` |
 | Yapay zekâ aramaları için tam metin | `guides.py` → `llms_full()` → `/llms-full.txt` (yalnız yayındaki rehberler) |

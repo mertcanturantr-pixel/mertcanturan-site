@@ -14,7 +14,7 @@ from PIL import Image  # noqa: E402
 import build  # noqa: E402
 import guides as G  # noqa: E402
 import plan_check  # noqa: E402
-from datetime import date  # noqa: E402
+from datetime import date, datetime  # noqa: E402
 import common as C  # noqa: E402
 import feeds  # noqa: E402
 
@@ -377,14 +377,14 @@ class RepoTests(unittest.TestCase):
 
 class TopicTests(unittest.TestCase):
     def test_every_real_guide_has_a_known_topic(self):
-        guides, _ = G.load(C.load_config(), include_drafts=True, today=date(2026, 11, 26))
+        guides, _ = G.load(C.load_config(), include_drafts=True, today=datetime.now(C.TZ).date())
         self.assertEqual([g["slug"] for g in guides if g["topic"] not in G.TOPICS or g["topic"] == "diger"], [])
 
     def test_unknown_topic_is_rejected(self):
         meta = {"title": "a", "slug": "a", "summary": "a", "type": "sablon", "published": "2026-01-01",
                 "checked": "2026-01-01", "topic": "yok", "changes": []}
         with self.assertRaises(ValueError):
-            G.validate(meta, "a.md", C.load_config(), date(2026, 11, 26))
+            G.validate(meta, "a.md", C.load_config(), datetime.now(C.TZ).date())
 
 
 class ShortLinkTests(unittest.TestCase):
@@ -397,12 +397,21 @@ class ShortLinkTests(unittest.TestCase):
             self.assertIn("https://mertcanturan.com/rehber/cv-ve-mulakat/", html)
             self.assertIn("noindex", html)
 
+    def test_short_link_can_point_to_a_section(self):
+        with tempfile.TemporaryDirectory() as d:
+            made = build.write_short_links(Path(d), C.load_config(), {"claude-ile-uygulama-yapmak"}, True)
+            self.assertEqual(made["spor"], "rehber/claude-ile-uygulama-yapmak/#spor")
+            html = (Path(d) / "spor" / "index.html").read_text(encoding="utf-8")
+            self.assertIn("https://mertcanturan.com/rehber/claude-ile-uygulama-yapmak/#spor", html)
+            made = build.write_short_links(Path(d), C.load_config(), set(), True)
+            self.assertEqual(made["spor"], "rehber/")  # rehber yayında değilse bölüm adresi de listeye gider
+
 
 class PlanTests(unittest.TestCase):
     def test_every_video_has_an_existing_guide(self):
-        code, rows = plan_check.check(today=date(2026, 11, 26))
+        code, rows = plan_check.check(today=datetime.now(C.TZ).date())
         self.assertEqual([r for r in rows if r["state"] == "REHBER YOK"], [])
-        self.assertEqual(len(rows), 15)
+        self.assertEqual(len(rows), 21)
 
     def test_late_guide_is_reported(self):
         code, rows = plan_check.check(today=date(2026, 12, 9))

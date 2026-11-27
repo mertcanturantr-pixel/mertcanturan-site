@@ -1,6 +1,6 @@
 ---
 title: Yapay zekâyla uygulama yaparken: başlamadan, çalışırken ve yayına almadan önce
-seo_title: Yapay zekâyla uygulama yapmak: yayından önce güvenlik kontrolü
+seo_title: Yapay zekâyla yaptığın uygulama güvenli mi? Yayın öncesi kontrol
 description: Lovable, Replit ya da Claude Code ile uygulama yapıyorsan: veri tabanı, anahtar ve kullanıcı verisi için kontroller, iki gerçek olay ve komut şablonu.
 slug: yapay-zekayla-uygulama
 summary: Yapay zekâ araçlarıyla uygulama ya da otomasyon yaparken veri tabanını, anahtarları ve kullanıcı verisini korumak için adım adım kontroller, iki gerçek olay ve komut şablonu.
@@ -14,12 +14,15 @@ checked: 2026-11-16
 change: 2026-11-16 İlk sürüm.
 change: 2026-11-16 Yeni yazı standardına göre yeniden yazılmak üzere iskelete alındı.
 change: 2026-11-16 Tam rehbere çevrildi: Lovable ve paket uydurma olayları, araç seçimi, sık hatalar, dürüst sınır; 2026-11-16 dört rollü denetim: KVKK yurt dışı aktarım ve aydınlatma maddeleri, ilgili rehberlere bağlantılar ve soru başlıkları eklendi.
+change: 2026-11-27 Arama başlığı güvenlik niyetine göre değişti; kişisel uygulama isteyenler için Claude ile uygulama yapmak rehberine yönlendirme eklendi.
 video:
 video_title:
 draft: false
 ---
 
 Yapay zekâ araçlarıyla, yazılım bilmeden bile çalışan bir uygulama yapmak artık mümkün. Lovable, Bolt ya da Replit gibi araçlara ne istediğini yazıyorsun, birkaç dakikada giriş ekranı, veri tabanı ve sayfaları olan bir uygulama çıkıyor. Ama "çalışıyor" ile "güvenle kullanılabilir" arasında büyük bir fark var ve bu fark, uygulamaya ilk gerçek kullanıcı girdiğinde ortaya çıkıyor.
+
+Yalnızca kendin kullanacağın bir spor, bütçe ya da ders uygulaması istiyorsan bu rehber fazla gelir; [Claude ile uygulama yapmak rehberindeki](rehber:claude-ile-uygulama-yapmak) hazır komutlarla başla.
 
 Kısaca: Yapay zekâyla yaptığın bir uygulamayı güvenle yayına almak için denemeyi gerçek veriden ayır, her adımı geri alınabilir yap, yapay zekânın silme ve canlıya gönderme yetkisini kendi onayına bağla. Yayından önce bir hesapla başka bir hesabın verisine ulaşılıp ulaşılamadığını kendin dene ve veri tabanı kurallarını kontrol et. Kişisel veri topluyorsan KVKK'ya göre aydınlatma metni hazırla. Aşağıda bunları üç aşamada, iki gerçek olayla anlattım.
 

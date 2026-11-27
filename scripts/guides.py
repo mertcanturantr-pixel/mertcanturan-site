@@ -41,7 +41,7 @@ STAGES = {"hazir", "iskelet"}
 STALE_DAYS = 180
 # Şablon alanı: köşeli parantez içinde BÜYÜK HARFLİ metin. Metin HTML'e çevrildikten sonra aranır; bu yüzden
 # tırnak (&quot;) ve kesme (&#x27;) varlık olarak gelir. Küçük harf içeren köşeli parantez alan sayılmaz.
-_PH_CHAR = r"(?:[A-ZÇĞİÖŞÜÂÎÛ0-9 ,./:;()²!?+%-]|&quot;|&#x27;|&amp;)"
+_PH_CHAR = r"(?:[A-ZÇĞİÖŞÜÂÎÛ0-9 ,./:;()²!?+%'-]|&quot;|&#x27;|&amp;)"
 PLACEHOLDER_RE = re.compile(r"\[((?:[A-ZÇĞİÖŞÜÂÎÛ0-9]|&quot;)" + _PH_CHAR + r"{1,110})\]")
 VERDICTS = {"Çalışıyor": "yes", "Şartlı çalışıyor": "maybe", "Bu haliyle çalışmıyor": "no"}
 RESERVED_SLUGS = {"sablonlar", "feed", "github"}
@@ -167,7 +167,7 @@ def load(cfg: dict, include_drafts: bool = False, today: date | None = None) -> 
 
 # ---------- içerik ----------
 
-def _template_block(code_html: str, n: int) -> str:
+def _template_block(code_html: str, n: int, only_claude: bool = False) -> str:
     """```sablon blokunu doldurulabilir, kopyalanabilir bir şablona çevirir."""
     fields, seen = [], set()
     for m in PLACEHOLDER_RE.finditer(code_html):
@@ -180,13 +180,21 @@ def _template_block(code_html: str, n: int) -> str:
     for i, name in enumerate(fields):  # name zaten HTML'e çevrilmiş metin; ikinci kez kaçırılmaz
         fid = f"t{n}-f{i}"
         plain = html.unescape(name)
-        head = re.split(r",\s*ÖRNEĞİN\b", plain)[0].strip() or plain
+        head, _, example = [s.strip() for s in re.split(r",\s*(ÖRNEĞİN)\b\s*", plain, maxsplit=1) + ["", ""]][:3]
+        head = head or plain
+        optional = bool(re.search(r",\s*İSTEĞE BAĞLI$", head))
+        head = re.sub(r",\s*İSTEĞE BAĞLI$", "", head)
+        head = re.sub(r"\s+(METNİ|METİN)$", "", head) or head  # iç işaret: geniş kutu; etikete taşınmaz
         low = C.tr_lower(head)
-        label = {"i": "İ", "ı": "I"}.get(low[0], low[0].upper()) + low[1:]
+        label = {"i": "İ", "ı": "I"}.get(low[0], low[0].upper()) + low[1:] + (" (isteğe bağlı)" if optional else "")
+        hint = ""
+        if example:
+            ex = C.tr_lower(example)
+            hint = f' placeholder="Örneğin: {e(ex)}"'
         if "METİN" in name or "METNİ" in name or "DÖKÜM" in name:
-            ctrl = f'<textarea id="{fid}" data-f="{name}" rows="4"></textarea>'
+            ctrl = f'<textarea id="{fid}" data-f="{name}" rows="4"{hint}></textarea>'
         else:
-            ctrl = f'<input id="{fid}" data-f="{name}" type="text" autocomplete="off">'
+            ctrl = f'<input id="{fid}" data-f="{name}" type="text" autocomplete="off"{hint}>'
         inputs.append(f'<div class="tpl-field"><label for="{fid}">{e(label)}</label>{ctrl}</div>')
     return (
         f'<div class="tpl" data-tpl>'
@@ -195,10 +203,12 @@ def _template_block(code_html: str, n: int) -> str:
         f'<div class="tpl-fields">{"".join(inputs)}</div>'
         f'<pre class="tpl-text" tabindex="0" aria-label="Komut şablonu metni"><code>{body}</code></pre>'
         f'<div class="tpl-actions"><button type="button" class="tpl-copy">Şablonu kopyala</button>'
-        f'<span class="tpl-open">Kopyalayıp aç: '
-        f'<a href="https://chatgpt.com/" target="_blank" rel="noopener" data-open>ChatGPT</a> '
-        f'<a href="https://claude.ai/new" target="_blank" rel="noopener" data-open>Claude</a> '
-        f'<a href="https://gemini.google.com/app" target="_blank" rel="noopener" data-open>Gemini</a></span>'
+        + (f'<span class="tpl-open"><a href="https://claude.ai/new" target="_blank" rel="noopener" data-open>Kopyala ve Claude\'u aç</a></span>'
+           if only_claude else
+           f'<span class="tpl-open">Kopyalayıp aç: '
+           f'<a href="https://chatgpt.com/" target="_blank" rel="noopener" data-open>ChatGPT</a> '
+           f'<a href="https://claude.ai/new" target="_blank" rel="noopener" data-open>Claude</a> '
+           f'<a href="https://gemini.google.com/app" target="_blank" rel="noopener" data-open>Gemini</a></span>') +
         f'<span class="tpl-status" role="status" aria-live="polite"></span></div>'
         f'<p class="tpl-note">Bu alanlara yazdıkların yalnızca tarayıcında kalır, hiçbir yere gönderilmez. '
         f'Kopyaladığın metni bir yapay zekâ aracına yapıştırmadan önce kişisel veri içerip içermediğini kontrol et.</p>'
@@ -369,8 +379,9 @@ def render_body(body: str) -> tuple[str, list[tuple[str, str]], bool]:
     # şablonlar
     tcount = iter(range(1000))
     has_tpl = "language-sablon" in out
-    out = re.sub(r'<pre><code class="language-sablon">(.*?)</code></pre>',
-                 lambda m: _template_block(m.group(1).rstrip("\n"), next(tcount)), out, flags=re.S)
+    out = re.sub(r'<pre><code class="language-sablon(-claude)?">(.*?)</code></pre>',
+                 lambda m: _template_block(m.group(2).rstrip("\n"), next(tcount), only_claude=bool(m.group(1))),
+                 out, flags=re.S)
     # başlıklara bağlantı ve içindekiler
     toc, used = [], set()
 
